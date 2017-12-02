@@ -9,3 +9,7 @@
     border: 0!important;
     margin-top: 6px!important;
 }
+
+.search-widget form button[type=submit]{
+    right:-10px!important;
+}
