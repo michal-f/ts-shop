@@ -2,3 +2,6 @@
     zoom: 300%!important;
     width: 100%;
 }
+#search_widget{
+    float: right;
+}
