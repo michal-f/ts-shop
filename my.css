@@ -1,5 +1,4 @@
 #_desktop_logo{
-    zoom: 300%!important;
     width: 100%;
 }
 #search_widget{
@@ -9,7 +8,4 @@
 .search-widget form input[type=text] {
     border: 0!important;
     margin-top: 6px!important;
-}
-.search-widget form button[type=submit]{
-    right:-40px!important;
 }
