@@ -23,6 +23,7 @@
  * International Registered Trademark & Property of PrestaShop SA
  *}
 <a class="banner" href="{$banner_link}" title="{$banner_desc}">
+<h1>aaaaaaaaaaaaaa XXXXXXXXX</h1>
   {if isset($banner_img)}
     <img src="{$banner_img}" alt="{$banner_desc}" title="{$banner_desc}" class="img-fluid">
   {else}
