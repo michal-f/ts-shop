@@ -88,6 +88,7 @@ class CmsControllerCore extends FrontController
      */
     public function initContent()
     {
+        $this->addJqueryPlugin('fancybox');
         if ($this->assignCase == 1) {
             $cmsVar = $this->objectPresenter->present($this->cms);
 
