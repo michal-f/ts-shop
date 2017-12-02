@@ -4,4 +4,6 @@
 }
 #search_widget{
     float: right;
+    border: 0!important;
+
 }
