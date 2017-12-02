@@ -4,6 +4,8 @@
 }
 #search_widget{
     float: right;
-    border: 0!important;
 
+}
+.search-widget form input[type=text] {
+    border: 0!important;
 }
