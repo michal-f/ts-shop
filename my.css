@@ -1,21 +1,40 @@
-#_desktop_logo{
+#_desktop_logo {
     width: 70%;
-    vertical-align: middle;
-    margin: 0 auto;
+    height: 10em;
+    position: relative
 }
-#search_widget{
+
+/*vertical-align: middle;*/
+/*margin: 0 auto;*/
+
+#search_widget {
     float: right;
 
 }
+
 .search-widget form input[type=text] {
-    border: 0!important;
-    margin-top: 6px!important;
+    border: 0 !important;
+    margin-top: 6px !important;
 }
 
-.search-widget form button[type=submit]{
-    right:-10px!important;
+.search-widget form button[type=submit] {
+    right: -10px !important;
 }
 
 .search-widget form {
-    margin-left: -30px!important;
+    margin-left: -30px !important;
+}
+
+#_desktop_logo {
+    height: 10em;
+    position: relative
+}
+
+#_desktop_logo a {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
 }
