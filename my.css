@@ -1,7 +1,6 @@
 
 #search_widget {
     float: right;
-
 }
 
 .search-widget form input[type=text] {
@@ -30,6 +29,10 @@
 }
 
 /*TOP MENU*/
-#header > div.header-top > div > div:nth-child(1) > div.col-md-10.col-sm-12.position-static {
-
+#_desktop_top_menu {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 0%)
 }
