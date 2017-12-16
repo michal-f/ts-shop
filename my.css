@@ -17,7 +17,7 @@
     margin-left: -30px !important;
 }
 
-.row {
+#header > div.header-top > div > div:nth-child(1) {
     height: 10em;
     position: relative
 }
@@ -25,7 +25,7 @@
 #_desktop_logo{
     width: 70%;
     margin: 0;
-    top: 110%;
+    top: 70%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%)
@@ -33,7 +33,14 @@
 
 div.col-md-10.col-sm-12.position-static{
     margin: 0;
+    zoom: 110%;
+    top: 220%;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -50%)
+    z-index: 9999;
+    transform: translate(-50%, -50%);
+}
+
+#header .header-top .position-static {
+    position: relative!important;
 }
