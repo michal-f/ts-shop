@@ -28,3 +28,12 @@
     margin-right: -50%;
     transform: translate(-50%, 0%);
 }
+
+/*TOP MENU*/
+#header > div.header-top > div > div:nth-child(1) > div.col-md-10.col-sm-12.position-static {
+   margin: 0;
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 0%)
+}
