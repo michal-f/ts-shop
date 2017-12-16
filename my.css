@@ -1,7 +1,7 @@
 #_desktop_logo {
     width: 70%;
-    height: 10em;
-    position: relative
+    /*height: 10em;*/
+    /*position: relative*/
 }
 
 /*vertical-align: middle;*/
@@ -25,12 +25,12 @@
     margin-left: -30px !important;
 }
 
-#_desktop_logo {
+.row {
     height: 10em;
     position: relative
 }
 
-#_desktop_logo a {
+#_desktop_logo{
     margin: 0;
     position: absolute;
     top: 50%;
