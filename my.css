@@ -1,6 +1,7 @@
 #_desktop_logo{
     width: 70%;
     vertical-align: middle;
+    margin: 0 auto;
 }
 #search_widget{
     float: right;
