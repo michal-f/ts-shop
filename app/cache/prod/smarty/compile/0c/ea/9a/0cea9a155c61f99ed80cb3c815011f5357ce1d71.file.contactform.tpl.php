@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-12-02 01:32:25
+<?php /* Smarty version Smarty-3.1.19, created on 2017-12-08 18:58:07
          compiled from "/var/www/html/pages/prestashop/themes/classic/modules/contactform/views/templates/widget/contactform.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:13381545425a21f499820395-48450343%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:10852732945a2ad2afbb1858-22153235%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '13381545425a21f499820395-48450343',
+  'nocache_hash' => '10852732945a2ad2afbb1858-22153235',
   'function' => 
   array (
   ),
@@ -26,9 +26,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a21f49989bba4_78606932',
+  'unifunc' => 'content_5a2ad2afc346d3_42904574',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a21f49989bba4_78606932')) {function content_5a21f49989bba4_78606932($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5a2ad2afc346d3_42904574')) {function content_5a2ad2afc346d3_42904574($_smarty_tpl) {?>
 <section class="contact-form">
   <form action="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['urls']->value['pages']['contact'], ENT_QUOTES, 'UTF-8');?>
 " method="post" <?php if ($_smarty_tpl->tpl_vars['contact']->value['allow_file_upload']) {?>enctype="multipart/form-data"<?php }?>>

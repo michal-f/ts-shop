@@ -29,10 +29,12 @@
 }
 
 /*TOP MENU*/
-#_desktop_top_menu {
-    margin: 0;
-    position: absolute!important;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, 0%)
-}
+/*#_desktop_top_menu {*/
+    /*zoom: 500%!important;*/
+    /*margin: 0;*/
+    /*position: absolute!important;*/
+    /*left: 50%;*/
+    /*margin-right: -50%;*/
+    /*transform: translate(-50%, 0%)*/
+/*}*/
+
