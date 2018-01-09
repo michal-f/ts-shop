@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <module>
     <name>statslive</name>
-    <displayName><![CDATA[Visitors online]]></displayName>
+    <displayName><![CDATA[Odwiedzających online]]></displayName>
     <version><![CDATA[2.0.2]]></version>
-    <description><![CDATA[Adds a list of customers and visitors who are currently online to the Stats dashboard.]]></description>
+    <description><![CDATA[Dodaje listę klient&oacute;w i użytkownik&oacute;w, kt&oacute;rzy są obecnie w trybie online w panelu statystyk.]]></description>
     <author><![CDATA[PrestaShop]]></author>
     <tab><![CDATA[analytics_stats]]></tab>
     <is_configurable>0</is_configurable>

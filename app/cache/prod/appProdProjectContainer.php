@@ -424,12 +424,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'annotation_reader' service.
+     * Gets the public 'annotation_reader' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Doctrine\Common\Annotations\CachedReader A Doctrine\Common\Annotations\CachedReader instance
+     * @return \Doctrine\Common\Annotations\CachedReader
      */
     protected function getAnnotationReaderService()
     {
@@ -437,12 +434,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'assets._version__default' service.
+     * Gets the public 'assets._version__default' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Asset\VersionStrategy\StaticVersionStrategy A Symfony\Component\Asset\VersionStrategy\StaticVersionStrategy instance
+     * @return \Symfony\Component\Asset\VersionStrategy\StaticVersionStrategy
      */
     protected function getAssets_VersionDefaultService()
     {
@@ -450,12 +444,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'assets.context' service.
+     * Gets the public 'assets.context' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Asset\Context\RequestStackContext A Symfony\Component\Asset\Context\RequestStackContext instance
+     * @return \Symfony\Component\Asset\Context\RequestStackContext
      */
     protected function getAssets_ContextService()
     {
@@ -463,12 +454,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'assets.packages' service.
+     * Gets the public 'assets.packages' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Asset\Packages A Symfony\Component\Asset\Packages instance
+     * @return \Symfony\Component\Asset\Packages
      */
     protected function getAssets_PackagesService()
     {
@@ -476,12 +464,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'cache_clearer' service.
+     * Gets the public 'cache_clearer' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\HttpKernel\CacheClearer\ChainCacheClearer A Symfony\Component\HttpKernel\CacheClearer\ChainCacheClearer instance
+     * @return \Symfony\Component\HttpKernel\CacheClearer\ChainCacheClearer
      */
     protected function getCacheClearerService()
     {
@@ -489,12 +474,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'cache_warmer' service.
+     * Gets the public 'cache_warmer' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\HttpKernel\CacheWarmer\CacheWarmerAggregate A Symfony\Component\HttpKernel\CacheWarmer\CacheWarmerAggregate instance
+     * @return \Symfony\Component\HttpKernel\CacheWarmer\CacheWarmerAggregate
      */
     protected function getCacheWarmerService()
     {
@@ -507,12 +489,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'config_cache_factory' service.
+     * Gets the public 'config_cache_factory' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Config\ResourceCheckerConfigCacheFactory A Symfony\Component\Config\ResourceCheckerConfigCacheFactory instance
+     * @return \Symfony\Component\Config\ResourceCheckerConfigCacheFactory
      */
     protected function getConfigCacheFactoryService()
     {
@@ -520,12 +499,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'csa_guzzle.cache.adapter.doctrine' service.
+     * Gets the public 'csa_guzzle.cache.adapter.doctrine' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Csa\Bundle\GuzzleBundle\GuzzleHttp\Cache\DoctrineAdapter A Csa\Bundle\GuzzleBundle\GuzzleHttp\Cache\DoctrineAdapter instance
+     * @return \Csa\Bundle\GuzzleBundle\GuzzleHttp\Cache\DoctrineAdapter
      */
     protected function getCsaGuzzle_Cache_Adapter_DoctrineService()
     {
@@ -533,12 +509,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'csa_guzzle.client.addons_api' service.
+     * Gets the public 'csa_guzzle.client.addons_api' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \GuzzleHttp\Client A GuzzleHttp\Client instance
+     * @return \GuzzleHttp\Client
      */
     protected function getCsaGuzzle_Client_AddonsApiService()
     {
@@ -550,12 +523,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'csa_guzzle.client_factory' service.
+     * Gets the public 'csa_guzzle.client_factory' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Csa\Bundle\GuzzleBundle\Factory\ClientFactory A Csa\Bundle\GuzzleBundle\Factory\ClientFactory instance
+     * @return \Csa\Bundle\GuzzleBundle\Factory\ClientFactory
      */
     protected function getCsaGuzzle_ClientFactoryService()
     {
@@ -567,12 +537,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'csa_guzzle.description_factory' service.
+     * Gets the public 'csa_guzzle.description_factory' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Csa\Bundle\GuzzleBundle\Factory\DescriptionFactory A Csa\Bundle\GuzzleBundle\Factory\DescriptionFactory instance
+     * @return \Csa\Bundle\GuzzleBundle\Factory\DescriptionFactory
      */
     protected function getCsaGuzzle_DescriptionFactoryService()
     {
@@ -580,12 +547,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'csa_guzzle.description_loader' service.
+     * Gets the public 'csa_guzzle.description_loader' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Config\Loader\DelegatingLoader A Symfony\Component\Config\Loader\DelegatingLoader instance
+     * @return \Symfony\Component\Config\Loader\DelegatingLoader
      */
     protected function getCsaGuzzle_DescriptionLoaderService()
     {
@@ -593,12 +557,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'csa_guzzle.description_loader.resolver' service.
+     * Gets the public 'csa_guzzle.description_loader.resolver' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Config\Loader\LoaderResolver A Symfony\Component\Config\Loader\LoaderResolver instance
+     * @return \Symfony\Component\Config\Loader\LoaderResolver
      */
     protected function getCsaGuzzle_DescriptionLoader_ResolverService()
     {
@@ -606,12 +567,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'csa_guzzle.subscriber.cache' service.
+     * Gets the public 'csa_guzzle.subscriber.cache' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Csa\Bundle\GuzzleBundle\GuzzleHttp\Subscriber\CacheSubscriber A Csa\Bundle\GuzzleBundle\GuzzleHttp\Subscriber\CacheSubscriber instance
+     * @return \Csa\Bundle\GuzzleBundle\GuzzleHttp\Subscriber\CacheSubscriber
      */
     protected function getCsaGuzzle_Subscriber_CacheService()
     {
@@ -619,12 +577,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'debug.debug_handlers_listener' service.
+     * Gets the public 'debug.debug_handlers_listener' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\HttpKernel\EventListener\DebugHandlersListener A Symfony\Component\HttpKernel\EventListener\DebugHandlersListener instance
+     * @return \Symfony\Component\HttpKernel\EventListener\DebugHandlersListener
      */
     protected function getDebug_DebugHandlersListenerService()
     {
@@ -632,12 +587,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'debug.stopwatch' service.
+     * Gets the public 'debug.stopwatch' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Stopwatch\Stopwatch A Symfony\Component\Stopwatch\Stopwatch instance
+     * @return \Symfony\Component\Stopwatch\Stopwatch
      */
     protected function getDebug_StopwatchService()
     {
@@ -645,12 +597,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'doctrine' service.
+     * Gets the public 'doctrine' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Doctrine\Bundle\DoctrineBundle\Registry A Doctrine\Bundle\DoctrineBundle\Registry instance
+     * @return \Doctrine\Bundle\DoctrineBundle\Registry
      */
     protected function getDoctrineService()
     {
@@ -658,12 +607,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'doctrine.cache.provider' service.
+     * Gets the public 'doctrine.cache.provider' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Doctrine\Common\Cache\FilesystemCache A Doctrine\Common\Cache\FilesystemCache instance
+     * @return \Doctrine\Common\Cache\FilesystemCache
      */
     protected function getDoctrine_Cache_ProviderService()
     {
@@ -671,12 +617,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'doctrine.dbal.connection_factory' service.
+     * Gets the public 'doctrine.dbal.connection_factory' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Doctrine\Bundle\DoctrineBundle\ConnectionFactory A Doctrine\Bundle\DoctrineBundle\ConnectionFactory instance
+     * @return \Doctrine\Bundle\DoctrineBundle\ConnectionFactory
      */
     protected function getDoctrine_Dbal_ConnectionFactoryService()
     {
@@ -684,12 +627,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'doctrine.dbal.default_connection' service.
+     * Gets the public 'doctrine.dbal.default_connection' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Doctrine\DBAL\Connection A Doctrine\DBAL\Connection instance
+     * @return \Doctrine\DBAL\Connection
      */
     protected function getDoctrine_Dbal_DefaultConnectionService()
     {
@@ -700,12 +640,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'doctrine.orm.default_entity_listener_resolver' service.
+     * Gets the public 'doctrine.orm.default_entity_listener_resolver' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Doctrine\ORM\Mapping\DefaultEntityListenerResolver A Doctrine\ORM\Mapping\DefaultEntityListenerResolver instance
+     * @return \Doctrine\ORM\Mapping\DefaultEntityListenerResolver
      */
     protected function getDoctrine_Orm_DefaultEntityListenerResolverService()
     {
@@ -713,12 +650,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'doctrine.orm.default_entity_manager' service.
+     * Gets the public 'doctrine.orm.default_entity_manager' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Doctrine\ORM\EntityManager A Doctrine\ORM\EntityManager instance
+     * @return \Doctrine\ORM\EntityManager
      */
     protected function getDoctrine_Orm_DefaultEntityManagerService()
     {
@@ -749,12 +683,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'doctrine.orm.default_listeners.attach_entity_listeners' service.
+     * Gets the public 'doctrine.orm.default_listeners.attach_entity_listeners' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Doctrine\ORM\Tools\AttachEntityListenersListener A Doctrine\ORM\Tools\AttachEntityListenersListener instance
+     * @return \Doctrine\ORM\Tools\AttachEntityListenersListener
      */
     protected function getDoctrine_Orm_DefaultListeners_AttachEntityListenersService()
     {
@@ -762,12 +693,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'doctrine.orm.default_manager_configurator' service.
+     * Gets the public 'doctrine.orm.default_manager_configurator' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Doctrine\Bundle\DoctrineBundle\ManagerConfigurator A Doctrine\Bundle\DoctrineBundle\ManagerConfigurator instance
+     * @return \Doctrine\Bundle\DoctrineBundle\ManagerConfigurator
      */
     protected function getDoctrine_Orm_DefaultManagerConfiguratorService()
     {
@@ -775,12 +703,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'doctrine.orm.validator.unique' service.
+     * Gets the public 'doctrine.orm.validator.unique' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntityValidator A Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntityValidator instance
+     * @return \Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntityValidator
      */
     protected function getDoctrine_Orm_Validator_UniqueService()
     {
@@ -788,12 +713,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'doctrine.orm.validator_initializer' service.
+     * Gets the public 'doctrine.orm.validator_initializer' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Bridge\Doctrine\Validator\DoctrineInitializer A Symfony\Bridge\Doctrine\Validator\DoctrineInitializer instance
+     * @return \Symfony\Bridge\Doctrine\Validator\DoctrineInitializer
      */
     protected function getDoctrine_Orm_ValidatorInitializerService()
     {
@@ -801,12 +723,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'doctrine_cache.providers.doctrine.orm.default_metadata_cache' service.
+     * Gets the public 'doctrine_cache.providers.doctrine.orm.default_metadata_cache' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Doctrine\Common\Cache\ArrayCache A Doctrine\Common\Cache\ArrayCache instance
+     * @return \Doctrine\Common\Cache\ArrayCache
      */
     protected function getDoctrineCache_Providers_Doctrine_Orm_DefaultMetadataCacheService()
     {
@@ -818,12 +737,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'doctrine_cache.providers.doctrine.orm.default_query_cache' service.
+     * Gets the public 'doctrine_cache.providers.doctrine.orm.default_query_cache' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Doctrine\Common\Cache\ArrayCache A Doctrine\Common\Cache\ArrayCache instance
+     * @return \Doctrine\Common\Cache\ArrayCache
      */
     protected function getDoctrineCache_Providers_Doctrine_Orm_DefaultQueryCacheService()
     {
@@ -835,12 +751,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'doctrine_cache.providers.doctrine.orm.default_result_cache' service.
+     * Gets the public 'doctrine_cache.providers.doctrine.orm.default_result_cache' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Doctrine\Common\Cache\ArrayCache A Doctrine\Common\Cache\ArrayCache instance
+     * @return \Doctrine\Common\Cache\ArrayCache
      */
     protected function getDoctrineCache_Providers_Doctrine_Orm_DefaultResultCacheService()
     {
@@ -852,12 +765,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'event_dispatcher' service.
+     * Gets the public 'event_dispatcher' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\EventDispatcher\ContainerAwareEventDispatcher A Symfony\Component\EventDispatcher\ContainerAwareEventDispatcher instance
+     * @return \Symfony\Component\EventDispatcher\ContainerAwareEventDispatcher
      */
     protected function getEventDispatcherService()
     {
@@ -894,12 +804,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'file_locator' service.
+     * Gets the public 'file_locator' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\HttpKernel\Config\FileLocator A Symfony\Component\HttpKernel\Config\FileLocator instance
+     * @return \Symfony\Component\HttpKernel\Config\FileLocator
      */
     protected function getFileLocatorService()
     {
@@ -907,12 +814,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'filesystem' service.
+     * Gets the public 'filesystem' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Filesystem\Filesystem A Symfony\Component\Filesystem\Filesystem instance
+     * @return \Symfony\Component\Filesystem\Filesystem
      */
     protected function getFilesystemService()
     {
@@ -920,12 +824,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'form.csrf_provider' service.
+     * Gets the public 'form.csrf_provider' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Form\Extension\Csrf\CsrfProvider\CsrfTokenManagerAdapter A Symfony\Component\Form\Extension\Csrf\CsrfProvider\CsrfTokenManagerAdapter instance
+     * @return \Symfony\Component\Form\Extension\Csrf\CsrfProvider\CsrfTokenManagerAdapter
      *
      * @deprecated The "form.csrf_provider" service is deprecated since Symfony 2.4 and will be removed in 3.0. Use the "security.csrf.token_manager" service instead.
      */
@@ -937,12 +838,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'form.factory' service.
+     * Gets the public 'form.factory' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Form\FormFactory A Symfony\Component\Form\FormFactory instance
+     * @return \Symfony\Component\Form\FormFactory
      */
     protected function getForm_FactoryService()
     {
@@ -950,12 +848,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'form.registry' service.
+     * Gets the public 'form.registry' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Form\FormRegistry A Symfony\Component\Form\FormRegistry instance
+     * @return \Symfony\Component\Form\FormRegistry
      */
     protected function getForm_RegistryService()
     {
@@ -963,12 +858,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'form.resolved_type_factory' service.
+     * Gets the public 'form.resolved_type_factory' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Form\ResolvedFormTypeFactory A Symfony\Component\Form\ResolvedFormTypeFactory instance
+     * @return \Symfony\Component\Form\ResolvedFormTypeFactory
      */
     protected function getForm_ResolvedTypeFactoryService()
     {
@@ -976,12 +868,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'form.type.birthday' service.
+     * Gets the public 'form.type.birthday' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Form\Extension\Core\Type\BirthdayType A Symfony\Component\Form\Extension\Core\Type\BirthdayType instance
+     * @return \Symfony\Component\Form\Extension\Core\Type\BirthdayType
      */
     protected function getForm_Type_BirthdayService()
     {
@@ -989,12 +878,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'form.type.button' service.
+     * Gets the public 'form.type.button' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Form\Extension\Core\Type\ButtonType A Symfony\Component\Form\Extension\Core\Type\ButtonType instance
+     * @return \Symfony\Component\Form\Extension\Core\Type\ButtonType
      */
     protected function getForm_Type_ButtonService()
     {
@@ -1002,12 +888,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'form.type.checkbox' service.
+     * Gets the public 'form.type.checkbox' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Form\Extension\Core\Type\CheckboxType A Symfony\Component\Form\Extension\Core\Type\CheckboxType instance
+     * @return \Symfony\Component\Form\Extension\Core\Type\CheckboxType
      */
     protected function getForm_Type_CheckboxService()
     {
@@ -1015,12 +898,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'form.type.choice' service.
+     * Gets the public 'form.type.choice' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Form\Extension\Core\Type\ChoiceType A Symfony\Component\Form\Extension\Core\Type\ChoiceType instance
+     * @return \Symfony\Component\Form\Extension\Core\Type\ChoiceType
      */
     protected function getForm_Type_ChoiceService()
     {
@@ -1028,12 +908,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'form.type.collection' service.
+     * Gets the public 'form.type.collection' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Form\Extension\Core\Type\CollectionType A Symfony\Component\Form\Extension\Core\Type\CollectionType instance
+     * @return \Symfony\Component\Form\Extension\Core\Type\CollectionType
      */
     protected function getForm_Type_CollectionService()
     {
@@ -1041,12 +918,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'form.type.country' service.
+     * Gets the public 'form.type.country' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Form\Extension\Core\Type\CountryType A Symfony\Component\Form\Extension\Core\Type\CountryType instance
+     * @return \Symfony\Component\Form\Extension\Core\Type\CountryType
      */
     protected function getForm_Type_CountryService()
     {
@@ -1054,12 +928,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'form.type.currency' service.
+     * Gets the public 'form.type.currency' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Form\Extension\Core\Type\CurrencyType A Symfony\Component\Form\Extension\Core\Type\CurrencyType instance
+     * @return \Symfony\Component\Form\Extension\Core\Type\CurrencyType
      */
     protected function getForm_Type_CurrencyService()
     {
@@ -1067,12 +938,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'form.type.date' service.
+     * Gets the public 'form.type.date' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Form\Extension\Core\Type\DateType A Symfony\Component\Form\Extension\Core\Type\DateType instance
+     * @return \Symfony\Component\Form\Extension\Core\Type\DateType
      */
     protected function getForm_Type_DateService()
     {
@@ -1080,12 +948,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'form.type.date_picker' service.
+     * Gets the public 'form.type.date_picker' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Form\Admin\Type\DatePickerType A PrestaShopBundle\Form\Admin\Type\DatePickerType instance
+     * @return \PrestaShopBundle\Form\Admin\Type\DatePickerType
      */
     protected function getForm_Type_DatePickerService()
     {
@@ -1093,12 +958,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'form.type.datetime' service.
+     * Gets the public 'form.type.datetime' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Form\Extension\Core\Type\DateTimeType A Symfony\Component\Form\Extension\Core\Type\DateTimeType instance
+     * @return \Symfony\Component\Form\Extension\Core\Type\DateTimeType
      */
     protected function getForm_Type_DatetimeService()
     {
@@ -1106,12 +968,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'form.type.email' service.
+     * Gets the public 'form.type.email' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Form\Extension\Core\Type\EmailType A Symfony\Component\Form\Extension\Core\Type\EmailType instance
+     * @return \Symfony\Component\Form\Extension\Core\Type\EmailType
      */
     protected function getForm_Type_EmailService()
     {
@@ -1119,12 +978,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'form.type.entity' service.
+     * Gets the public 'form.type.entity' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Bridge\Doctrine\Form\Type\EntityType A Symfony\Bridge\Doctrine\Form\Type\EntityType instance
+     * @return \Symfony\Bridge\Doctrine\Form\Type\EntityType
      */
     protected function getForm_Type_EntityService()
     {
@@ -1132,12 +988,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'form.type.extension.money' service.
+     * Gets the public 'form.type.extension.money' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Form\Admin\Type\CustomMoneyType A PrestaShopBundle\Form\Admin\Type\CustomMoneyType instance
+     * @return \PrestaShopBundle\Form\Admin\Type\CustomMoneyType
      */
     protected function getForm_Type_Extension_MoneyService()
     {
@@ -1145,12 +998,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'form.type.extension.text' service.
+     * Gets the public 'form.type.extension.text' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Form\Admin\Type\TextEmptyType A PrestaShopBundle\Form\Admin\Type\TextEmptyType instance
+     * @return \PrestaShopBundle\Form\Admin\Type\TextEmptyType
      */
     protected function getForm_Type_Extension_TextService()
     {
@@ -1158,12 +1008,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'form.type.extension.textarea' service.
+     * Gets the public 'form.type.extension.textarea' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Form\Admin\Type\TextareaEmptyType A PrestaShopBundle\Form\Admin\Type\TextareaEmptyType instance
+     * @return \PrestaShopBundle\Form\Admin\Type\TextareaEmptyType
      */
     protected function getForm_Type_Extension_TextareaService()
     {
@@ -1171,12 +1018,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'form.type.file' service.
+     * Gets the public 'form.type.file' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Form\Extension\Core\Type\FileType A Symfony\Component\Form\Extension\Core\Type\FileType instance
+     * @return \Symfony\Component\Form\Extension\Core\Type\FileType
      */
     protected function getForm_Type_FileService()
     {
@@ -1184,12 +1028,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'form.type.form' service.
+     * Gets the public 'form.type.form' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Form\Extension\Core\Type\FormType A Symfony\Component\Form\Extension\Core\Type\FormType instance
+     * @return \Symfony\Component\Form\Extension\Core\Type\FormType
      */
     protected function getForm_Type_FormService()
     {
@@ -1197,12 +1038,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'form.type.hidden' service.
+     * Gets the public 'form.type.hidden' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Form\Extension\Core\Type\HiddenType A Symfony\Component\Form\Extension\Core\Type\HiddenType instance
+     * @return \Symfony\Component\Form\Extension\Core\Type\HiddenType
      */
     protected function getForm_Type_HiddenService()
     {
@@ -1210,12 +1048,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'form.type.integer' service.
+     * Gets the public 'form.type.integer' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Form\Extension\Core\Type\IntegerType A Symfony\Component\Form\Extension\Core\Type\IntegerType instance
+     * @return \Symfony\Component\Form\Extension\Core\Type\IntegerType
      */
     protected function getForm_Type_IntegerService()
     {
@@ -1223,12 +1058,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'form.type.language' service.
+     * Gets the public 'form.type.language' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Form\Extension\Core\Type\LanguageType A Symfony\Component\Form\Extension\Core\Type\LanguageType instance
+     * @return \Symfony\Component\Form\Extension\Core\Type\LanguageType
      */
     protected function getForm_Type_LanguageService()
     {
@@ -1236,12 +1068,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'form.type.locale' service.
+     * Gets the public 'form.type.locale' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Form\Extension\Core\Type\LocaleType A Symfony\Component\Form\Extension\Core\Type\LocaleType instance
+     * @return \Symfony\Component\Form\Extension\Core\Type\LocaleType
      */
     protected function getForm_Type_LocaleService()
     {
@@ -1249,12 +1078,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'form.type.money' service.
+     * Gets the public 'form.type.money' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Form\Extension\Core\Type\MoneyType A Symfony\Component\Form\Extension\Core\Type\MoneyType instance
+     * @return \Symfony\Component\Form\Extension\Core\Type\MoneyType
      */
     protected function getForm_Type_MoneyService()
     {
@@ -1262,12 +1088,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'form.type.number' service.
+     * Gets the public 'form.type.number' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Form\Extension\Core\Type\NumberType A Symfony\Component\Form\Extension\Core\Type\NumberType instance
+     * @return \Symfony\Component\Form\Extension\Core\Type\NumberType
      */
     protected function getForm_Type_NumberService()
     {
@@ -1275,12 +1098,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'form.type.password' service.
+     * Gets the public 'form.type.password' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Form\Extension\Core\Type\PasswordType A Symfony\Component\Form\Extension\Core\Type\PasswordType instance
+     * @return \Symfony\Component\Form\Extension\Core\Type\PasswordType
      */
     protected function getForm_Type_PasswordService()
     {
@@ -1288,12 +1108,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'form.type.percent' service.
+     * Gets the public 'form.type.percent' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Form\Extension\Core\Type\PercentType A Symfony\Component\Form\Extension\Core\Type\PercentType instance
+     * @return \Symfony\Component\Form\Extension\Core\Type\PercentType
      */
     protected function getForm_Type_PercentService()
     {
@@ -1301,12 +1118,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'form.type.product.attachment' service.
+     * Gets the public 'form.type.product.attachment' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Form\Admin\Product\ProductAttachement A PrestaShopBundle\Form\Admin\Product\ProductAttachement instance
+     * @return \PrestaShopBundle\Form\Admin\Product\ProductAttachement
      */
     protected function getForm_Type_Product_AttachmentService()
     {
@@ -1314,12 +1128,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'form.type.product.combination' service.
+     * Gets the public 'form.type.product.combination' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Form\Admin\Product\ProductCombination A PrestaShopBundle\Form\Admin\Product\ProductCombination instance
+     * @return \PrestaShopBundle\Form\Admin\Product\ProductCombination
      */
     protected function getForm_Type_Product_CombinationService()
     {
@@ -1327,12 +1138,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'form.type.product.combination_bulk' service.
+     * Gets the public 'form.type.product.combination_bulk' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Form\Admin\Product\ProductCombinationBulk A PrestaShopBundle\Form\Admin\Product\ProductCombinationBulk instance
+     * @return \PrestaShopBundle\Form\Admin\Product\ProductCombinationBulk
      */
     protected function getForm_Type_Product_CombinationBulkService()
     {
@@ -1340,12 +1148,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'form.type.product.custom_field' service.
+     * Gets the public 'form.type.product.custom_field' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Form\Admin\Product\ProductCustomField A PrestaShopBundle\Form\Admin\Product\ProductCustomField instance
+     * @return \PrestaShopBundle\Form\Admin\Product\ProductCustomField
      */
     protected function getForm_Type_Product_CustomFieldService()
     {
@@ -1353,12 +1158,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'form.type.product.feature' service.
+     * Gets the public 'form.type.product.feature' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Form\Admin\Feature\ProductFeature A PrestaShopBundle\Form\Admin\Feature\ProductFeature instance
+     * @return \PrestaShopBundle\Form\Admin\Feature\ProductFeature
      */
     protected function getForm_Type_Product_FeatureService()
     {
@@ -1366,12 +1168,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'form.type.product.information' service.
+     * Gets the public 'form.type.product.information' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Form\Admin\Product\ProductInformation A PrestaShopBundle\Form\Admin\Product\ProductInformation instance
+     * @return \PrestaShopBundle\Form\Admin\Product\ProductInformation
      */
     protected function getForm_Type_Product_InformationService()
     {
@@ -1379,12 +1178,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'form.type.product.options' service.
+     * Gets the public 'form.type.product.options' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Form\Admin\Product\ProductOptions A PrestaShopBundle\Form\Admin\Product\ProductOptions instance
+     * @return \PrestaShopBundle\Form\Admin\Product\ProductOptions
      */
     protected function getForm_Type_Product_OptionsService()
     {
@@ -1392,12 +1188,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'form.type.product.price' service.
+     * Gets the public 'form.type.product.price' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Form\Admin\Product\ProductPrice A PrestaShopBundle\Form\Admin\Product\ProductPrice instance
+     * @return \PrestaShopBundle\Form\Admin\Product\ProductPrice
      */
     protected function getForm_Type_Product_PriceService()
     {
@@ -1405,12 +1198,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'form.type.product.quantity' service.
+     * Gets the public 'form.type.product.quantity' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Form\Admin\Product\ProductQuantity A PrestaShopBundle\Form\Admin\Product\ProductQuantity instance
+     * @return \PrestaShopBundle\Form\Admin\Product\ProductQuantity
      */
     protected function getForm_Type_Product_QuantityService()
     {
@@ -1418,12 +1208,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'form.type.product.seo' service.
+     * Gets the public 'form.type.product.seo' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Form\Admin\Product\ProductSeo A PrestaShopBundle\Form\Admin\Product\ProductSeo instance
+     * @return \PrestaShopBundle\Form\Admin\Product\ProductSeo
      */
     protected function getForm_Type_Product_SeoService()
     {
@@ -1431,12 +1218,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'form.type.product.shipping' service.
+     * Gets the public 'form.type.product.shipping' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Form\Admin\Product\ProductShipping A PrestaShopBundle\Form\Admin\Product\ProductShipping instance
+     * @return \PrestaShopBundle\Form\Admin\Product\ProductShipping
      */
     protected function getForm_Type_Product_ShippingService()
     {
@@ -1444,12 +1228,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'form.type.product.simple_category' service.
+     * Gets the public 'form.type.product.simple_category' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Form\Admin\Category\SimpleCategory A PrestaShopBundle\Form\Admin\Category\SimpleCategory instance
+     * @return \PrestaShopBundle\Form\Admin\Category\SimpleCategory
      */
     protected function getForm_Type_Product_SimpleCategoryService()
     {
@@ -1457,12 +1238,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'form.type.product.specific_price' service.
+     * Gets the public 'form.type.product.specific_price' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Form\Admin\Product\ProductSpecificPrice A PrestaShopBundle\Form\Admin\Product\ProductSpecificPrice instance
+     * @return \PrestaShopBundle\Form\Admin\Product\ProductSpecificPrice
      */
     protected function getForm_Type_Product_SpecificPriceService()
     {
@@ -1470,12 +1248,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'form.type.product.supplier_combination' service.
+     * Gets the public 'form.type.product.supplier_combination' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Form\Admin\Product\ProductSupplierCombination A PrestaShopBundle\Form\Admin\Product\ProductSupplierCombination instance
+     * @return \PrestaShopBundle\Form\Admin\Product\ProductSupplierCombination
      */
     protected function getForm_Type_Product_SupplierCombinationService()
     {
@@ -1483,12 +1258,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'form.type.product.virtual' service.
+     * Gets the public 'form.type.product.virtual' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Form\Admin\Product\ProductVirtual A PrestaShopBundle\Form\Admin\Product\ProductVirtual instance
+     * @return \PrestaShopBundle\Form\Admin\Product\ProductVirtual
      */
     protected function getForm_Type_Product_VirtualService()
     {
@@ -1496,12 +1268,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'form.type.product.warehouse_combination' service.
+     * Gets the public 'form.type.product.warehouse_combination' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Form\Admin\Product\ProductWarehouseCombination A PrestaShopBundle\Form\Admin\Product\ProductWarehouseCombination instance
+     * @return \PrestaShopBundle\Form\Admin\Product\ProductWarehouseCombination
      */
     protected function getForm_Type_Product_WarehouseCombinationService()
     {
@@ -1509,12 +1278,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'form.type.radio' service.
+     * Gets the public 'form.type.radio' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Form\Extension\Core\Type\RadioType A Symfony\Component\Form\Extension\Core\Type\RadioType instance
+     * @return \Symfony\Component\Form\Extension\Core\Type\RadioType
      */
     protected function getForm_Type_RadioService()
     {
@@ -1522,12 +1288,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'form.type.range' service.
+     * Gets the public 'form.type.range' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Form\Extension\Core\Type\RangeType A Symfony\Component\Form\Extension\Core\Type\RangeType instance
+     * @return \Symfony\Component\Form\Extension\Core\Type\RangeType
      */
     protected function getForm_Type_RangeService()
     {
@@ -1535,12 +1298,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'form.type.repeated' service.
+     * Gets the public 'form.type.repeated' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Form\Extension\Core\Type\RepeatedType A Symfony\Component\Form\Extension\Core\Type\RepeatedType instance
+     * @return \Symfony\Component\Form\Extension\Core\Type\RepeatedType
      */
     protected function getForm_Type_RepeatedService()
     {
@@ -1548,12 +1308,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'form.type.reset' service.
+     * Gets the public 'form.type.reset' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Form\Extension\Core\Type\ResetType A Symfony\Component\Form\Extension\Core\Type\ResetType instance
+     * @return \Symfony\Component\Form\Extension\Core\Type\ResetType
      */
     protected function getForm_Type_ResetService()
     {
@@ -1561,12 +1318,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'form.type.search' service.
+     * Gets the public 'form.type.search' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Form\Extension\Core\Type\SearchType A Symfony\Component\Form\Extension\Core\Type\SearchType instance
+     * @return \Symfony\Component\Form\Extension\Core\Type\SearchType
      */
     protected function getForm_Type_SearchService()
     {
@@ -1574,12 +1328,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'form.type.submit' service.
+     * Gets the public 'form.type.submit' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Form\Extension\Core\Type\SubmitType A Symfony\Component\Form\Extension\Core\Type\SubmitType instance
+     * @return \Symfony\Component\Form\Extension\Core\Type\SubmitType
      */
     protected function getForm_Type_SubmitService()
     {
@@ -1587,12 +1338,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'form.type.text' service.
+     * Gets the public 'form.type.text' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Form\Extension\Core\Type\TextType A Symfony\Component\Form\Extension\Core\Type\TextType instance
+     * @return \Symfony\Component\Form\Extension\Core\Type\TextType
      */
     protected function getForm_Type_TextService()
     {
@@ -1600,12 +1348,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'form.type.textarea' service.
+     * Gets the public 'form.type.textarea' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Form\Extension\Core\Type\TextareaType A Symfony\Component\Form\Extension\Core\Type\TextareaType instance
+     * @return \Symfony\Component\Form\Extension\Core\Type\TextareaType
      */
     protected function getForm_Type_TextareaService()
     {
@@ -1613,12 +1358,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'form.type.time' service.
+     * Gets the public 'form.type.time' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Form\Extension\Core\Type\TimeType A Symfony\Component\Form\Extension\Core\Type\TimeType instance
+     * @return \Symfony\Component\Form\Extension\Core\Type\TimeType
      */
     protected function getForm_Type_TimeService()
     {
@@ -1626,12 +1368,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'form.type.timezone' service.
+     * Gets the public 'form.type.timezone' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Form\Extension\Core\Type\TimezoneType A Symfony\Component\Form\Extension\Core\Type\TimezoneType instance
+     * @return \Symfony\Component\Form\Extension\Core\Type\TimezoneType
      */
     protected function getForm_Type_TimezoneService()
     {
@@ -1639,12 +1378,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'form.type.typeahead.customer' service.
+     * Gets the public 'form.type.typeahead.customer' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Form\Admin\Type\TypeaheadCustomerCollectionType A PrestaShopBundle\Form\Admin\Type\TypeaheadCustomerCollectionType instance
+     * @return \PrestaShopBundle\Form\Admin\Type\TypeaheadCustomerCollectionType
      */
     protected function getForm_Type_Typeahead_CustomerService()
     {
@@ -1652,12 +1388,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'form.type.typeahead.product' service.
+     * Gets the public 'form.type.typeahead.product' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Form\Admin\Type\TypeaheadProductCollectionType A PrestaShopBundle\Form\Admin\Type\TypeaheadProductCollectionType instance
+     * @return \PrestaShopBundle\Form\Admin\Type\TypeaheadProductCollectionType
      */
     protected function getForm_Type_Typeahead_ProductService()
     {
@@ -1665,12 +1398,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'form.type.typeahead.product_pack' service.
+     * Gets the public 'form.type.typeahead.product_pack' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Form\Admin\Type\TypeaheadProductPackCollectionType A PrestaShopBundle\Form\Admin\Type\TypeaheadProductPackCollectionType instance
+     * @return \PrestaShopBundle\Form\Admin\Type\TypeaheadProductPackCollectionType
      */
     protected function getForm_Type_Typeahead_ProductPackService()
     {
@@ -1678,12 +1408,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'form.type.url' service.
+     * Gets the public 'form.type.url' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Form\Extension\Core\Type\UrlType A Symfony\Component\Form\Extension\Core\Type\UrlType instance
+     * @return \Symfony\Component\Form\Extension\Core\Type\UrlType
      */
     protected function getForm_Type_UrlService()
     {
@@ -1691,12 +1418,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'form.type_extension.csrf' service.
+     * Gets the public 'form.type_extension.csrf' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Form\Extension\Csrf\Type\FormTypeCsrfExtension A Symfony\Component\Form\Extension\Csrf\Type\FormTypeCsrfExtension instance
+     * @return \Symfony\Component\Form\Extension\Csrf\Type\FormTypeCsrfExtension
      */
     protected function getForm_TypeExtension_CsrfService()
     {
@@ -1704,12 +1428,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'form.type_extension.form.http_foundation' service.
+     * Gets the public 'form.type_extension.form.http_foundation' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Form\Extension\HttpFoundation\Type\FormTypeHttpFoundationExtension A Symfony\Component\Form\Extension\HttpFoundation\Type\FormTypeHttpFoundationExtension instance
+     * @return \Symfony\Component\Form\Extension\HttpFoundation\Type\FormTypeHttpFoundationExtension
      */
     protected function getForm_TypeExtension_Form_HttpFoundationService()
     {
@@ -1717,12 +1438,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'form.type_extension.form.validator' service.
+     * Gets the public 'form.type_extension.form.validator' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Form\Extension\Validator\Type\FormTypeValidatorExtension A Symfony\Component\Form\Extension\Validator\Type\FormTypeValidatorExtension instance
+     * @return \Symfony\Component\Form\Extension\Validator\Type\FormTypeValidatorExtension
      */
     protected function getForm_TypeExtension_Form_ValidatorService()
     {
@@ -1730,12 +1448,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'form.type_extension.repeated.validator' service.
+     * Gets the public 'form.type_extension.repeated.validator' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Form\Extension\Validator\Type\RepeatedTypeValidatorExtension A Symfony\Component\Form\Extension\Validator\Type\RepeatedTypeValidatorExtension instance
+     * @return \Symfony\Component\Form\Extension\Validator\Type\RepeatedTypeValidatorExtension
      */
     protected function getForm_TypeExtension_Repeated_ValidatorService()
     {
@@ -1743,12 +1458,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'form.type_extension.submit.validator' service.
+     * Gets the public 'form.type_extension.submit.validator' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Form\Extension\Validator\Type\SubmitTypeValidatorExtension A Symfony\Component\Form\Extension\Validator\Type\SubmitTypeValidatorExtension instance
+     * @return \Symfony\Component\Form\Extension\Validator\Type\SubmitTypeValidatorExtension
      */
     protected function getForm_TypeExtension_Submit_ValidatorService()
     {
@@ -1756,12 +1468,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'form.type_extension.upload.validator' service.
+     * Gets the public 'form.type_extension.upload.validator' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Form\Extension\Validator\Type\UploadValidatorExtension A Symfony\Component\Form\Extension\Validator\Type\UploadValidatorExtension instance
+     * @return \Symfony\Component\Form\Extension\Validator\Type\UploadValidatorExtension
      */
     protected function getForm_TypeExtension_Upload_ValidatorService()
     {
@@ -1769,12 +1478,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'form.type_guesser.doctrine' service.
+     * Gets the public 'form.type_guesser.doctrine' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Bridge\Doctrine\Form\DoctrineOrmTypeGuesser A Symfony\Bridge\Doctrine\Form\DoctrineOrmTypeGuesser instance
+     * @return \Symfony\Bridge\Doctrine\Form\DoctrineOrmTypeGuesser
      */
     protected function getForm_TypeGuesser_DoctrineService()
     {
@@ -1782,12 +1488,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'form.type_guesser.validator' service.
+     * Gets the public 'form.type_guesser.validator' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Form\Extension\Validator\ValidatorTypeGuesser A Symfony\Component\Form\Extension\Validator\ValidatorTypeGuesser instance
+     * @return \Symfony\Component\Form\Extension\Validator\ValidatorTypeGuesser
      */
     protected function getForm_TypeGuesser_ValidatorService()
     {
@@ -1795,12 +1498,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'fragment.handler' service.
+     * Gets the public 'fragment.handler' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\HttpKernel\DependencyInjection\LazyLoadingFragmentHandler A Symfony\Component\HttpKernel\DependencyInjection\LazyLoadingFragmentHandler instance
+     * @return \Symfony\Component\HttpKernel\DependencyInjection\LazyLoadingFragmentHandler
      */
     protected function getFragment_HandlerService()
     {
@@ -1816,12 +1516,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'fragment.listener' service.
+     * Gets the public 'fragment.listener' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\HttpKernel\EventListener\FragmentListener A Symfony\Component\HttpKernel\EventListener\FragmentListener instance
+     * @return \Symfony\Component\HttpKernel\EventListener\FragmentListener
      */
     protected function getFragment_ListenerService()
     {
@@ -1829,12 +1526,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'fragment.renderer.esi' service.
+     * Gets the public 'fragment.renderer.esi' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\HttpKernel\Fragment\EsiFragmentRenderer A Symfony\Component\HttpKernel\Fragment\EsiFragmentRenderer instance
+     * @return \Symfony\Component\HttpKernel\Fragment\EsiFragmentRenderer
      */
     protected function getFragment_Renderer_EsiService()
     {
@@ -1846,12 +1540,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'fragment.renderer.hinclude' service.
+     * Gets the public 'fragment.renderer.hinclude' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\HttpKernel\Fragment\HIncludeFragmentRenderer A Symfony\Component\HttpKernel\Fragment\HIncludeFragmentRenderer instance
+     * @return \Symfony\Component\HttpKernel\Fragment\HIncludeFragmentRenderer
      */
     protected function getFragment_Renderer_HincludeService()
     {
@@ -1863,12 +1554,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'fragment.renderer.inline' service.
+     * Gets the public 'fragment.renderer.inline' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\HttpKernel\Fragment\InlineFragmentRenderer A Symfony\Component\HttpKernel\Fragment\InlineFragmentRenderer instance
+     * @return \Symfony\Component\HttpKernel\Fragment\InlineFragmentRenderer
      */
     protected function getFragment_Renderer_InlineService()
     {
@@ -1880,12 +1568,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'fragment.renderer.ssi' service.
+     * Gets the public 'fragment.renderer.ssi' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\HttpKernel\Fragment\SsiFragmentRenderer A Symfony\Component\HttpKernel\Fragment\SsiFragmentRenderer instance
+     * @return \Symfony\Component\HttpKernel\Fragment\SsiFragmentRenderer
      */
     protected function getFragment_Renderer_SsiService()
     {
@@ -1897,9 +1582,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'guzzle.cache' service.
+     * Gets the public 'guzzle.cache' service.
      *
-     * @return \Csa\Bundle\GuzzleBundle\GuzzleHttp\Cache\DoctrineAdapter A Csa\Bundle\GuzzleBundle\GuzzleHttp\Cache\DoctrineAdapter instance
+     * @return \Csa\Bundle\GuzzleBundle\GuzzleHttp\Cache\DoctrineAdapter
      */
     protected function getGuzzle_CacheService()
     {
@@ -1907,12 +1592,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'http_kernel' service.
+     * Gets the public 'http_kernel' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\HttpKernel\DependencyInjection\ContainerAwareHttpKernel A Symfony\Component\HttpKernel\DependencyInjection\ContainerAwareHttpKernel instance
+     * @return \Symfony\Component\HttpKernel\DependencyInjection\ContainerAwareHttpKernel
      */
     protected function getHttpKernelService()
     {
@@ -1920,10 +1602,7 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'kernel' service.
-     *
-     * This service is shared.
-     * This method always returns the same instance of the service.
+     * Gets the public 'kernel' shared service.
      *
      * @throws RuntimeException always since this service is expected to be injected dynamically
      */
@@ -1933,12 +1612,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'kernel.class_cache.cache_warmer' service.
+     * Gets the public 'kernel.class_cache.cache_warmer' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Bundle\FrameworkBundle\CacheWarmer\ClassCacheCacheWarmer A Symfony\Bundle\FrameworkBundle\CacheWarmer\ClassCacheCacheWarmer instance
+     * @return \Symfony\Bundle\FrameworkBundle\CacheWarmer\ClassCacheCacheWarmer
      */
     protected function getKernel_ClassCache_CacheWarmerService()
     {
@@ -1946,25 +1622,19 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'locale_listener' service.
+     * Gets the public 'locale_listener' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\HttpKernel\EventListener\LocaleListener A Symfony\Component\HttpKernel\EventListener\LocaleListener instance
+     * @return \Symfony\Component\HttpKernel\EventListener\LocaleListener
      */
     protected function getLocaleListenerService()
     {
-        return $this->services['locale_listener'] = new \Symfony\Component\HttpKernel\EventListener\LocaleListener($this->get('request_stack'), 'pl-PL', $this->get('router', ContainerInterface::NULL_ON_INVALID_REFERENCE));
+        return $this->services['locale_listener'] = new \Symfony\Component\HttpKernel\EventListener\LocaleListener($this->get('request_stack'), 'pl-PL', $this->get('prestashop.router', ContainerInterface::NULL_ON_INVALID_REFERENCE));
     }
 
     /*
-     * Gets the 'logger' service.
+     * Gets the public 'logger' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Bridge\Monolog\Logger A Symfony\Bridge\Monolog\Logger instance
+     * @return \Symfony\Bridge\Monolog\Logger
      */
     protected function getLoggerService()
     {
@@ -1978,12 +1648,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'main.warmer.cache_warmer' service.
+     * Gets the public 'main.warmer.cache_warmer' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Cache\CacheWarmer A PrestaShopBundle\Cache\CacheWarmer instance
+     * @return \PrestaShopBundle\Cache\CacheWarmer
      */
     protected function getMain_Warmer_CacheWarmerService()
     {
@@ -1991,12 +1658,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'monolog.handler.console' service.
+     * Gets the public 'monolog.handler.console' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Bridge\Monolog\Handler\ConsoleHandler A Symfony\Bridge\Monolog\Handler\ConsoleHandler instance
+     * @return \Symfony\Bridge\Monolog\Handler\ConsoleHandler
      */
     protected function getMonolog_Handler_ConsoleService()
     {
@@ -2004,12 +1668,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'monolog.handler.main' service.
+     * Gets the public 'monolog.handler.main' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Monolog\Handler\FingersCrossedHandler A Monolog\Handler\FingersCrossedHandler instance
+     * @return \Monolog\Handler\FingersCrossedHandler
      */
     protected function getMonolog_Handler_MainService()
     {
@@ -2017,12 +1678,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'monolog.handler.nested' service.
+     * Gets the public 'monolog.handler.nested' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Monolog\Handler\StreamHandler A Monolog\Handler\StreamHandler instance
+     * @return \Monolog\Handler\StreamHandler
      */
     protected function getMonolog_Handler_NestedService()
     {
@@ -2030,12 +1688,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'monolog.logger.doctrine' service.
+     * Gets the public 'monolog.logger.doctrine' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Bridge\Monolog\Logger A Symfony\Bridge\Monolog\Logger instance
+     * @return \Symfony\Bridge\Monolog\Logger
      */
     protected function getMonolog_Logger_DoctrineService()
     {
@@ -2048,12 +1703,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'monolog.logger.php' service.
+     * Gets the public 'monolog.logger.php' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Bridge\Monolog\Logger A Symfony\Bridge\Monolog\Logger instance
+     * @return \Symfony\Bridge\Monolog\Logger
      */
     protected function getMonolog_Logger_PhpService()
     {
@@ -2066,12 +1718,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'monolog.logger.request' service.
+     * Gets the public 'monolog.logger.request' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Bridge\Monolog\Logger A Symfony\Bridge\Monolog\Logger instance
+     * @return \Symfony\Bridge\Monolog\Logger
      */
     protected function getMonolog_Logger_RequestService()
     {
@@ -2084,12 +1733,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'monolog.logger.router' service.
+     * Gets the public 'monolog.logger.router' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Bridge\Monolog\Logger A Symfony\Bridge\Monolog\Logger instance
+     * @return \Symfony\Bridge\Monolog\Logger
      */
     protected function getMonolog_Logger_RouterService()
     {
@@ -2102,12 +1748,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'monolog.logger.security' service.
+     * Gets the public 'monolog.logger.security' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Bridge\Monolog\Logger A Symfony\Bridge\Monolog\Logger instance
+     * @return \Symfony\Bridge\Monolog\Logger
      */
     protected function getMonolog_Logger_SecurityService()
     {
@@ -2120,12 +1763,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'monolog.logger.translation' service.
+     * Gets the public 'monolog.logger.translation' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Bridge\Monolog\Logger A Symfony\Bridge\Monolog\Logger instance
+     * @return \Symfony\Bridge\Monolog\Logger
      */
     protected function getMonolog_Logger_TranslationService()
     {
@@ -2138,12 +1778,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.adapter.admin.controller.attribute_generator' service.
+     * Gets the public 'prestashop.adapter.admin.controller.attribute_generator' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShop\PrestaShop\Adapter\Attribute\AdminAttributeGeneratorControllerWrapper A PrestaShop\PrestaShop\Adapter\Attribute\AdminAttributeGeneratorControllerWrapper instance
+     * @return \PrestaShop\PrestaShop\Adapter\Attribute\AdminAttributeGeneratorControllerWrapper
      */
     protected function getPrestashop_Adapter_Admin_Controller_AttributeGeneratorService()
     {
@@ -2151,12 +1788,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.adapter.admin.controller.category' service.
+     * Gets the public 'prestashop.adapter.admin.controller.category' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShop\PrestaShop\Adapter\Category\AdminCategoryControllerWrapper A PrestaShop\PrestaShop\Adapter\Category\AdminCategoryControllerWrapper instance
+     * @return \PrestaShop\PrestaShop\Adapter\Category\AdminCategoryControllerWrapper
      */
     protected function getPrestashop_Adapter_Admin_Controller_CategoryService()
     {
@@ -2164,12 +1798,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.adapter.admin.wrapper.product' service.
+     * Gets the public 'prestashop.adapter.admin.wrapper.product' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShop\PrestaShop\Adapter\Product\AdminProductWrapper A PrestaShop\PrestaShop\Adapter\Product\AdminProductWrapper instance
+     * @return \PrestaShop\PrestaShop\Adapter\Product\AdminProductWrapper
      */
     protected function getPrestashop_Adapter_Admin_Wrapper_ProductService()
     {
@@ -2177,12 +1808,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.adapter.data_provider.attachment' service.
+     * Gets the public 'prestashop.adapter.data_provider.attachment' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShop\PrestaShop\Adapter\Product\AttachmentDataProvider A PrestaShop\PrestaShop\Adapter\Product\AttachmentDataProvider instance
+     * @return \PrestaShop\PrestaShop\Adapter\Product\AttachmentDataProvider
      */
     protected function getPrestashop_Adapter_DataProvider_AttachmentService()
     {
@@ -2190,12 +1818,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.adapter.data_provider.attribute' service.
+     * Gets the public 'prestashop.adapter.data_provider.attribute' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShop\PrestaShop\Adapter\Attribute\AttributeDataProvider A PrestaShop\PrestaShop\Adapter\Attribute\AttributeDataProvider instance
+     * @return \PrestaShop\PrestaShop\Adapter\Attribute\AttributeDataProvider
      */
     protected function getPrestashop_Adapter_DataProvider_AttributeService()
     {
@@ -2203,12 +1828,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.adapter.data_provider.carrier' service.
+     * Gets the public 'prestashop.adapter.data_provider.carrier' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShop\PrestaShop\Adapter\Carrier\CarrierDataProvider A PrestaShop\PrestaShop\Adapter\Carrier\CarrierDataProvider instance
+     * @return \PrestaShop\PrestaShop\Adapter\Carrier\CarrierDataProvider
      */
     protected function getPrestashop_Adapter_DataProvider_CarrierService()
     {
@@ -2216,12 +1838,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.adapter.data_provider.category' service.
+     * Gets the public 'prestashop.adapter.data_provider.category' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShop\PrestaShop\Adapter\Category\CategoryDataProvider A PrestaShop\PrestaShop\Adapter\Category\CategoryDataProvider instance
+     * @return \PrestaShop\PrestaShop\Adapter\Category\CategoryDataProvider
      */
     protected function getPrestashop_Adapter_DataProvider_CategoryService()
     {
@@ -2229,12 +1848,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.adapter.data_provider.combination' service.
+     * Gets the public 'prestashop.adapter.data_provider.combination' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShop\PrestaShop\Adapter\CombinationDataProvider A PrestaShop\PrestaShop\Adapter\CombinationDataProvider instance
+     * @return \PrestaShop\PrestaShop\Adapter\CombinationDataProvider
      */
     protected function getPrestashop_Adapter_DataProvider_CombinationService()
     {
@@ -2242,12 +1858,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.adapter.data_provider.country' service.
+     * Gets the public 'prestashop.adapter.data_provider.country' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShop\PrestaShop\Adapter\Country\CountryDataProvider A PrestaShop\PrestaShop\Adapter\Country\CountryDataProvider instance
+     * @return \PrestaShop\PrestaShop\Adapter\Country\CountryDataProvider
      */
     protected function getPrestashop_Adapter_DataProvider_CountryService()
     {
@@ -2255,12 +1868,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.adapter.data_provider.currency' service.
+     * Gets the public 'prestashop.adapter.data_provider.currency' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShop\PrestaShop\Adapter\Currency\CurrencyDataProvider A PrestaShop\PrestaShop\Adapter\Currency\CurrencyDataProvider instance
+     * @return \PrestaShop\PrestaShop\Adapter\Currency\CurrencyDataProvider
      */
     protected function getPrestashop_Adapter_DataProvider_CurrencyService()
     {
@@ -2268,12 +1878,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.adapter.data_provider.customer' service.
+     * Gets the public 'prestashop.adapter.data_provider.customer' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShop\PrestaShop\Adapter\Customer\CustomerDataProvider A PrestaShop\PrestaShop\Adapter\Customer\CustomerDataProvider instance
+     * @return \PrestaShop\PrestaShop\Adapter\Customer\CustomerDataProvider
      */
     protected function getPrestashop_Adapter_DataProvider_CustomerService()
     {
@@ -2281,12 +1888,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.adapter.data_provider.feature' service.
+     * Gets the public 'prestashop.adapter.data_provider.feature' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShop\PrestaShop\Adapter\Feature\FeatureDataProvider A PrestaShop\PrestaShop\Adapter\Feature\FeatureDataProvider instance
+     * @return \PrestaShop\PrestaShop\Adapter\Feature\FeatureDataProvider
      */
     protected function getPrestashop_Adapter_DataProvider_FeatureService()
     {
@@ -2294,12 +1898,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.adapter.data_provider.group' service.
+     * Gets the public 'prestashop.adapter.data_provider.group' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShop\PrestaShop\Adapter\Group\GroupDataProvider A PrestaShop\PrestaShop\Adapter\Group\GroupDataProvider instance
+     * @return \PrestaShop\PrestaShop\Adapter\Group\GroupDataProvider
      */
     protected function getPrestashop_Adapter_DataProvider_GroupService()
     {
@@ -2307,12 +1908,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.adapter.data_provider.manufacturer' service.
+     * Gets the public 'prestashop.adapter.data_provider.manufacturer' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShop\PrestaShop\Adapter\Manufacturer\ManufacturerDataProvider A PrestaShop\PrestaShop\Adapter\Manufacturer\ManufacturerDataProvider instance
+     * @return \PrestaShop\PrestaShop\Adapter\Manufacturer\ManufacturerDataProvider
      */
     protected function getPrestashop_Adapter_DataProvider_ManufacturerService()
     {
@@ -2320,12 +1918,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.adapter.data_provider.module' service.
+     * Gets the public 'prestashop.adapter.data_provider.module' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShop\PrestaShop\Adapter\Module\ModuleDataProvider A PrestaShop\PrestaShop\Adapter\Module\ModuleDataProvider instance
+     * @return \PrestaShop\PrestaShop\Adapter\Module\ModuleDataProvider
      */
     protected function getPrestashop_Adapter_DataProvider_ModuleService()
     {
@@ -2337,12 +1932,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.adapter.data_provider.pack' service.
+     * Gets the public 'prestashop.adapter.data_provider.pack' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShop\PrestaShop\Adapter\Pack\PackDataProvider A PrestaShop\PrestaShop\Adapter\Pack\PackDataProvider instance
+     * @return \PrestaShop\PrestaShop\Adapter\Pack\PackDataProvider
      */
     protected function getPrestashop_Adapter_DataProvider_PackService()
     {
@@ -2350,12 +1942,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.adapter.data_provider.product' service.
+     * Gets the public 'prestashop.adapter.data_provider.product' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShop\PrestaShop\Adapter\Product\ProductDataProvider A PrestaShop\PrestaShop\Adapter\Product\ProductDataProvider instance
+     * @return \PrestaShop\PrestaShop\Adapter\Product\ProductDataProvider
      */
     protected function getPrestashop_Adapter_DataProvider_ProductService()
     {
@@ -2363,12 +1952,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.adapter.data_provider.supplier' service.
+     * Gets the public 'prestashop.adapter.data_provider.supplier' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShop\PrestaShop\Adapter\Supplier\SupplierDataProvider A PrestaShop\PrestaShop\Adapter\Supplier\SupplierDataProvider instance
+     * @return \PrestaShop\PrestaShop\Adapter\Supplier\SupplierDataProvider
      */
     protected function getPrestashop_Adapter_DataProvider_SupplierService()
     {
@@ -2376,12 +1962,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.adapter.data_provider.tax' service.
+     * Gets the public 'prestashop.adapter.data_provider.tax' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShop\PrestaShop\Adapter\Tax\TaxRuleDataProvider A PrestaShop\PrestaShop\Adapter\Tax\TaxRuleDataProvider instance
+     * @return \PrestaShop\PrestaShop\Adapter\Tax\TaxRuleDataProvider
      */
     protected function getPrestashop_Adapter_DataProvider_TaxService()
     {
@@ -2389,12 +1972,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.adapter.data_provider.warehouse' service.
+     * Gets the public 'prestashop.adapter.data_provider.warehouse' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShop\PrestaShop\Adapter\Warehouse\WarehouseDataProvider A PrestaShop\PrestaShop\Adapter\Warehouse\WarehouseDataProvider instance
+     * @return \PrestaShop\PrestaShop\Adapter\Warehouse\WarehouseDataProvider
      */
     protected function getPrestashop_Adapter_DataProvider_WarehouseService()
     {
@@ -2402,12 +1982,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.adapter.formatter.price' service.
+     * Gets the public 'prestashop.adapter.formatter.price' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShop\PrestaShop\Adapter\Product\PriceFormatter A PrestaShop\PrestaShop\Adapter\Product\PriceFormatter instance
+     * @return \PrestaShop\PrestaShop\Adapter\Product\PriceFormatter
      */
     protected function getPrestashop_Adapter_Formatter_PriceService()
     {
@@ -2415,12 +1992,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.adapter.image_manager' service.
+     * Gets the public 'prestashop.adapter.image_manager' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShop\PrestaShop\Adapter\ImageManager A PrestaShop\PrestaShop\Adapter\ImageManager instance
+     * @return \PrestaShop\PrestaShop\Adapter\ImageManager
      */
     protected function getPrestashop_Adapter_ImageManagerService()
     {
@@ -2428,12 +2002,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.adapter.legacy.block.helper.subscriber' service.
+     * Gets the public 'prestashop.adapter.legacy.block.helper.subscriber' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShop\PrestaShop\Adapter\Admin\LegacyBlockHelperSubscriber A PrestaShop\PrestaShop\Adapter\Admin\LegacyBlockHelperSubscriber instance
+     * @return \PrestaShop\PrestaShop\Adapter\Admin\LegacyBlockHelperSubscriber
      */
     protected function getPrestashop_Adapter_Legacy_Block_Helper_SubscriberService()
     {
@@ -2441,12 +2012,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.adapter.legacy.configuration' service.
+     * Gets the public 'prestashop.adapter.legacy.configuration' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShop\PrestaShop\Adapter\Configuration A PrestaShop\PrestaShop\Adapter\Configuration instance
+     * @return \PrestaShop\PrestaShop\Adapter\Configuration
      */
     protected function getPrestashop_Adapter_Legacy_ConfigurationService()
     {
@@ -2454,12 +2022,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.adapter.legacy.context' service.
+     * Gets the public 'prestashop.adapter.legacy.context' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShop\PrestaShop\Adapter\LegacyContext A PrestaShop\PrestaShop\Adapter\LegacyContext instance
+     * @return \PrestaShop\PrestaShop\Adapter\LegacyContext
      */
     protected function getPrestashop_Adapter_Legacy_ContextService()
     {
@@ -2467,12 +2032,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.adapter.legacy.hook.subscriber' service.
+     * Gets the public 'prestashop.adapter.legacy.hook.subscriber' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShop\PrestaShop\Adapter\LegacyHookSubscriber A PrestaShop\PrestaShop\Adapter\LegacyHookSubscriber instance
+     * @return \PrestaShop\PrestaShop\Adapter\LegacyHookSubscriber
      */
     protected function getPrestashop_Adapter_Legacy_Hook_SubscriberService()
     {
@@ -2480,12 +2042,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.adapter.legacy.logger' service.
+     * Gets the public 'prestashop.adapter.legacy.logger' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShop\PrestaShop\Adapter\LegacyLogger A PrestaShop\PrestaShop\Adapter\LegacyLogger instance
+     * @return \PrestaShop\PrestaShop\Adapter\LegacyLogger
      */
     protected function getPrestashop_Adapter_Legacy_LoggerService()
     {
@@ -2493,12 +2052,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.adapter.middleware.ssl' service.
+     * Gets the public 'prestashop.adapter.middleware.ssl' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShop\PrestaShop\Adapter\Security\SslMiddleware A PrestaShop\PrestaShop\Adapter\Security\SslMiddleware instance
+     * @return \PrestaShop\PrestaShop\Adapter\Security\SslMiddleware
      */
     protected function getPrestashop_Adapter_Middleware_SslService()
     {
@@ -2506,12 +2062,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.adapter.module.self_configurator' service.
+     * Gets the public 'prestashop.adapter.module.self_configurator' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShop\PrestaShop\Adapter\Module\Configuration\ModuleSelfConfigurator A PrestaShop\PrestaShop\Adapter\Module\Configuration\ModuleSelfConfigurator instance
+     * @return \PrestaShop\PrestaShop\Adapter\Module\Configuration\ModuleSelfConfigurator
      */
     protected function getPrestashop_Adapter_Module_SelfConfiguratorService()
     {
@@ -2519,12 +2072,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.adapter.module.tab.eventsubscriber' service.
+     * Gets the public 'prestashop.adapter.module.tab.eventsubscriber' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShop\PrestaShop\Adapter\Module\Tab\ModuleTabManagementSubscriber A PrestaShop\PrestaShop\Adapter\Module\Tab\ModuleTabManagementSubscriber instance
+     * @return \PrestaShop\PrestaShop\Adapter\Module\Tab\ModuleTabManagementSubscriber
      */
     protected function getPrestashop_Adapter_Module_Tab_EventsubscriberService()
     {
@@ -2532,12 +2082,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.adapter.module.tab.register' service.
+     * Gets the public 'prestashop.adapter.module.tab.register' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShop\PrestaShop\Adapter\Module\Tab\ModuleTabRegister A PrestaShop\PrestaShop\Adapter\Module\Tab\ModuleTabRegister instance
+     * @return \PrestaShop\PrestaShop\Adapter\Module\Tab\ModuleTabRegister
      */
     protected function getPrestashop_Adapter_Module_Tab_RegisterService()
     {
@@ -2545,12 +2092,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.adapter.module.tab.unregister' service.
+     * Gets the public 'prestashop.adapter.module.tab.unregister' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShop\PrestaShop\Adapter\Module\Tab\ModuleTabUnregister A PrestaShop\PrestaShop\Adapter\Module\Tab\ModuleTabUnregister instance
+     * @return \PrestaShop\PrestaShop\Adapter\Module\Tab\ModuleTabUnregister
      */
     protected function getPrestashop_Adapter_Module_Tab_UnregisterService()
     {
@@ -2558,12 +2102,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.adapter.presenter.module' service.
+     * Gets the public 'prestashop.adapter.presenter.module' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShop\PrestaShop\Adapter\Module\ModulePresenter A PrestaShop\PrestaShop\Adapter\Module\ModulePresenter instance
+     * @return \PrestaShop\PrestaShop\Adapter\Module\ModulePresenter
      */
     protected function getPrestashop_Adapter_Presenter_ModuleService()
     {
@@ -2571,12 +2112,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.adapter.security.admin' service.
+     * Gets the public 'prestashop.adapter.security.admin' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShop\PrestaShop\Adapter\Security\Admin A PrestaShop\PrestaShop\Adapter\Security\Admin instance
+     * @return \PrestaShop\PrestaShop\Adapter\Security\Admin
      */
     protected function getPrestashop_Adapter_Security_AdminService()
     {
@@ -2584,12 +2122,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.adapter.shop.context' service.
+     * Gets the public 'prestashop.adapter.shop.context' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShop\PrestaShop\Adapter\Shop\Context A PrestaShop\PrestaShop\Adapter\Shop\Context instance
+     * @return \PrestaShop\PrestaShop\Adapter\Shop\Context
      */
     protected function getPrestashop_Adapter_Shop_ContextService()
     {
@@ -2597,12 +2132,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.adapter.tools' service.
+     * Gets the public 'prestashop.adapter.tools' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShop\PrestaShop\Adapter\Tools A PrestaShop\PrestaShop\Adapter\Tools instance
+     * @return \PrestaShop\PrestaShop\Adapter\Tools
      */
     protected function getPrestashop_Adapter_ToolsService()
     {
@@ -2610,16 +2142,13 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.addons.client_api' service.
+     * Gets the public 'prestashop.addons.client_api' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Service\DataProvider\Marketplace\ApiClient A PrestaShopBundle\Service\DataProvider\Marketplace\ApiClient instance
+     * @return \PrestaShopBundle\Service\DataProvider\Marketplace\ApiClient
      */
     protected function getPrestashop_Addons_ClientApiService()
     {
-        $this->services['prestashop.addons.client_api'] = $instance = new \PrestaShopBundle\Service\DataProvider\Marketplace\ApiClient($this->get('csa_guzzle.client.addons_api'), $this->get("translator")->getLocale(), $this->get('prestashop.adapter.tools'));
+        $this->services['prestashop.addons.client_api'] = $instance = new \PrestaShopBundle\Service\DataProvider\Marketplace\ApiClient($this->get('csa_guzzle.client.addons_api'), $this->get("translator")->getLocale(), $this->get("prestashop.adapter.data_provider.country")->getIsoCodebyId(), $this->get('prestashop.adapter.tools'));
 
         $instance->setSslVerification((__DIR__.'/cacert.pem'));
 
@@ -2627,12 +2156,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.cache.refresh' service.
+     * Gets the public 'prestashop.cache.refresh' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Service\Cache\Refresh A PrestaShopBundle\Service\Cache\Refresh instance
+     * @return \PrestaShopBundle\Service\Cache\Refresh
      */
     protected function getPrestashop_Cache_RefreshService()
     {
@@ -2644,12 +2170,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.categories_provider' service.
+     * Gets the public 'prestashop.categories_provider' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Service\DataProvider\Admin\CategoriesProvider A PrestaShopBundle\Service\DataProvider\Admin\CategoriesProvider instance
+     * @return \PrestaShopBundle\Service\DataProvider\Admin\CategoriesProvider
      */
     protected function getPrestashop_CategoriesProviderService()
     {
@@ -2657,12 +2180,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.compiler.smarty.template' service.
+     * Gets the public 'prestashop.compiler.smarty.template' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShop\TranslationToolsBundle\Translation\Compiler\Smarty\TranslationTemplateCompiler A PrestaShop\TranslationToolsBundle\Translation\Compiler\Smarty\TranslationTemplateCompiler instance
+     * @return \PrestaShop\TranslationToolsBundle\Translation\Compiler\Smarty\TranslationTemplateCompiler
      */
     protected function getPrestashop_Compiler_Smarty_TemplateService()
     {
@@ -2670,12 +2190,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.core.addon.theme.exporter' service.
+     * Gets the public 'prestashop.core.addon.theme.exporter' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShop\PrestaShop\Core\Addon\Theme\ThemeExporter A PrestaShop\PrestaShop\Core\Addon\Theme\ThemeExporter instance
+     * @return \PrestaShop\PrestaShop\Core\Addon\Theme\ThemeExporter
      */
     protected function getPrestashop_Core_Addon_Theme_ExporterService()
     {
@@ -2683,12 +2200,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.core.addon.theme.repository' service.
+     * Gets the public 'prestashop.core.addon.theme.repository' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShop\PrestaShop\Core\Addon\Theme\ThemeRepository A PrestaShop\PrestaShop\Core\Addon\Theme\ThemeRepository instance
+     * @return \PrestaShop\PrestaShop\Core\Addon\Theme\ThemeRepository
      */
     protected function getPrestashop_Core_Addon_Theme_RepositoryService()
     {
@@ -2696,12 +2210,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.core.admin.data_provider.addons_interface' service.
+     * Gets the public 'prestashop.core.admin.data_provider.addons_interface' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShop\PrestaShop\Adapter\Addons\AddonsDataProvider A PrestaShop\PrestaShop\Adapter\Addons\AddonsDataProvider instance
+     * @return \PrestaShop\PrestaShop\Adapter\Addons\AddonsDataProvider
      */
     protected function getPrestashop_Core_Admin_DataProvider_AddonsInterfaceService()
     {
@@ -2713,12 +2224,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.core.admin.data_provider.module_interface' service.
+     * Gets the public 'prestashop.core.admin.data_provider.module_interface' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShop\PrestaShop\Adapter\Module\AdminModuleDataProvider A PrestaShop\PrestaShop\Adapter\Module\AdminModuleDataProvider instance
+     * @return \PrestaShop\PrestaShop\Adapter\Module\AdminModuleDataProvider
      */
     protected function getPrestashop_Core_Admin_DataProvider_ModuleInterfaceService()
     {
@@ -2730,12 +2238,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.core.admin.data_provider.product_interface' service.
+     * Gets the public 'prestashop.core.admin.data_provider.product_interface' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShop\PrestaShop\Adapter\Product\AdminProductDataProvider A PrestaShop\PrestaShop\Adapter\Product\AdminProductDataProvider instance
+     * @return \PrestaShop\PrestaShop\Adapter\Product\AdminProductDataProvider
      */
     protected function getPrestashop_Core_Admin_DataProvider_ProductInterfaceService()
     {
@@ -2743,12 +2248,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.core.admin.data_updater.product_interface' service.
+     * Gets the public 'prestashop.core.admin.data_updater.product_interface' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShop\PrestaShop\Adapter\Product\AdminProductDataUpdater A PrestaShop\PrestaShop\Adapter\Product\AdminProductDataUpdater instance
+     * @return \PrestaShop\PrestaShop\Adapter\Product\AdminProductDataUpdater
      */
     protected function getPrestashop_Core_Admin_DataUpdater_ProductInterfaceService()
     {
@@ -2756,12 +2258,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.core.admin.lang.repository' service.
+     * Gets the public 'prestashop.core.admin.lang.repository' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Entity\Repository\LangRepository A PrestaShopBundle\Entity\Repository\LangRepository instance
+     * @return \PrestaShopBundle\Entity\Repository\LangRepository
      */
     protected function getPrestashop_Core_Admin_Lang_RepositoryService()
     {
@@ -2769,12 +2268,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.core.admin.module.repository' service.
+     * Gets the public 'prestashop.core.admin.module.repository' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShop\PrestaShop\Core\Addon\Module\ModuleRepository A PrestaShop\PrestaShop\Core\Addon\Module\ModuleRepository instance
+     * @return \PrestaShop\PrestaShop\Core\Addon\Module\ModuleRepository
      */
     protected function getPrestashop_Core_Admin_Module_RepositoryService()
     {
@@ -2782,12 +2278,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.core.admin.page_preference_interface' service.
+     * Gets the public 'prestashop.core.admin.page_preference_interface' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShop\PrestaShop\Adapter\Admin\PagePreference A PrestaShop\PrestaShop\Adapter\Admin\PagePreference instance
+     * @return \PrestaShop\PrestaShop\Adapter\Admin\PagePreference
      */
     protected function getPrestashop_Core_Admin_PagePreferenceInterfaceService()
     {
@@ -2795,12 +2288,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.core.admin.tab.repository' service.
+     * Gets the public 'prestashop.core.admin.tab.repository' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Entity\Repository\TabRepository A PrestaShopBundle\Entity\Repository\TabRepository instance
+     * @return \PrestaShopBundle\Entity\Repository\TabRepository
      */
     protected function getPrestashop_Core_Admin_Tab_RepositoryService()
     {
@@ -2808,12 +2298,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.core.admin.translation.repository' service.
+     * Gets the public 'prestashop.core.admin.translation.repository' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Entity\Repository\TranslationRepository A PrestaShopBundle\Entity\Repository\TranslationRepository instance
+     * @return \PrestaShopBundle\Entity\Repository\TranslationRepository
      */
     protected function getPrestashop_Core_Admin_Translation_RepositoryService()
     {
@@ -2821,12 +2308,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.core.admin.url_generator' service.
+     * Gets the public 'prestashop.core.admin.url_generator' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Routing\Generator\UrlGeneratorInterface A Symfony\Component\Routing\Generator\UrlGeneratorInterface instance
+     * @return \Symfony\Component\Routing\Generator\UrlGeneratorInterface
      */
     protected function getPrestashop_Core_Admin_UrlGeneratorService()
     {
@@ -2834,12 +2318,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.core.admin.url_generator_factory' service.
+     * Gets the public 'prestashop.core.admin.url_generator_factory' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Service\TransitionalBehavior\AdminUrlGeneratorFactory A PrestaShopBundle\Service\TransitionalBehavior\AdminUrlGeneratorFactory instance
+     * @return \PrestaShopBundle\Service\TransitionalBehavior\AdminUrlGeneratorFactory
      */
     protected function getPrestashop_Core_Admin_UrlGeneratorFactoryService()
     {
@@ -2847,12 +2328,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.core.admin.url_generator_legacy' service.
+     * Gets the public 'prestashop.core.admin.url_generator_legacy' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Routing\Generator\UrlGeneratorInterface A Symfony\Component\Routing\Generator\UrlGeneratorInterface instance
+     * @return \Symfony\Component\Routing\Generator\UrlGeneratorInterface
      */
     protected function getPrestashop_Core_Admin_UrlGeneratorLegacyService()
     {
@@ -2860,12 +2338,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.core.api.attribute.controller' service.
+     * Gets the public 'prestashop.core.api.attribute.controller' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Controller\Api\AttributeController A PrestaShopBundle\Controller\Api\AttributeController instance
+     * @return \PrestaShopBundle\Controller\Api\AttributeController
      */
     protected function getPrestashop_Core_Api_Attribute_ControllerService()
     {
@@ -2879,12 +2354,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.core.api.category.controller' service.
+     * Gets the public 'prestashop.core.api.category.controller' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Controller\Api\CategoryController A PrestaShopBundle\Controller\Api\CategoryController instance
+     * @return \PrestaShopBundle\Controller\Api\CategoryController
      */
     protected function getPrestashop_Core_Api_Category_ControllerService()
     {
@@ -2898,12 +2370,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.core.api.category.repository' service.
+     * Gets the public 'prestashop.core.api.category.repository' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Entity\Repository\CategoryRepository A PrestaShopBundle\Entity\Repository\CategoryRepository instance
+     * @return \PrestaShopBundle\Entity\Repository\CategoryRepository
      */
     protected function getPrestashop_Core_Api_Category_RepositoryService()
     {
@@ -2911,12 +2380,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.core.api.feature.controller' service.
+     * Gets the public 'prestashop.core.api.feature.controller' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Controller\Api\FeatureController A PrestaShopBundle\Controller\Api\FeatureController instance
+     * @return \PrestaShopBundle\Controller\Api\FeatureController
      */
     protected function getPrestashop_Core_Api_Feature_ControllerService()
     {
@@ -2930,12 +2396,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.core.api.feature_attribute.repository' service.
+     * Gets the public 'prestashop.core.api.feature_attribute.repository' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Entity\Repository\FeatureAttributeRepository A PrestaShopBundle\Entity\Repository\FeatureAttributeRepository instance
+     * @return \PrestaShopBundle\Entity\Repository\FeatureAttributeRepository
      */
     protected function getPrestashop_Core_Api_FeatureAttribute_RepositoryService()
     {
@@ -2943,12 +2406,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.core.api.i18n.controller' service.
+     * Gets the public 'prestashop.core.api.i18n.controller' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Controller\Api\I18nController A PrestaShopBundle\Controller\Api\I18nController instance
+     * @return \PrestaShopBundle\Controller\Api\I18nController
      */
     protected function getPrestashop_Core_Api_I18n_ControllerService()
     {
@@ -2961,12 +2421,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.core.api.manufacturer.controller' service.
+     * Gets the public 'prestashop.core.api.manufacturer.controller' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Controller\Api\ManufacturerController A PrestaShopBundle\Controller\Api\ManufacturerController instance
+     * @return \PrestaShopBundle\Controller\Api\ManufacturerController
      */
     protected function getPrestashop_Core_Api_Manufacturer_ControllerService()
     {
@@ -2980,12 +2437,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.core.api.manufacturer.repository' service.
+     * Gets the public 'prestashop.core.api.manufacturer.repository' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Entity\Repository\ManufacturerRepository A PrestaShopBundle\Entity\Repository\ManufacturerRepository instance
+     * @return \PrestaShopBundle\Entity\Repository\ManufacturerRepository
      */
     protected function getPrestashop_Core_Api_Manufacturer_RepositoryService()
     {
@@ -2993,12 +2447,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.core.api.query_stock_movement_params_collection' service.
+     * Gets the public 'prestashop.core.api.query_stock_movement_params_collection' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Api\QueryStockMovementParamsCollection A PrestaShopBundle\Api\QueryStockMovementParamsCollection instance
+     * @return \PrestaShopBundle\Api\QueryStockMovementParamsCollection
      */
     protected function getPrestashop_Core_Api_QueryStockMovementParamsCollectionService()
     {
@@ -3006,12 +2457,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.core.api.query_stock_params_collection' service.
+     * Gets the public 'prestashop.core.api.query_stock_params_collection' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Api\QueryStockParamsCollection A PrestaShopBundle\Api\QueryStockParamsCollection instance
+     * @return \PrestaShopBundle\Api\QueryStockParamsCollection
      */
     protected function getPrestashop_Core_Api_QueryStockParamsCollectionService()
     {
@@ -3019,12 +2467,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.core.api.query_translation_params_collection' service.
+     * Gets the public 'prestashop.core.api.query_translation_params_collection' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Api\QueryTranslationParamsCollection A PrestaShopBundle\Api\QueryTranslationParamsCollection instance
+     * @return \PrestaShopBundle\Api\QueryTranslationParamsCollection
      */
     protected function getPrestashop_Core_Api_QueryTranslationParamsCollectionService()
     {
@@ -3032,12 +2477,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.core.api.stock.controller' service.
+     * Gets the public 'prestashop.core.api.stock.controller' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Controller\Api\StockController A PrestaShopBundle\Controller\Api\StockController instance
+     * @return \PrestaShopBundle\Controller\Api\StockController
      */
     protected function getPrestashop_Core_Api_Stock_ControllerService()
     {
@@ -3053,12 +2495,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.core.api.stock.movements_collection' service.
+     * Gets the public 'prestashop.core.api.stock.movements_collection' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Api\Stock\MovementsCollection A PrestaShopBundle\Api\Stock\MovementsCollection instance
+     * @return \PrestaShopBundle\Api\Stock\MovementsCollection
      */
     protected function getPrestashop_Core_Api_Stock_MovementsCollectionService()
     {
@@ -3066,12 +2505,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.core.api.stock.repository' service.
+     * Gets the public 'prestashop.core.api.stock.repository' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Entity\Repository\StockRepository A PrestaShopBundle\Entity\Repository\StockRepository instance
+     * @return \PrestaShopBundle\Entity\Repository\StockRepository
      */
     protected function getPrestashop_Core_Api_Stock_RepositoryService()
     {
@@ -3079,12 +2515,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.core.api.stockmovement.controller' service.
+     * Gets the public 'prestashop.core.api.stockmovement.controller' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Controller\Api\StockMovementController A PrestaShopBundle\Controller\Api\StockMovementController instance
+     * @return \PrestaShopBundle\Controller\Api\StockMovementController
      */
     protected function getPrestashop_Core_Api_Stockmovement_ControllerService()
     {
@@ -3099,12 +2532,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.core.api.stockmovement.repository' service.
+     * Gets the public 'prestashop.core.api.stockmovement.repository' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Entity\Repository\StockMovementRepository A PrestaShopBundle\Entity\Repository\StockMovementRepository instance
+     * @return \PrestaShopBundle\Entity\Repository\StockMovementRepository
      */
     protected function getPrestashop_Core_Api_Stockmovement_RepositoryService()
     {
@@ -3112,12 +2542,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.core.api.supplier.controller' service.
+     * Gets the public 'prestashop.core.api.supplier.controller' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Controller\Api\SupplierController A PrestaShopBundle\Controller\Api\SupplierController instance
+     * @return \PrestaShopBundle\Controller\Api\SupplierController
      */
     protected function getPrestashop_Core_Api_Supplier_ControllerService()
     {
@@ -3131,12 +2558,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.core.api.supplier.repository' service.
+     * Gets the public 'prestashop.core.api.supplier.repository' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Entity\Repository\SupplierRepository A PrestaShopBundle\Entity\Repository\SupplierRepository instance
+     * @return \PrestaShopBundle\Entity\Repository\SupplierRepository
      */
     protected function getPrestashop_Core_Api_Supplier_RepositoryService()
     {
@@ -3144,12 +2568,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.core.api.translation.controller' service.
+     * Gets the public 'prestashop.core.api.translation.controller' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Controller\Api\TranslationController A PrestaShopBundle\Controller\Api\TranslationController instance
+     * @return \PrestaShopBundle\Controller\Api\TranslationController
      */
     protected function getPrestashop_Core_Api_Translation_ControllerService()
     {
@@ -3164,12 +2585,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.core.data_provider.stock_interface' service.
+     * Gets the public 'prestashop.core.data_provider.stock_interface' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShop\PrestaShop\Adapter\StockManager A PrestaShop\PrestaShop\Adapter\StockManager instance
+     * @return \PrestaShop\PrestaShop\Adapter\StockManager
      */
     protected function getPrestashop_Core_DataProvider_StockInterfaceService()
     {
@@ -3177,12 +2595,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.core.module.updater' service.
+     * Gets the public 'prestashop.core.module.updater' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShop\PrestaShop\Adapter\Module\ModuleDataUpdater A PrestaShop\PrestaShop\Adapter\Module\ModuleDataUpdater instance
+     * @return \PrestaShop\PrestaShop\Adapter\Module\ModuleDataUpdater
      */
     protected function getPrestashop_Core_Module_UpdaterService()
     {
@@ -3190,12 +2605,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.csv' service.
+     * Gets the public 'prestashop.csv' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Service\Csv A PrestaShopBundle\Service\Csv instance
+     * @return \PrestaShopBundle\Service\Csv
      */
     protected function getPrestashop_CsvService()
     {
@@ -3203,12 +2615,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.data_provider.modules.recommended' service.
+     * Gets the public 'prestashop.data_provider.modules.recommended' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Service\DataProvider\Admin\RecommendedModules A PrestaShopBundle\Service\DataProvider\Admin\RecommendedModules instance
+     * @return \PrestaShopBundle\Service\DataProvider\Admin\RecommendedModules
      */
     protected function getPrestashop_DataProvider_Modules_RecommendedService()
     {
@@ -3216,12 +2625,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.database.naming_strategy' service.
+     * Gets the public 'prestashop.database.naming_strategy' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Service\Database\DoctrineNamingStrategy A PrestaShopBundle\Service\Database\DoctrineNamingStrategy instance
+     * @return \PrestaShopBundle\Service\Database\DoctrineNamingStrategy
      */
     protected function getPrestashop_Database_NamingStrategyService()
     {
@@ -3229,12 +2635,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.dumper.xliff' service.
+     * Gets the public 'prestashop.dumper.xliff' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShop\TranslationToolsBundle\Translation\Dumper\XliffFileDumper A PrestaShop\TranslationToolsBundle\Translation\Dumper\XliffFileDumper instance
+     * @return \PrestaShop\TranslationToolsBundle\Translation\Dumper\XliffFileDumper
      */
     protected function getPrestashop_Dumper_XliffService()
     {
@@ -3242,12 +2645,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.handler.log' service.
+     * Gets the public 'prestashop.handler.log' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Service\Log\LogHandler A PrestaShopBundle\Service\Log\LogHandler instance
+     * @return \PrestaShopBundle\Service\Log\LogHandler
      */
     protected function getPrestashop_Handler_LogService()
     {
@@ -3255,12 +2655,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.hook.dispatcher' service.
+     * Gets the public 'prestashop.hook.dispatcher' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Service\Hook\HookDispatcher A PrestaShopBundle\Service\Hook\HookDispatcher instance
+     * @return \PrestaShopBundle\Service\Hook\HookDispatcher
      */
     protected function getPrestashop_Hook_DispatcherService()
     {
@@ -3273,12 +2670,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.hook.finder' service.
+     * Gets the public 'prestashop.hook.finder' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Service\Hook\HookFinder A PrestaShopBundle\Service\Hook\HookFinder instance
+     * @return \PrestaShopBundle\Service\Hook\HookFinder
      */
     protected function getPrestashop_Hook_FinderService()
     {
@@ -3286,12 +2680,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.module.manager' service.
+     * Gets the public 'prestashop.module.manager' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShop\PrestaShop\Core\Addon\Module\ModuleManager A PrestaShop\PrestaShop\Core\Addon\Module\ModuleManager instance
+     * @return \PrestaShop\PrestaShop\Core\Addon\Module\ModuleManager
      */
     protected function getPrestashop_Module_ManagerService()
     {
@@ -3299,12 +2690,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.module.zip.manager' service.
+     * Gets the public 'prestashop.module.zip.manager' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShop\PrestaShop\Adapter\Module\ModuleZipManager A PrestaShop\PrestaShop\Adapter\Module\ModuleZipManager instance
+     * @return \PrestaShop\PrestaShop\Adapter\Module\ModuleZipManager
      */
     protected function getPrestashop_Module_Zip_ManagerService()
     {
@@ -3312,12 +2700,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.multishop_command_listener' service.
+     * Gets the public 'prestashop.multishop_command_listener' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\EventListener\MultishopCommandListener A PrestaShopBundle\EventListener\MultishopCommandListener instance
+     * @return \PrestaShopBundle\EventListener\MultishopCommandListener
      */
     protected function getPrestashop_MultishopCommandListenerService()
     {
@@ -3325,12 +2710,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.router' service.
+     * Gets the public 'prestashop.router' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Service\Routing\Router A PrestaShopBundle\Service\Routing\Router instance
+     * @return \PrestaShopBundle\Service\Routing\Router
      */
     protected function getPrestashop_RouterService()
     {
@@ -3344,12 +2726,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.security.admin.provider' service.
+     * Gets the public 'prestashop.security.admin.provider' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Security\Admin\EmployeeProvider A PrestaShopBundle\Security\Admin\EmployeeProvider instance
+     * @return \PrestaShopBundle\Security\Admin\EmployeeProvider
      */
     protected function getPrestashop_Security_Admin_ProviderService()
     {
@@ -3357,12 +2736,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.security.role.dynamic_role_hierarchy' service.
+     * Gets the public 'prestashop.security.role.dynamic_role_hierarchy' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Security\Role\DynamicRoleHierarchy A PrestaShopBundle\Security\Role\DynamicRoleHierarchy instance
+     * @return \PrestaShopBundle\Security\Role\DynamicRoleHierarchy
      */
     protected function getPrestashop_Security_Role_DynamicRoleHierarchyService()
     {
@@ -3370,12 +2746,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.service.product' service.
+     * Gets the public 'prestashop.service.product' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Service\ProductService A PrestaShopBundle\Service\ProductService instance
+     * @return \PrestaShopBundle\Service\ProductService
      */
     protected function getPrestashop_Service_ProductService()
     {
@@ -3383,12 +2756,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.service.translation' service.
+     * Gets the public 'prestashop.service.translation' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Service\TranslationService A PrestaShopBundle\Service\TranslationService instance
+     * @return \PrestaShopBundle\Service\TranslationService
      */
     protected function getPrestashop_Service_TranslationService()
     {
@@ -3400,12 +2770,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.smarty' service.
+     * Gets the public 'prestashop.smarty' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShop\TranslationToolsBundle\Smarty A PrestaShop\TranslationToolsBundle\Smarty instance
+     * @return \PrestaShop\TranslationToolsBundle\Smarty
      */
     protected function getPrestashop_SmartyService()
     {
@@ -3418,12 +2785,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.tokenized_url_listener' service.
+     * Gets the public 'prestashop.tokenized_url_listener' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\EventListener\TokenizedUrlsListener A PrestaShopBundle\EventListener\TokenizedUrlsListener instance
+     * @return \PrestaShopBundle\EventListener\TokenizedUrlsListener
      */
     protected function getPrestashop_TokenizedUrlListenerService()
     {
@@ -3431,12 +2795,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.translation.api.international' service.
+     * Gets the public 'prestashop.translation.api.international' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Translation\Api\InternationalApi A PrestaShopBundle\Translation\Api\InternationalApi instance
+     * @return \PrestaShopBundle\Translation\Api\InternationalApi
      */
     protected function getPrestashop_Translation_Api_InternationalService()
     {
@@ -3448,12 +2809,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.translation.api.stock' service.
+     * Gets the public 'prestashop.translation.api.stock' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Translation\Api\StockApi A PrestaShopBundle\Translation\Api\StockApi instance
+     * @return \PrestaShopBundle\Translation\Api\StockApi
      */
     protected function getPrestashop_Translation_Api_StockService()
     {
@@ -3465,12 +2823,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.translation.backoffice_provider' service.
+     * Gets the public 'prestashop.translation.backoffice_provider' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Translation\Provider\BackOfficeProvider A PrestaShopBundle\Translation\Provider\BackOfficeProvider instance
+     * @return \PrestaShopBundle\Translation\Provider\BackOfficeProvider
      */
     protected function getPrestashop_Translation_BackofficeProviderService()
     {
@@ -3478,12 +2833,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.translation.chainextractor' service.
+     * Gets the public 'prestashop.translation.chainextractor' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShop\TranslationToolsBundle\Translation\Extractor\ChainExtractor A PrestaShop\TranslationToolsBundle\Translation\Extractor\ChainExtractor instance
+     * @return \PrestaShop\TranslationToolsBundle\Translation\Extractor\ChainExtractor
      */
     protected function getPrestashop_Translation_ChainextractorService()
     {
@@ -3497,12 +2849,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.translation.database_loader' service.
+     * Gets the public 'prestashop.translation.database_loader' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Translation\Loader\DatabaseTranslationLoader A PrestaShopBundle\Translation\Loader\DatabaseTranslationLoader instance
+     * @return \PrestaShopBundle\Translation\Loader\DatabaseTranslationLoader
      */
     protected function getPrestashop_Translation_DatabaseLoaderService()
     {
@@ -3510,12 +2859,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.translation.dumper.xliff' service.
+     * Gets the public 'prestashop.translation.dumper.xliff' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShop\TranslationToolsBundle\Translation\Dumper\XliffFileDumper A PrestaShop\TranslationToolsBundle\Translation\Dumper\XliffFileDumper instance
+     * @return \PrestaShop\TranslationToolsBundle\Translation\Dumper\XliffFileDumper
      */
     protected function getPrestashop_Translation_Dumper_XliffService()
     {
@@ -3523,12 +2869,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.translation.extractor.crowdin.php' service.
+     * Gets the public 'prestashop.translation.extractor.crowdin.php' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShop\TranslationToolsBundle\Translation\Extractor\CrowdinPhpExtractor A PrestaShop\TranslationToolsBundle\Translation\Extractor\CrowdinPhpExtractor instance
+     * @return \PrestaShop\TranslationToolsBundle\Translation\Extractor\CrowdinPhpExtractor
      */
     protected function getPrestashop_Translation_Extractor_Crowdin_PhpService()
     {
@@ -3536,12 +2879,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.translation.extractor.php' service.
+     * Gets the public 'prestashop.translation.extractor.php' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShop\TranslationToolsBundle\Translation\Extractor\PhpExtractor A PrestaShop\TranslationToolsBundle\Translation\Extractor\PhpExtractor instance
+     * @return \PrestaShop\TranslationToolsBundle\Translation\Extractor\PhpExtractor
      */
     protected function getPrestashop_Translation_Extractor_PhpService()
     {
@@ -3549,12 +2889,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.translation.extractor.smarty' service.
+     * Gets the public 'prestashop.translation.extractor.smarty' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShop\TranslationToolsBundle\Translation\Extractor\SmartyExtractor A PrestaShop\TranslationToolsBundle\Translation\Extractor\SmartyExtractor instance
+     * @return \PrestaShop\TranslationToolsBundle\Translation\Extractor\SmartyExtractor
      */
     protected function getPrestashop_Translation_Extractor_SmartyService()
     {
@@ -3562,12 +2899,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.translation.extractor.twig' service.
+     * Gets the public 'prestashop.translation.extractor.twig' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShop\TranslationToolsBundle\Translation\Extractor\TwigExtractor A PrestaShop\TranslationToolsBundle\Translation\Extractor\TwigExtractor instance
+     * @return \PrestaShop\TranslationToolsBundle\Translation\Extractor\TwigExtractor
      */
     protected function getPrestashop_Translation_Extractor_TwigService()
     {
@@ -3575,12 +2909,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.translation.frontoffice_provider' service.
+     * Gets the public 'prestashop.translation.frontoffice_provider' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Translation\Provider\FrontOfficeProvider A PrestaShopBundle\Translation\Provider\FrontOfficeProvider instance
+     * @return \PrestaShopBundle\Translation\Provider\FrontOfficeProvider
      */
     protected function getPrestashop_Translation_FrontofficeProviderService()
     {
@@ -3588,12 +2919,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.translation.mails' service.
+     * Gets the public 'prestashop.translation.mails' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Translation\Provider\MailsProvider A PrestaShopBundle\Translation\Provider\MailsProvider instance
+     * @return \PrestaShopBundle\Translation\Provider\MailsProvider
      */
     protected function getPrestashop_Translation_MailsService()
     {
@@ -3601,12 +2929,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.translation.manager.original_string_manager' service.
+     * Gets the public 'prestashop.translation.manager.original_string_manager' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShop\TranslationToolsBundle\Translation\Manager\OriginalStringManager A PrestaShop\TranslationToolsBundle\Translation\Manager\OriginalStringManager instance
+     * @return \PrestaShop\TranslationToolsBundle\Translation\Manager\OriginalStringManager
      */
     protected function getPrestashop_Translation_Manager_OriginalStringManagerService()
     {
@@ -3614,12 +2939,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.translation.manager.translation_manager' service.
+     * Gets the public 'prestashop.translation.manager.translation_manager' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShop\TranslationToolsBundle\Translation\Manager\TranslationManager A PrestaShop\TranslationToolsBundle\Translation\Manager\TranslationManager instance
+     * @return \PrestaShop\TranslationToolsBundle\Translation\Manager\TranslationManager
      */
     protected function getPrestashop_Translation_Manager_TranslationManagerService()
     {
@@ -3627,12 +2949,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.translation.module_provider' service.
+     * Gets the public 'prestashop.translation.module_provider' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Translation\Provider\ModuleProvider A PrestaShopBundle\Translation\Provider\ModuleProvider instance
+     * @return \PrestaShopBundle\Translation\Provider\ModuleProvider
      */
     protected function getPrestashop_Translation_ModuleProviderService()
     {
@@ -3640,12 +2959,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.translation.modules_provider' service.
+     * Gets the public 'prestashop.translation.modules_provider' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Translation\Provider\ModulesProvider A PrestaShopBundle\Translation\Provider\ModulesProvider instance
+     * @return \PrestaShopBundle\Translation\Provider\ModulesProvider
      */
     protected function getPrestashop_Translation_ModulesProviderService()
     {
@@ -3653,12 +2969,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.translation.others_provider' service.
+     * Gets the public 'prestashop.translation.others_provider' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Translation\Provider\OthersProvider A PrestaShopBundle\Translation\Provider\OthersProvider instance
+     * @return \PrestaShopBundle\Translation\Provider\OthersProvider
      */
     protected function getPrestashop_Translation_OthersProviderService()
     {
@@ -3666,12 +2979,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.translation.parser.crowdin_php_parser' service.
+     * Gets the public 'prestashop.translation.parser.crowdin_php_parser' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShop\TranslationToolsBundle\Translation\Parser\CrowdinPhpParser A PrestaShop\TranslationToolsBundle\Translation\Parser\CrowdinPhpParser instance
+     * @return \PrestaShop\TranslationToolsBundle\Translation\Parser\CrowdinPhpParser
      */
     protected function getPrestashop_Translation_Parser_CrowdinPhpParserService()
     {
@@ -3679,12 +2989,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.translation.search_provider' service.
+     * Gets the public 'prestashop.translation.search_provider' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Translation\Provider\SearchProvider A PrestaShopBundle\Translation\Provider\SearchProvider instance
+     * @return \PrestaShopBundle\Translation\Provider\SearchProvider
      */
     protected function getPrestashop_Translation_SearchProviderService()
     {
@@ -3692,12 +2999,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.translation.theme.exporter' service.
+     * Gets the public 'prestashop.translation.theme.exporter' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Translation\Exporter\ThemeExporter A PrestaShopBundle\Translation\Exporter\ThemeExporter instance
+     * @return \PrestaShopBundle\Translation\Exporter\ThemeExporter
      */
     protected function getPrestashop_Translation_Theme_ExporterService()
     {
@@ -3710,12 +3014,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.translation.theme_extractor' service.
+     * Gets the public 'prestashop.translation.theme_extractor' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Translation\Extractor\ThemeExtractor A PrestaShopBundle\Translation\Extractor\ThemeExtractor instance
+     * @return \PrestaShopBundle\Translation\Extractor\ThemeExtractor
      */
     protected function getPrestashop_Translation_ThemeExtractorService()
     {
@@ -3723,12 +3024,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.translation.theme_provider' service.
+     * Gets the public 'prestashop.translation.theme_provider' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Translation\Provider\ThemeProvider A PrestaShopBundle\Translation\Provider\ThemeProvider instance
+     * @return \PrestaShopBundle\Translation\Provider\ThemeProvider
      */
     protected function getPrestashop_Translation_ThemeProviderService()
     {
@@ -3744,12 +3042,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.translation.theme_translations_factory' service.
+     * Gets the public 'prestashop.translation.theme_translations_factory' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Translation\Factory\ThemeTranslationsFactory A PrestaShopBundle\Translation\Factory\ThemeTranslationsFactory instance
+     * @return \PrestaShopBundle\Translation\Factory\ThemeTranslationsFactory
      */
     protected function getPrestashop_Translation_ThemeTranslationsFactoryService()
     {
@@ -3763,12 +3058,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.translation.translations_factory' service.
+     * Gets the public 'prestashop.translation.translations_factory' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Translation\Factory\TranslationsFactory A PrestaShopBundle\Translation\Factory\TranslationsFactory instance
+     * @return \PrestaShopBundle\Translation\Factory\TranslationsFactory
      */
     protected function getPrestashop_Translation_TranslationsFactoryService()
     {
@@ -3786,12 +3078,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.twig.extension.admin' service.
+     * Gets the public 'prestashop.twig.extension.admin' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Twig\AdminExtension A PrestaShopBundle\Twig\AdminExtension instance
+     * @return \PrestaShopBundle\Twig\AdminExtension
      */
     protected function getPrestashop_Twig_Extension_AdminService()
     {
@@ -3799,12 +3088,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.twig.extension.dataformatter' service.
+     * Gets the public 'prestashop.twig.extension.dataformatter' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Twig\DataFormatterExtension A PrestaShopBundle\Twig\DataFormatterExtension instance
+     * @return \PrestaShopBundle\Twig\DataFormatterExtension
      */
     protected function getPrestashop_Twig_Extension_DataformatterService()
     {
@@ -3812,12 +3098,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.twig.extension.hook' service.
+     * Gets the public 'prestashop.twig.extension.hook' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Twig\HookExtension A PrestaShopBundle\Twig\HookExtension instance
+     * @return \PrestaShopBundle\Twig\HookExtension
      */
     protected function getPrestashop_Twig_Extension_HookService()
     {
@@ -3825,12 +3108,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.twig.extension.layout' service.
+     * Gets the public 'prestashop.twig.extension.layout' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Twig\LayoutExtension A PrestaShopBundle\Twig\LayoutExtension instance
+     * @return \PrestaShopBundle\Twig\LayoutExtension
      */
     protected function getPrestashop_Twig_Extension_LayoutService()
     {
@@ -3838,12 +3118,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.twig.extension.stringloader' service.
+     * Gets the public 'prestashop.twig.extension.stringloader' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Twig_Extension_StringLoader A Twig_Extension_StringLoader instance
+     * @return \Twig_Extension_StringLoader
      */
     protected function getPrestashop_Twig_Extension_StringloaderService()
     {
@@ -3851,12 +3128,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.twig.extension.translation' service.
+     * Gets the public 'prestashop.twig.extension.translation' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Twig\TranslationsExtension A PrestaShopBundle\Twig\TranslationsExtension instance
+     * @return \PrestaShopBundle\Twig\TranslationsExtension
      */
     protected function getPrestashop_Twig_Extension_TranslationService()
     {
@@ -3869,12 +3143,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.user_locale.listener' service.
+     * Gets the public 'prestashop.user_locale.listener' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\EventListener\UserLocaleListener A PrestaShopBundle\EventListener\UserLocaleListener instance
+     * @return \PrestaShopBundle\EventListener\UserLocaleListener
      */
     protected function getPrestashop_UserLocale_ListenerService()
     {
@@ -3882,12 +3153,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.user_provider' service.
+     * Gets the public 'prestashop.user_provider' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Service\DataProvider\UserProvider A PrestaShopBundle\Service\DataProvider\UserProvider instance
+     * @return \PrestaShopBundle\Service\DataProvider\UserProvider
      */
     protected function getPrestashop_UserProviderService()
     {
@@ -3895,12 +3163,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'prestashop.utils.zip_manager' service.
+     * Gets the public 'prestashop.utils.zip_manager' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Utils\ZipManager A PrestaShopBundle\Utils\ZipManager instance
+     * @return \PrestaShopBundle\Utils\ZipManager
      */
     protected function getPrestashop_Utils_ZipManagerService()
     {
@@ -3908,12 +3173,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'property_accessor' service.
+     * Gets the public 'property_accessor' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\PropertyAccess\PropertyAccessor A Symfony\Component\PropertyAccess\PropertyAccessor instance
+     * @return \Symfony\Component\PropertyAccess\PropertyAccessor
      */
     protected function getPropertyAccessorService()
     {
@@ -3921,10 +3183,7 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'request' service.
-     *
-     * This service is shared.
-     * This method always returns the same instance of the service.
+     * Gets the public 'request' shared service.
      *
      * @throws RuntimeException always since this service is expected to be injected dynamically
      * @throws InactiveScopeException when the 'request' service is requested while the 'request' scope is not active
@@ -3940,12 +3199,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'request_stack' service.
+     * Gets the public 'request_stack' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\HttpFoundation\RequestStack A Symfony\Component\HttpFoundation\RequestStack instance
+     * @return \Symfony\Component\HttpFoundation\RequestStack
      */
     protected function getRequestStackService()
     {
@@ -3953,12 +3209,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'response_listener' service.
+     * Gets the public 'response_listener' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\HttpKernel\EventListener\ResponseListener A Symfony\Component\HttpKernel\EventListener\ResponseListener instance
+     * @return \Symfony\Component\HttpKernel\EventListener\ResponseListener
      */
     protected function getResponseListenerService()
     {
@@ -3966,12 +3219,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'router_listener' service.
+     * Gets the public 'router_listener' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\HttpKernel\EventListener\RouterListener A Symfony\Component\HttpKernel\EventListener\RouterListener instance
+     * @return \Symfony\Component\HttpKernel\EventListener\RouterListener
      */
     protected function getRouterListenerService()
     {
@@ -3979,12 +3229,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'routing.loader' service.
+     * Gets the public 'routing.loader' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Bundle\FrameworkBundle\Routing\DelegatingLoader A Symfony\Bundle\FrameworkBundle\Routing\DelegatingLoader instance
+     * @return \Symfony\Bundle\FrameworkBundle\Routing\DelegatingLoader
      */
     protected function getRouting_LoaderService()
     {
@@ -4007,12 +3254,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'security.authentication.guard_handler' service.
+     * Gets the public 'security.authentication.guard_handler' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Security\Guard\GuardAuthenticatorHandler A Symfony\Component\Security\Guard\GuardAuthenticatorHandler instance
+     * @return \Symfony\Component\Security\Guard\GuardAuthenticatorHandler
      */
     protected function getSecurity_Authentication_GuardHandlerService()
     {
@@ -4020,12 +3264,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'security.authentication_utils' service.
+     * Gets the public 'security.authentication_utils' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Security\Http\Authentication\AuthenticationUtils A Symfony\Component\Security\Http\Authentication\AuthenticationUtils instance
+     * @return \Symfony\Component\Security\Http\Authentication\AuthenticationUtils
      */
     protected function getSecurity_AuthenticationUtilsService()
     {
@@ -4033,12 +3274,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'security.authorization_checker' service.
+     * Gets the public 'security.authorization_checker' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Security\Core\Authorization\AuthorizationChecker A Symfony\Component\Security\Core\Authorization\AuthorizationChecker instance
+     * @return \Symfony\Component\Security\Core\Authorization\AuthorizationChecker
      */
     protected function getSecurity_AuthorizationCheckerService()
     {
@@ -4046,12 +3284,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'security.context' service.
+     * Gets the public 'security.context' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Security\Core\SecurityContext A Symfony\Component\Security\Core\SecurityContext instance
+     * @return \Symfony\Component\Security\Core\SecurityContext
      *
      * @deprecated The "security.context" service is deprecated since Symfony 2.6 and will be removed in 3.0.
      */
@@ -4063,12 +3298,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'security.csrf.token_manager' service.
+     * Gets the public 'security.csrf.token_manager' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Security\Csrf\CsrfTokenManager A Symfony\Component\Security\Csrf\CsrfTokenManager instance
+     * @return \Symfony\Component\Security\Csrf\CsrfTokenManager
      */
     protected function getSecurity_Csrf_TokenManagerService()
     {
@@ -4076,12 +3308,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'security.encoder_factory' service.
+     * Gets the public 'security.encoder_factory' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Security\Core\Encoder\EncoderFactory A Symfony\Component\Security\Core\Encoder\EncoderFactory instance
+     * @return \Symfony\Component\Security\Core\Encoder\EncoderFactory
      */
     protected function getSecurity_EncoderFactoryService()
     {
@@ -4089,12 +3318,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'security.firewall' service.
+     * Gets the public 'security.firewall' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Security\Http\Firewall A Symfony\Component\Security\Http\Firewall instance
+     * @return \Symfony\Component\Security\Http\Firewall
      */
     protected function getSecurity_FirewallService()
     {
@@ -4102,12 +3328,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'security.firewall.map.context.dev' service.
+     * Gets the public 'security.firewall.map.context.dev' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Bundle\SecurityBundle\Security\FirewallContext A Symfony\Bundle\SecurityBundle\Security\FirewallContext instance
+     * @return \Symfony\Bundle\SecurityBundle\Security\FirewallContext
      */
     protected function getSecurity_Firewall_Map_Context_DevService()
     {
@@ -4115,32 +3338,26 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'security.firewall.map.context.main' service.
+     * Gets the public 'security.firewall.map.context.main' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Bundle\SecurityBundle\Security\FirewallContext A Symfony\Bundle\SecurityBundle\Security\FirewallContext instance
+     * @return \Symfony\Bundle\SecurityBundle\Security\FirewallContext
      */
     protected function getSecurity_Firewall_Map_Context_MainService()
     {
         $a = $this->get('monolog.logger.security', ContainerInterface::NULL_ON_INVALID_REFERENCE);
         $b = $this->get('security.token_storage');
         $c = $this->get('security.authentication.manager');
-        $d = $this->get('router', ContainerInterface::NULL_ON_INVALID_REFERENCE);
+        $d = $this->get('prestashop.router', ContainerInterface::NULL_ON_INVALID_REFERENCE);
 
         $e = new \Symfony\Component\Security\Http\AccessMap();
 
-        return $this->services['security.firewall.map.context.main'] = new \Symfony\Bundle\SecurityBundle\Security\FirewallContext(array(0 => new \Symfony\Component\Security\Http\Firewall\ChannelListener($e, new \Symfony\Component\Security\Http\EntryPoint\RetryAuthenticationEntryPoint(80, 443), $a), 1 => new \Symfony\Component\Security\Http\Firewall\ContextListener($b, array(0 => new \Symfony\Component\Security\Core\User\InMemoryUserProvider(), 1 => $this->get('prestashop.security.admin.provider')), 'main', $a, $this->get('event_dispatcher', ContainerInterface::NULL_ON_INVALID_REFERENCE)), 2 => new \Symfony\Component\Security\Http\Firewall\AnonymousAuthenticationListener($b, '5a22426cec4957.63579232', $a, $c), 3 => new \Symfony\Component\Security\Http\Firewall\AccessListener($b, $this->get('security.access.decision_manager'), $e, $c)), new \Symfony\Component\Security\Http\Firewall\ExceptionListener($b, $this->get('security.authentication.trust_resolver'), new \Symfony\Component\Security\Http\HttpUtils($d, $d), 'main', NULL, NULL, NULL, $a, false));
+        return $this->services['security.firewall.map.context.main'] = new \Symfony\Bundle\SecurityBundle\Security\FirewallContext(array(0 => new \Symfony\Component\Security\Http\Firewall\ChannelListener($e, new \Symfony\Component\Security\Http\EntryPoint\RetryAuthenticationEntryPoint(80, 443), $a), 1 => new \Symfony\Component\Security\Http\Firewall\ContextListener($b, array(0 => new \Symfony\Component\Security\Core\User\InMemoryUserProvider(), 1 => $this->get('prestashop.security.admin.provider')), 'main', $a, $this->get('event_dispatcher', ContainerInterface::NULL_ON_INVALID_REFERENCE)), 2 => new \Symfony\Component\Security\Http\Firewall\AnonymousAuthenticationListener($b, '5a54fe8eac3958.59979401', $a, $c), 3 => new \Symfony\Component\Security\Http\Firewall\AccessListener($b, $this->get('security.access.decision_manager'), $e, $c)), new \Symfony\Component\Security\Http\Firewall\ExceptionListener($b, $this->get('security.authentication.trust_resolver'), new \Symfony\Component\Security\Http\HttpUtils($d, $d), 'main', NULL, NULL, NULL, $a, false));
     }
 
     /*
-     * Gets the 'security.password_encoder' service.
+     * Gets the public 'security.password_encoder' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Security\Core\Encoder\UserPasswordEncoder A Symfony\Component\Security\Core\Encoder\UserPasswordEncoder instance
+     * @return \Symfony\Component\Security\Core\Encoder\UserPasswordEncoder
      */
     protected function getSecurity_PasswordEncoderService()
     {
@@ -4148,12 +3365,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'security.rememberme.response_listener' service.
+     * Gets the public 'security.rememberme.response_listener' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Security\Http\RememberMe\ResponseListener A Symfony\Component\Security\Http\RememberMe\ResponseListener instance
+     * @return \Symfony\Component\Security\Http\RememberMe\ResponseListener
      */
     protected function getSecurity_Rememberme_ResponseListenerService()
     {
@@ -4161,12 +3375,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'security.secure_random' service.
+     * Gets the public 'security.secure_random' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Security\Core\Util\SecureRandom A Symfony\Component\Security\Core\Util\SecureRandom instance
+     * @return \Symfony\Component\Security\Core\Util\SecureRandom
      *
      * @deprecated The "security.secure_random" service is deprecated since Symfony 2.8 and will be removed in 3.0. Use the random_bytes() function instead.
      */
@@ -4178,12 +3389,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'security.token_storage' service.
+     * Gets the public 'security.token_storage' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Security\Core\Authentication\Token\Storage\TokenStorage A Symfony\Component\Security\Core\Authentication\Token\Storage\TokenStorage instance
+     * @return \Symfony\Component\Security\Core\Authentication\Token\Storage\TokenStorage
      */
     protected function getSecurity_TokenStorageService()
     {
@@ -4191,12 +3399,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'security.user_checker.main' service.
+     * Gets the public 'security.user_checker.main' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Security\Core\User\UserChecker A Symfony\Component\Security\Core\User\UserChecker instance
+     * @return \Symfony\Component\Security\Core\User\UserChecker
      */
     protected function getSecurity_UserChecker_MainService()
     {
@@ -4204,12 +3409,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'security.validator.user_password' service.
+     * Gets the public 'security.validator.user_password' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Security\Core\Validator\Constraints\UserPasswordValidator A Symfony\Component\Security\Core\Validator\Constraints\UserPasswordValidator instance
+     * @return \Symfony\Component\Security\Core\Validator\Constraints\UserPasswordValidator
      */
     protected function getSecurity_Validator_UserPasswordService()
     {
@@ -4217,12 +3419,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'sensio_framework_extra.cache.listener' service.
+     * Gets the public 'sensio_framework_extra.cache.listener' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Sensio\Bundle\FrameworkExtraBundle\EventListener\HttpCacheListener A Sensio\Bundle\FrameworkExtraBundle\EventListener\HttpCacheListener instance
+     * @return \Sensio\Bundle\FrameworkExtraBundle\EventListener\HttpCacheListener
      */
     protected function getSensioFrameworkExtra_Cache_ListenerService()
     {
@@ -4230,12 +3429,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'sensio_framework_extra.controller.listener' service.
+     * Gets the public 'sensio_framework_extra.controller.listener' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Sensio\Bundle\FrameworkExtraBundle\EventListener\ControllerListener A Sensio\Bundle\FrameworkExtraBundle\EventListener\ControllerListener instance
+     * @return \Sensio\Bundle\FrameworkExtraBundle\EventListener\ControllerListener
      */
     protected function getSensioFrameworkExtra_Controller_ListenerService()
     {
@@ -4243,12 +3439,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'sensio_framework_extra.converter.datetime' service.
+     * Gets the public 'sensio_framework_extra.converter.datetime' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Sensio\Bundle\FrameworkExtraBundle\Request\ParamConverter\DateTimeParamConverter A Sensio\Bundle\FrameworkExtraBundle\Request\ParamConverter\DateTimeParamConverter instance
+     * @return \Sensio\Bundle\FrameworkExtraBundle\Request\ParamConverter\DateTimeParamConverter
      */
     protected function getSensioFrameworkExtra_Converter_DatetimeService()
     {
@@ -4256,12 +3449,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'sensio_framework_extra.converter.doctrine.orm' service.
+     * Gets the public 'sensio_framework_extra.converter.doctrine.orm' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Sensio\Bundle\FrameworkExtraBundle\Request\ParamConverter\DoctrineParamConverter A Sensio\Bundle\FrameworkExtraBundle\Request\ParamConverter\DoctrineParamConverter instance
+     * @return \Sensio\Bundle\FrameworkExtraBundle\Request\ParamConverter\DoctrineParamConverter
      */
     protected function getSensioFrameworkExtra_Converter_Doctrine_OrmService()
     {
@@ -4269,12 +3459,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'sensio_framework_extra.converter.listener' service.
+     * Gets the public 'sensio_framework_extra.converter.listener' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Sensio\Bundle\FrameworkExtraBundle\EventListener\ParamConverterListener A Sensio\Bundle\FrameworkExtraBundle\EventListener\ParamConverterListener instance
+     * @return \Sensio\Bundle\FrameworkExtraBundle\EventListener\ParamConverterListener
      */
     protected function getSensioFrameworkExtra_Converter_ListenerService()
     {
@@ -4282,12 +3469,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'sensio_framework_extra.converter.manager' service.
+     * Gets the public 'sensio_framework_extra.converter.manager' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Sensio\Bundle\FrameworkExtraBundle\Request\ParamConverter\ParamConverterManager A Sensio\Bundle\FrameworkExtraBundle\Request\ParamConverter\ParamConverterManager instance
+     * @return \Sensio\Bundle\FrameworkExtraBundle\Request\ParamConverter\ParamConverterManager
      */
     protected function getSensioFrameworkExtra_Converter_ManagerService()
     {
@@ -4300,12 +3484,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'sensio_framework_extra.security.listener' service.
+     * Gets the public 'sensio_framework_extra.security.listener' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Sensio\Bundle\FrameworkExtraBundle\EventListener\SecurityListener A Sensio\Bundle\FrameworkExtraBundle\EventListener\SecurityListener instance
+     * @return \Sensio\Bundle\FrameworkExtraBundle\EventListener\SecurityListener
      */
     protected function getSensioFrameworkExtra_Security_ListenerService()
     {
@@ -4313,12 +3494,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'sensio_framework_extra.view.guesser' service.
+     * Gets the public 'sensio_framework_extra.view.guesser' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Sensio\Bundle\FrameworkExtraBundle\Templating\TemplateGuesser A Sensio\Bundle\FrameworkExtraBundle\Templating\TemplateGuesser instance
+     * @return \Sensio\Bundle\FrameworkExtraBundle\Templating\TemplateGuesser
      */
     protected function getSensioFrameworkExtra_View_GuesserService()
     {
@@ -4326,12 +3504,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'sensio_framework_extra.view.listener' service.
+     * Gets the public 'sensio_framework_extra.view.listener' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Sensio\Bundle\FrameworkExtraBundle\EventListener\TemplateListener A Sensio\Bundle\FrameworkExtraBundle\EventListener\TemplateListener instance
+     * @return \Sensio\Bundle\FrameworkExtraBundle\EventListener\TemplateListener
      */
     protected function getSensioFrameworkExtra_View_ListenerService()
     {
@@ -4339,10 +3514,7 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'service_container' service.
-     *
-     * This service is shared.
-     * This method always returns the same instance of the service.
+     * Gets the public 'service_container' shared service.
      *
      * @throws RuntimeException always since this service is expected to be injected dynamically
      */
@@ -4352,12 +3524,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'session' service.
+     * Gets the public 'session' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\HttpFoundation\Session\Session A Symfony\Component\HttpFoundation\Session\Session instance
+     * @return \Symfony\Component\HttpFoundation\Session\Session
      */
     protected function getSessionService()
     {
@@ -4365,12 +3534,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'session.save_listener' service.
+     * Gets the public 'session.save_listener' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\HttpKernel\EventListener\SaveSessionListener A Symfony\Component\HttpKernel\EventListener\SaveSessionListener instance
+     * @return \Symfony\Component\HttpKernel\EventListener\SaveSessionListener
      */
     protected function getSession_SaveListenerService()
     {
@@ -4378,12 +3544,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'session.storage.filesystem' service.
+     * Gets the public 'session.storage.filesystem' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\HttpFoundation\Session\Storage\MockFileSessionStorage A Symfony\Component\HttpFoundation\Session\Storage\MockFileSessionStorage instance
+     * @return \Symfony\Component\HttpFoundation\Session\Storage\MockFileSessionStorage
      */
     protected function getSession_Storage_FilesystemService()
     {
@@ -4391,12 +3554,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'session.storage.native' service.
+     * Gets the public 'session.storage.native' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\HttpFoundation\Session\Storage\NativeSessionStorage A Symfony\Component\HttpFoundation\Session\Storage\NativeSessionStorage instance
+     * @return \Symfony\Component\HttpFoundation\Session\Storage\NativeSessionStorage
      */
     protected function getSession_Storage_NativeService()
     {
@@ -4404,12 +3564,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'session.storage.php_bridge' service.
+     * Gets the public 'session.storage.php_bridge' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\HttpFoundation\Session\Storage\PhpBridgeSessionStorage A Symfony\Component\HttpFoundation\Session\Storage\PhpBridgeSessionStorage instance
+     * @return \Symfony\Component\HttpFoundation\Session\Storage\PhpBridgeSessionStorage
      */
     protected function getSession_Storage_PhpBridgeService()
     {
@@ -4417,12 +3574,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'session_listener' service.
+     * Gets the public 'session_listener' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Bundle\FrameworkBundle\EventListener\SessionListener A Symfony\Bundle\FrameworkBundle\EventListener\SessionListener instance
+     * @return \Symfony\Bundle\FrameworkBundle\EventListener\SessionListener
      */
     protected function getSessionListenerService()
     {
@@ -4430,12 +3584,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'streamed_response_listener' service.
+     * Gets the public 'streamed_response_listener' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\HttpKernel\EventListener\StreamedResponseListener A Symfony\Component\HttpKernel\EventListener\StreamedResponseListener instance
+     * @return \Symfony\Component\HttpKernel\EventListener\StreamedResponseListener
      */
     protected function getStreamedResponseListenerService()
     {
@@ -4443,12 +3594,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'swiftmailer.email_sender.listener' service.
+     * Gets the public 'swiftmailer.email_sender.listener' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Bundle\SwiftmailerBundle\EventListener\EmailSenderListener A Symfony\Bundle\SwiftmailerBundle\EventListener\EmailSenderListener instance
+     * @return \Symfony\Bundle\SwiftmailerBundle\EventListener\EmailSenderListener
      */
     protected function getSwiftmailer_EmailSender_ListenerService()
     {
@@ -4456,12 +3604,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'swiftmailer.mailer.default' service.
+     * Gets the public 'swiftmailer.mailer.default' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Swift_Mailer A Swift_Mailer instance
+     * @return \Swift_Mailer
      */
     protected function getSwiftmailer_Mailer_DefaultService()
     {
@@ -4469,12 +3614,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'swiftmailer.mailer.default.spool' service.
+     * Gets the public 'swiftmailer.mailer.default.spool' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Swift_MemorySpool A Swift_MemorySpool instance
+     * @return \Swift_MemorySpool
      */
     protected function getSwiftmailer_Mailer_Default_SpoolService()
     {
@@ -4482,12 +3624,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'swiftmailer.mailer.default.transport' service.
+     * Gets the public 'swiftmailer.mailer.default.transport' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Swift_Transport_SpoolTransport A Swift_Transport_SpoolTransport instance
+     * @return \Swift_Transport_SpoolTransport
      */
     protected function getSwiftmailer_Mailer_Default_TransportService()
     {
@@ -4495,12 +3634,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'swiftmailer.mailer.default.transport.real' service.
+     * Gets the public 'swiftmailer.mailer.default.transport.real' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Swift_Transport_EsmtpTransport A Swift_Transport_EsmtpTransport instance
+     * @return \Swift_Transport_EsmtpTransport
      */
     protected function getSwiftmailer_Mailer_Default_Transport_RealService()
     {
@@ -4521,12 +3657,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'templating' service.
+     * Gets the public 'templating' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Bundle\TwigBundle\TwigEngine A Symfony\Bundle\TwigBundle\TwigEngine instance
+     * @return \Symfony\Bundle\TwigBundle\TwigEngine
      */
     protected function getTemplatingService()
     {
@@ -4534,12 +3667,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'templating.filename_parser' service.
+     * Gets the public 'templating.filename_parser' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Bundle\FrameworkBundle\Templating\TemplateFilenameParser A Symfony\Bundle\FrameworkBundle\Templating\TemplateFilenameParser instance
+     * @return \Symfony\Bundle\FrameworkBundle\Templating\TemplateFilenameParser
      */
     protected function getTemplating_FilenameParserService()
     {
@@ -4547,12 +3677,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'templating.helper.assets' service.
+     * Gets the public 'templating.helper.assets' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Bundle\FrameworkBundle\Templating\Helper\AssetsHelper A Symfony\Bundle\FrameworkBundle\Templating\Helper\AssetsHelper instance
+     * @return \Symfony\Bundle\FrameworkBundle\Templating\Helper\AssetsHelper
      */
     protected function getTemplating_Helper_AssetsService()
     {
@@ -4560,12 +3687,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'templating.helper.logout_url' service.
+     * Gets the public 'templating.helper.logout_url' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Bundle\SecurityBundle\Templating\Helper\LogoutUrlHelper A Symfony\Bundle\SecurityBundle\Templating\Helper\LogoutUrlHelper instance
+     * @return \Symfony\Bundle\SecurityBundle\Templating\Helper\LogoutUrlHelper
      */
     protected function getTemplating_Helper_LogoutUrlService()
     {
@@ -4573,12 +3697,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'templating.helper.router' service.
+     * Gets the public 'templating.helper.router' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Bundle\FrameworkBundle\Templating\Helper\RouterHelper A Symfony\Bundle\FrameworkBundle\Templating\Helper\RouterHelper instance
+     * @return \Symfony\Bundle\FrameworkBundle\Templating\Helper\RouterHelper
      */
     protected function getTemplating_Helper_RouterService()
     {
@@ -4586,12 +3707,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'templating.helper.security' service.
+     * Gets the public 'templating.helper.security' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Bundle\SecurityBundle\Templating\Helper\SecurityHelper A Symfony\Bundle\SecurityBundle\Templating\Helper\SecurityHelper instance
+     * @return \Symfony\Bundle\SecurityBundle\Templating\Helper\SecurityHelper
      */
     protected function getTemplating_Helper_SecurityService()
     {
@@ -4599,12 +3717,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'templating.loader' service.
+     * Gets the public 'templating.loader' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Bundle\FrameworkBundle\Templating\Loader\FilesystemLoader A Symfony\Bundle\FrameworkBundle\Templating\Loader\FilesystemLoader instance
+     * @return \Symfony\Bundle\FrameworkBundle\Templating\Loader\FilesystemLoader
      */
     protected function getTemplating_LoaderService()
     {
@@ -4612,12 +3727,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'templating.name_parser' service.
+     * Gets the public 'templating.name_parser' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Bundle\FrameworkBundle\Templating\TemplateNameParser A Symfony\Bundle\FrameworkBundle\Templating\TemplateNameParser instance
+     * @return \Symfony\Bundle\FrameworkBundle\Templating\TemplateNameParser
      */
     protected function getTemplating_NameParserService()
     {
@@ -4625,12 +3737,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'translation.dumper.csv' service.
+     * Gets the public 'translation.dumper.csv' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Translation\Dumper\CsvFileDumper A Symfony\Component\Translation\Dumper\CsvFileDumper instance
+     * @return \Symfony\Component\Translation\Dumper\CsvFileDumper
      */
     protected function getTranslation_Dumper_CsvService()
     {
@@ -4638,12 +3747,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'translation.dumper.ini' service.
+     * Gets the public 'translation.dumper.ini' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Translation\Dumper\IniFileDumper A Symfony\Component\Translation\Dumper\IniFileDumper instance
+     * @return \Symfony\Component\Translation\Dumper\IniFileDumper
      */
     protected function getTranslation_Dumper_IniService()
     {
@@ -4651,12 +3757,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'translation.dumper.json' service.
+     * Gets the public 'translation.dumper.json' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Translation\Dumper\JsonFileDumper A Symfony\Component\Translation\Dumper\JsonFileDumper instance
+     * @return \Symfony\Component\Translation\Dumper\JsonFileDumper
      */
     protected function getTranslation_Dumper_JsonService()
     {
@@ -4664,12 +3767,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'translation.dumper.mo' service.
+     * Gets the public 'translation.dumper.mo' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Translation\Dumper\MoFileDumper A Symfony\Component\Translation\Dumper\MoFileDumper instance
+     * @return \Symfony\Component\Translation\Dumper\MoFileDumper
      */
     protected function getTranslation_Dumper_MoService()
     {
@@ -4677,12 +3777,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'translation.dumper.php' service.
+     * Gets the public 'translation.dumper.php' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Translation\Dumper\PhpFileDumper A Symfony\Component\Translation\Dumper\PhpFileDumper instance
+     * @return \Symfony\Component\Translation\Dumper\PhpFileDumper
      */
     protected function getTranslation_Dumper_PhpService()
     {
@@ -4690,12 +3787,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'translation.dumper.po' service.
+     * Gets the public 'translation.dumper.po' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Translation\Dumper\PoFileDumper A Symfony\Component\Translation\Dumper\PoFileDumper instance
+     * @return \Symfony\Component\Translation\Dumper\PoFileDumper
      */
     protected function getTranslation_Dumper_PoService()
     {
@@ -4703,12 +3797,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'translation.dumper.qt' service.
+     * Gets the public 'translation.dumper.qt' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Translation\Dumper\QtFileDumper A Symfony\Component\Translation\Dumper\QtFileDumper instance
+     * @return \Symfony\Component\Translation\Dumper\QtFileDumper
      */
     protected function getTranslation_Dumper_QtService()
     {
@@ -4716,12 +3807,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'translation.dumper.res' service.
+     * Gets the public 'translation.dumper.res' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Translation\Dumper\IcuResFileDumper A Symfony\Component\Translation\Dumper\IcuResFileDumper instance
+     * @return \Symfony\Component\Translation\Dumper\IcuResFileDumper
      */
     protected function getTranslation_Dumper_ResService()
     {
@@ -4729,12 +3817,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'translation.dumper.xliff' service.
+     * Gets the public 'translation.dumper.xliff' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Translation\Dumper\XliffFileDumper A Symfony\Component\Translation\Dumper\XliffFileDumper instance
+     * @return \Symfony\Component\Translation\Dumper\XliffFileDumper
      */
     protected function getTranslation_Dumper_XliffService()
     {
@@ -4742,12 +3827,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'translation.dumper.yml' service.
+     * Gets the public 'translation.dumper.yml' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Translation\Dumper\YamlFileDumper A Symfony\Component\Translation\Dumper\YamlFileDumper instance
+     * @return \Symfony\Component\Translation\Dumper\YamlFileDumper
      */
     protected function getTranslation_Dumper_YmlService()
     {
@@ -4755,12 +3837,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'translation.extractor' service.
+     * Gets the public 'translation.extractor' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Translation\Extractor\ChainExtractor A Symfony\Component\Translation\Extractor\ChainExtractor instance
+     * @return \Symfony\Component\Translation\Extractor\ChainExtractor
      */
     protected function getTranslation_ExtractorService()
     {
@@ -4773,12 +3852,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'translation.extractor.php' service.
+     * Gets the public 'translation.extractor.php' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Bundle\FrameworkBundle\Translation\PhpExtractor A Symfony\Bundle\FrameworkBundle\Translation\PhpExtractor instance
+     * @return \Symfony\Bundle\FrameworkBundle\Translation\PhpExtractor
      */
     protected function getTranslation_Extractor_PhpService()
     {
@@ -4786,12 +3862,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'translation.loader' service.
+     * Gets the public 'translation.loader' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Bundle\FrameworkBundle\Translation\TranslationLoader A Symfony\Bundle\FrameworkBundle\Translation\TranslationLoader instance
+     * @return \Symfony\Bundle\FrameworkBundle\Translation\TranslationLoader
      */
     protected function getTranslation_LoaderService()
     {
@@ -4817,12 +3890,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'translation.loader.csv' service.
+     * Gets the public 'translation.loader.csv' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Translation\Loader\CsvFileLoader A Symfony\Component\Translation\Loader\CsvFileLoader instance
+     * @return \Symfony\Component\Translation\Loader\CsvFileLoader
      */
     protected function getTranslation_Loader_CsvService()
     {
@@ -4830,12 +3900,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'translation.loader.dat' service.
+     * Gets the public 'translation.loader.dat' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Translation\Loader\IcuDatFileLoader A Symfony\Component\Translation\Loader\IcuDatFileLoader instance
+     * @return \Symfony\Component\Translation\Loader\IcuDatFileLoader
      */
     protected function getTranslation_Loader_DatService()
     {
@@ -4843,12 +3910,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'translation.loader.ini' service.
+     * Gets the public 'translation.loader.ini' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Translation\Loader\IniFileLoader A Symfony\Component\Translation\Loader\IniFileLoader instance
+     * @return \Symfony\Component\Translation\Loader\IniFileLoader
      */
     protected function getTranslation_Loader_IniService()
     {
@@ -4856,12 +3920,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'translation.loader.json' service.
+     * Gets the public 'translation.loader.json' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Translation\Loader\JsonFileLoader A Symfony\Component\Translation\Loader\JsonFileLoader instance
+     * @return \Symfony\Component\Translation\Loader\JsonFileLoader
      */
     protected function getTranslation_Loader_JsonService()
     {
@@ -4869,12 +3930,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'translation.loader.mo' service.
+     * Gets the public 'translation.loader.mo' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Translation\Loader\MoFileLoader A Symfony\Component\Translation\Loader\MoFileLoader instance
+     * @return \Symfony\Component\Translation\Loader\MoFileLoader
      */
     protected function getTranslation_Loader_MoService()
     {
@@ -4882,12 +3940,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'translation.loader.php' service.
+     * Gets the public 'translation.loader.php' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Translation\Loader\PhpFileLoader A Symfony\Component\Translation\Loader\PhpFileLoader instance
+     * @return \Symfony\Component\Translation\Loader\PhpFileLoader
      */
     protected function getTranslation_Loader_PhpService()
     {
@@ -4895,12 +3950,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'translation.loader.po' service.
+     * Gets the public 'translation.loader.po' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Translation\Loader\PoFileLoader A Symfony\Component\Translation\Loader\PoFileLoader instance
+     * @return \Symfony\Component\Translation\Loader\PoFileLoader
      */
     protected function getTranslation_Loader_PoService()
     {
@@ -4908,12 +3960,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'translation.loader.qt' service.
+     * Gets the public 'translation.loader.qt' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Translation\Loader\QtFileLoader A Symfony\Component\Translation\Loader\QtFileLoader instance
+     * @return \Symfony\Component\Translation\Loader\QtFileLoader
      */
     protected function getTranslation_Loader_QtService()
     {
@@ -4921,12 +3970,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'translation.loader.res' service.
+     * Gets the public 'translation.loader.res' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Translation\Loader\IcuResFileLoader A Symfony\Component\Translation\Loader\IcuResFileLoader instance
+     * @return \Symfony\Component\Translation\Loader\IcuResFileLoader
      */
     protected function getTranslation_Loader_ResService()
     {
@@ -4934,12 +3980,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'translation.loader.xliff' service.
+     * Gets the public 'translation.loader.xliff' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Translation\Loader\XliffFileLoader A Symfony\Component\Translation\Loader\XliffFileLoader instance
+     * @return \Symfony\Component\Translation\Loader\XliffFileLoader
      */
     protected function getTranslation_Loader_XliffService()
     {
@@ -4947,12 +3990,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'translation.loader.yml' service.
+     * Gets the public 'translation.loader.yml' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Translation\Loader\YamlFileLoader A Symfony\Component\Translation\Loader\YamlFileLoader instance
+     * @return \Symfony\Component\Translation\Loader\YamlFileLoader
      */
     protected function getTranslation_Loader_YmlService()
     {
@@ -4960,12 +4000,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'translation.writer' service.
+     * Gets the public 'translation.writer' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Translation\Writer\TranslationWriter A Symfony\Component\Translation\Writer\TranslationWriter instance
+     * @return \Symfony\Component\Translation\Writer\TranslationWriter
      */
     protected function getTranslation_WriterService()
     {
@@ -4986,12 +4023,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'translation_tools.translation.node_visitor' service.
+     * Gets the public 'translation_tools.translation.node_visitor' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShop\TranslationToolsBundle\Twig\NodeVisitor\TranslationNodeVisitor A PrestaShop\TranslationToolsBundle\Twig\NodeVisitor\TranslationNodeVisitor instance
+     * @return \PrestaShop\TranslationToolsBundle\Twig\NodeVisitor\TranslationNodeVisitor
      */
     protected function getTranslationTools_Translation_NodeVisitorService()
     {
@@ -4999,16 +4033,13 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'translator.default' service.
+     * Gets the public 'translator.default' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \PrestaShopBundle\Translation\Translator A PrestaShopBundle\Translation\Translator instance
+     * @return \PrestaShopBundle\Translation\Translator
      */
     protected function getTranslator_DefaultService()
     {
-        $this->services['translator.default'] = $instance = new \PrestaShopBundle\Translation\Translator($this, new \Symfony\Component\Translation\MessageSelector(), array('translation.loader.php' => array(0 => 'php'), 'translation.loader.yml' => array(0 => 'yml'), 'translation.loader.xliff' => array(0 => 'xlf', 1 => 'xliff'), 'translation.loader.po' => array(0 => 'po'), 'translation.loader.mo' => array(0 => 'mo'), 'translation.loader.qt' => array(0 => 'ts'), 'translation.loader.csv' => array(0 => 'csv'), 'translation.loader.res' => array(0 => 'res'), 'translation.loader.dat' => array(0 => 'dat'), 'translation.loader.ini' => array(0 => 'ini'), 'translation.loader.json' => array(0 => 'json'), 'prestashop.translation.database_loader' => array(0 => 'db')), array('cache_dir' => (__DIR__.'/translations'), 'debug' => false, 'resource_files' => array('fr' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.fr.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.fr.xlf'), 2 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.fr.xlf')), 'fi' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.fi.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.fi.xlf')), 'sl' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.sl.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.sl.xlf'), 2 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.sl.xlf')), 'sq' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.sq.xlf')), 'hy' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.hy.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.hy.xlf')), 'es' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.es.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.es.xlf'), 2 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.es.xlf')), 'sr_Latn' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.sr_Latn.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.sr_Latn.xlf'), 2 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.sr_Latn.xlf')), 'hr' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.hr.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.hr.xlf'), 2 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.hr.xlf')), 'vi' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.vi.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.vi.xlf')), 'uk' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.uk.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.uk.xlf')), 'lv' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.lv.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.lv.xlf'), 2 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.lv.xlf')), 'zh_CN' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.zh_CN.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.zh_CN.xlf'), 2 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.zh_CN.xlf')), 'fa' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.fa.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.fa.xlf'), 2 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.fa.xlf')), 'tr' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.tr.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.tr.xlf')), 'af' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.af.xlf')), 'no' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.no.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.no.xlf'), 2 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.no.xlf')), 'bg' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.bg.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.bg.xlf'), 2 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.bg.xlf')), 'nl' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.nl.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.nl.xlf'), 2 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.nl.xlf')), 'cy' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.cy.xlf')), 'lb' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.lb.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.lb.xlf'), 2 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.lb.xlf')), 'da' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.da.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.da.xlf'), 2 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.da.xlf')), 'ru' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.ru.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.ru.xlf'), 2 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.ru.xlf')), 'lt' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.lt.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.lt.xlf'), 2 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.lt.xlf')), 'nn' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.nn.xlf')), 'id' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.id.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.id.xlf'), 2 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.id.xlf')), 'sv' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.sv.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.sv.xlf'), 2 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.sv.xlf')), 'de' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.de.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.de.xlf'), 2 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.de.xlf')), 'pl' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.pl.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.pl.xlf'), 2 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.pl.xlf')), 'pt_BR' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.pt_BR.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.pt_BR.xlf'), 2 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.pt_BR.xlf')), 'az' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.az.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.az.xlf'), 2 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.az.xlf')), 'hu' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.hu.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.hu.xlf'), 2 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.hu.xlf')), 'mn' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.mn.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.mn.xlf')), 'ro' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.ro.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.ro.xlf'), 2 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.ro.xlf')), 'it' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.it.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.it.xlf'), 2 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.it.xlf')), 'sr_Cyrl' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.sr_Cyrl.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.sr_Cyrl.xlf'), 2 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.sr_Cyrl.xlf')), 'et' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.et.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.et.xlf')), 'zh_TW' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.zh_TW.xlf')), 'pt' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.pt.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.pt.xlf')), 'he' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.he.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.he.xlf'), 2 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.he.xlf')), 'ja' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.ja.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.ja.xlf'), 2 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.ja.xlf')), 'cs' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.cs.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.cs.xlf'), 2 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.cs.xlf')), 'ar' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.ar.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.ar.xlf'), 2 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.ar.xlf')), 'eu' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.eu.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.eu.xlf')), 'th' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.th.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.th.xlf')), 'en' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.en.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.en.xlf'), 2 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.en.xlf')), 'el' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.el.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.el.xlf'), 2 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.el.xlf')), 'sk' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.sk.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.sk.xlf'), 2 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.sk.xlf')), 'ca' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.ca.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.ca.xlf'), 2 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.ca.xlf')), 'gl' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.gl.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.gl.xlf'), 2 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.gl.xlf')), 'pt_PT' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.pt_PT.xlf')), 'ua' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.ua.xlf')), 'pl-PL' => array(0 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesViewedproductShop.pl-PL.xlf'), 1 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesMailalertsAdmin.pl-PL.xlf'), 2 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesCheckpaymentShop.pl-PL.xlf'), 3 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminNotificationsError.pl-PL.xlf'), 4 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesSocialfollowShop.pl-PL.xlf'), 5 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesStatsequipmentAdmin.pl-PL.xlf'), 6 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesLinklistAdmin.pl-PL.xlf'), 7 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ShopNotificationsSuccess.pl-PL.xlf'), 8 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminModulesNotification.pl-PL.xlf'), 9 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesWirepaymentAdmin.pl-PL.xlf'), 10 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesTrackingfrontShop.pl-PL.xlf'), 11 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesStatsbestmanufacturersAdmin.pl-PL.xlf'), 12 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesCarriercomparisonShop.pl-PL.xlf'), 13 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminStatsNotification.pl-PL.xlf'), 14 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesNewproductsShop.pl-PL.xlf'), 15 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesCarriercomparisonAdmin.pl-PL.xlf'), 16 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminDashboardHelp.pl-PL.xlf'), 17 => ($this->targetDirs[2].'/Resources/translations/pl-PL/EmailsSubject.pl-PL.xlf'), 18 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesDashactivityAdmin.pl-PL.xlf'), 19 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesCategorytreeAdmin.pl-PL.xlf'), 20 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminShopparametersHelp.pl-PL.xlf'), 21 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesViewedproductAdmin.pl-PL.xlf'), 22 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminNavigationMenu.pl-PL.xlf'), 23 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ShopThemeCatalog.pl-PL.xlf'), 24 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ShopThemeActions.pl-PL.xlf'), 25 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesPscleanerAdmin.pl-PL.xlf'), 26 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesDashtrendsAdmin.pl-PL.xlf'), 27 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminOrderscustomersHelp.pl-PL.xlf'), 28 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminStatsFeature.pl-PL.xlf'), 29 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesStatscheckupAdmin.pl-PL.xlf'), 30 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminCatalogHelp.pl-PL.xlf'), 31 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesCrosssellingAdmin.pl-PL.xlf'), 32 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesStatsbestcategoriesAdmin.pl-PL.xlf'), 33 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesStatsregistrationsAdmin.pl-PL.xlf'), 34 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesCheckpaymentAdmin.pl-PL.xlf'), 35 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesCurrencyselectorAdmin.pl-PL.xlf'), 36 => ($this->targetDirs[2].'/Resources/translations/pl-PL/Install.pl-PL.xlf'), 37 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesDataprivacyShop.pl-PL.xlf'), 38 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminGlobal.pl-PL.xlf'), 39 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminPaymentFeature.pl-PL.xlf'), 40 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesStatsforecastAdmin.pl-PL.xlf'), 41 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesWirepaymentShop.pl-PL.xlf'), 42 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminPaymentHelp.pl-PL.xlf'), 43 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminNotificationsSuccess.pl-PL.xlf'), 44 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminNavigationHeader.pl-PL.xlf'), 45 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesReminderAdmin.pl-PL.xlf'), 46 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesStatsoriginAdmin.pl-PL.xlf'), 47 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesPagesnotfoundAdmin.pl-PL.xlf'), 48 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesGridhtmlAdmin.pl-PL.xlf'), 49 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesStatsbestvouchersAdmin.pl-PL.xlf'), 50 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesNewsletterAdmin.pl-PL.xlf'), 51 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesBestsellersShop.pl-PL.xlf'), 52 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminNavigationFooter.pl-PL.xlf'), 53 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminCatalogFeature.pl-PL.xlf'), 54 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesLivetranslationAdmin.pl-PL.xlf'), 55 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesLivetranslationShop.pl-PL.xlf'), 56 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminStatsHelp.pl-PL.xlf'), 57 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesGAnalyticsAdmin.pl-PL.xlf'), 58 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesCashondeliveryAdmin.pl-PL.xlf'), 59 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesStatssalesAdmin.pl-PL.xlf'), 60 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminShippingHelp.pl-PL.xlf'), 61 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesDashproductsAdmin.pl-PL.xlf'), 62 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesBestsellersAdmin.pl-PL.xlf'), 63 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesFacetedsearchAdmin.pl-PL.xlf'), 64 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ShopFormsHelp.pl-PL.xlf'), 65 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesCrosssellingShop.pl-PL.xlf'), 66 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ShopThemeCustomeraccount.pl-PL.xlf'), 67 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesStatsdataAdmin.pl-PL.xlf'), 68 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesSupplierlistShop.pl-PL.xlf'), 69 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesBannerAdmin.pl-PL.xlf'), 70 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesSpecialsAdmin.pl-PL.xlf'), 71 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesBrandlistShop.pl-PL.xlf'), 72 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesCategoryproductsAdmin.pl-PL.xlf'), 73 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminAdvparametersFeature.pl-PL.xlf'), 74 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminShippingFeature.pl-PL.xlf'), 75 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesSekeywordsAdmin.pl-PL.xlf'), 76 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesFeederAdmin.pl-PL.xlf'), 77 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ShopNotificationsInfo.pl-PL.xlf'), 78 => ($this->targetDirs[2].'/Resources/translations/pl-PL/messages.pl-PL.xlf'), 79 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminAdvparametersNotification.pl-PL.xlf'), 80 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesStatsstockAdmin.pl-PL.xlf'), 81 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminShopparametersFeature.pl-PL.xlf'), 82 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesStatscarrierAdmin.pl-PL.xlf'), 83 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminInternationalNotification.pl-PL.xlf'), 84 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminAdvparametersHelp.pl-PL.xlf'), 85 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesAdvertisingAdmin.pl-PL.xlf'), 86 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ShopNotificationsWarning.pl-PL.xlf'), 87 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminShippingNotification.pl-PL.xlf'), 88 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesCashondeliveryShop.pl-PL.xlf'), 89 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesFacetedsearchShop.pl-PL.xlf'), 90 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminNotificationsWarning.pl-PL.xlf'), 91 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminNavigationNotification.pl-PL.xlf'), 92 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesStatsbestsuppliersAdmin.pl-PL.xlf'), 93 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesTrackingfrontAdmin.pl-PL.xlf'), 94 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesDateofdeliveryShop.pl-PL.xlf'), 95 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminDashboardFeature.pl-PL.xlf'), 96 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesAutoupgradeAdmin.pl-PL.xlf'), 97 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesCategoryproductsShop.pl-PL.xlf'), 98 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesRssfeedShop.pl-PL.xlf'), 99 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesWelcomeAdmin.pl-PL.xlf'), 100 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesStatsvisitsAdmin.pl-PL.xlf'), 101 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminInternationalFeature.pl-PL.xlf'), 102 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ShopPdf.pl-PL.xlf'), 103 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesLegalcomplianceAdmin.pl-PL.xlf'), 104 => ($this->targetDirs[2].'/Resources/translations/pl-PL/EmailsBody.pl-PL.xlf'), 105 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesContactformAdmin.pl-PL.xlf'), 106 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesProductinfoAdmin.pl-PL.xlf'), 107 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesStatsbestcustomersAdmin.pl-PL.xlf'), 108 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminOrderscustomersFeature.pl-PL.xlf'), 109 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminActions.pl-PL.xlf'), 110 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesBlockreassuranceShop.pl-PL.xlf'), 111 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminModulesFeature.pl-PL.xlf'), 112 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ShopThemeCheckout.pl-PL.xlf'), 113 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesDataprivacyAdmin.pl-PL.xlf'), 114 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminCatalogNotification.pl-PL.xlf'), 115 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminDesignFeature.pl-PL.xlf'), 116 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesContactinfoShop.pl-PL.xlf'), 117 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesBrandlistAdmin.pl-PL.xlf'), 118 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminOrderscustomersNotification.pl-PL.xlf'), 119 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesStatsnewsletterAdmin.pl-PL.xlf'), 120 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminDashboardNotification.pl-PL.xlf'), 121 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesStatsbestproductsAdmin.pl-PL.xlf'), 122 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesEmailsubscriptionAdmin.pl-PL.xlf'), 123 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesCustomeraccountlinksAdmin.pl-PL.xlf'), 124 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesCustomtextAdmin.pl-PL.xlf'), 125 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesDashgoalsAdmin.pl-PL.xlf'), 126 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminNotificationsInfo.pl-PL.xlf'), 127 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesLanguageselectorAdmin.pl-PL.xlf'), 128 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesFeaturedproductsAdmin.pl-PL.xlf'), 129 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesContactformShop.pl-PL.xlf'), 130 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesSharebuttonsAdmin.pl-PL.xlf'), 131 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesStatsliveAdmin.pl-PL.xlf'), 132 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesDateofdeliveryAdmin.pl-PL.xlf'), 133 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesSearchbarAdmin.pl-PL.xlf'), 134 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesSupplierlistAdmin.pl-PL.xlf'), 135 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminLoginNotification.pl-PL.xlf'), 136 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesStatscatalogAdmin.pl-PL.xlf'), 137 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminShopparametersNotification.pl-PL.xlf'), 138 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminInternationalHelp.pl-PL.xlf'), 139 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesBannerShop.pl-PL.xlf'), 140 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesStatssearchAdmin.pl-PL.xlf'), 141 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesSearchbarShop.pl-PL.xlf'), 142 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesStatsproductAdmin.pl-PL.xlf'), 143 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminNavigationSearch.pl-PL.xlf'), 144 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ShopNavigation.pl-PL.xlf'), 145 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesStatspersonalinfosAdmin.pl-PL.xlf'), 146 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesLinklistShop.pl-PL.xlf'), 147 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminPaymentNotification.pl-PL.xlf'), 148 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminDesignNotification.pl-PL.xlf'), 149 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesLegalcomplianceShop.pl-PL.xlf'), 150 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesEmailsubscriptionShop.pl-PL.xlf'), 151 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ShopNotificationsError.pl-PL.xlf'), 152 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesMainmenuAdmin.pl-PL.xlf'), 153 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesShoppingcartAdmin.pl-PL.xlf'), 154 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesCustomersigninAdmin.pl-PL.xlf'), 155 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminLoginFeature.pl-PL.xlf'), 156 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesFeaturedproductsShop.pl-PL.xlf'), 157 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesMailalertsShop.pl-PL.xlf'), 158 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesRssfeedAdmin.pl-PL.xlf'), 159 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesSocialfollowAdmin.pl-PL.xlf'), 160 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ShopThemeGlobal.pl-PL.xlf'), 161 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesNewproductsAdmin.pl-PL.xlf'), 162 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ShopFormsErrors.pl-PL.xlf'), 163 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesGraphnvd3Admin.pl-PL.xlf'), 164 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ShopFormsLabels.pl-PL.xlf'), 165 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesContactinfoAdmin.pl-PL.xlf'), 166 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesSharebuttonsShop.pl-PL.xlf'), 167 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminModulesHelp.pl-PL.xlf'), 168 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ShopDemoCatalog.pl-PL.xlf'), 169 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminDesignHelp.pl-PL.xlf'), 170 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesBlockreassuranceAdmin.pl-PL.xlf'), 171 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesSpecialsShop.pl-PL.xlf'), 172 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesImagesliderAdmin.pl-PL.xlf')), 'en-GB' => array(0 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesSupplierlistShop.en-GB.xlf'), 1 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesSocialfollowShop.en-GB.xlf'), 2 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesLinklistAdmin.en-GB.xlf'), 3 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesStatsvisitsAdmin.en-GB.xlf'), 4 => ($this->targetDirs[2].'/Resources/translations/en-GB/ShopThemeGlobal.en-GB.xlf'), 5 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminPaymentNotification.en-GB.xlf'), 6 => ($this->targetDirs[2].'/Resources/translations/en-GB/ShopThemeActions.en-GB.xlf'), 7 => ($this->targetDirs[2].'/Resources/translations/en-GB/ShopPdf.en-GB.xlf'), 8 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesStatscatalogAdmin.en-GB.xlf'), 9 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesSpecialsShop.en-GB.xlf'), 10 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesLanguageselectorAdmin.en-GB.xlf'), 11 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesShoppingcartAdmin.en-GB.xlf'), 12 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminStatsNotification.en-GB.xlf'), 13 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesStatsregistrationsAdmin.en-GB.xlf'), 14 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesCustomeraccountlinksAdmin.en-GB.xlf'), 15 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesStatsoriginAdmin.en-GB.xlf'), 16 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminDesignFeature.en-GB.xlf'), 17 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesCustomtextAdmin.en-GB.xlf'), 18 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesStatscheckupAdmin.en-GB.xlf'), 19 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesImagesliderAdmin.en-GB.xlf'), 20 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesCustomersigninAdmin.en-GB.xlf'), 21 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesStatssearchAdmin.en-GB.xlf'), 22 => ($this->targetDirs[2].'/Resources/translations/en-GB/ShopNotificationsSuccess.en-GB.xlf'), 23 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesMailalertsAdmin.en-GB.xlf'), 24 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesCheckpaymentAdmin.en-GB.xlf'), 25 => ($this->targetDirs[2].'/Resources/translations/en-GB/messages.en-GB.xlf'), 26 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesSharebuttonsAdmin.en-GB.xlf'), 27 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesStatscarrierAdmin.en-GB.xlf'), 28 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesProductinfoAdmin.en-GB.xlf'), 29 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesDashactivityAdmin.en-GB.xlf'), 30 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminAdvparametersHelp.en-GB.xlf'), 31 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminCatalogFeature.en-GB.xlf'), 32 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminNavigationHeader.en-GB.xlf'), 33 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminAdvparametersNotification.en-GB.xlf'), 34 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesBannerShop.en-GB.xlf'), 35 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesStatsequipmentAdmin.en-GB.xlf'), 36 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesSpecialsAdmin.en-GB.xlf'), 37 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminOrderscustomersNotification.en-GB.xlf'), 38 => ($this->targetDirs[2].'/Resources/translations/en-GB/ShopFormsErrors.en-GB.xlf'), 39 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesBrandlistShop.en-GB.xlf'), 40 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminNotificationsError.en-GB.xlf'), 41 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminLoginFeature.en-GB.xlf'), 42 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesRssfeedAdmin.en-GB.xlf'), 43 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesWirepaymentShop.en-GB.xlf'), 44 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesViewedproductAdmin.en-GB.xlf'), 45 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminActions.en-GB.xlf'), 46 => ($this->targetDirs[2].'/Resources/translations/en-GB/ShopNavigation.en-GB.xlf'), 47 => ($this->targetDirs[2].'/Resources/translations/en-GB/ShopThemeCheckout.en-GB.xlf'), 48 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminAdvparametersFeature.en-GB.xlf'), 49 => ($this->targetDirs[2].'/Resources/translations/en-GB/ShopFormsLabels.en-GB.xlf'), 50 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminDashboardNotification.en-GB.xlf'), 51 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminDesignHelp.en-GB.xlf'), 52 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesStatsproductAdmin.en-GB.xlf'), 53 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesLivetranslationAdmin.en-GB.xlf'), 54 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesStatssalesAdmin.en-GB.xlf'), 55 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminInternationalNotification.en-GB.xlf'), 56 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesSharebuttonsShop.en-GB.xlf'), 57 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminDashboardHelp.en-GB.xlf'), 58 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminNavigationFooter.en-GB.xlf'), 59 => ($this->targetDirs[2].'/Resources/translations/en-GB/EmailsBody.en-GB.xlf'), 60 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesContactformShop.en-GB.xlf'), 61 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesPscleanerAdmin.en-GB.xlf'), 62 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesDateofdeliveryAdmin.en-GB.xlf'), 63 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesWelcomeAdmin.en-GB.xlf'), 64 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesGridhtmlAdmin.en-GB.xlf'), 65 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesStatsdataAdmin.en-GB.xlf'), 66 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesStatsnewsletterAdmin.en-GB.xlf'), 67 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesCarriercomparisonAdmin.en-GB.xlf'), 68 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminDashboardFeature.en-GB.xlf'), 69 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesRssfeedShop.en-GB.xlf'), 70 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminModulesHelp.en-GB.xlf'), 71 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesBestsellersAdmin.en-GB.xlf'), 72 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminCatalogNotification.en-GB.xlf'), 73 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesLinklistShop.en-GB.xlf'), 74 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesDashproductsAdmin.en-GB.xlf'), 75 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesLivetranslationShop.en-GB.xlf'), 76 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesNewproductsAdmin.en-GB.xlf'), 77 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesLegalcomplianceShop.en-GB.xlf'), 78 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminPaymentFeature.en-GB.xlf'), 79 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesSearchbarShop.en-GB.xlf'), 80 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesEmailsubscriptionShop.en-GB.xlf'), 81 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesNewsletterAdmin.en-GB.xlf'), 82 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesFeaturedproductsAdmin.en-GB.xlf'), 83 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminInternationalFeature.en-GB.xlf'), 84 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesGraphnvd3Admin.en-GB.xlf'), 85 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesWirepaymentAdmin.en-GB.xlf'), 86 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminModulesFeature.en-GB.xlf'), 87 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesFeaturedproductsShop.en-GB.xlf'), 88 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesPagesnotfoundAdmin.en-GB.xlf'), 89 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesBlockreassuranceAdmin.en-GB.xlf'), 90 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesCashondeliveryAdmin.en-GB.xlf'), 91 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesDashgoalsAdmin.en-GB.xlf'), 92 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesFacetedsearchShop.en-GB.xlf'), 93 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesBlockreassuranceShop.en-GB.xlf'), 94 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminOrderscustomersFeature.en-GB.xlf'), 95 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesCheckpaymentShop.en-GB.xlf'), 96 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesAutoupgradeAdmin.en-GB.xlf'), 97 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesFacetedsearchAdmin.en-GB.xlf'), 98 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesViewedproductShop.en-GB.xlf'), 99 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesStatsbestsuppliersAdmin.en-GB.xlf'), 100 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesContactformAdmin.en-GB.xlf'), 101 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesStatsliveAdmin.en-GB.xlf'), 102 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminNotificationsInfo.en-GB.xlf'), 103 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesCategorytreeAdmin.en-GB.xlf'), 104 => ($this->targetDirs[2].'/Resources/translations/en-GB/ShopNotificationsWarning.en-GB.xlf'), 105 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminNavigationSearch.en-GB.xlf'), 106 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesStatsbestcategoriesAdmin.en-GB.xlf'), 107 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminModulesNotification.en-GB.xlf'), 108 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesDashtrendsAdmin.en-GB.xlf'), 109 => ($this->targetDirs[2].'/Resources/translations/en-GB/ShopThemeCatalog.en-GB.xlf'), 110 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesStatsforecastAdmin.en-GB.xlf'), 111 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesBestsellersShop.en-GB.xlf'), 112 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesCrosssellingShop.en-GB.xlf'), 113 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminLoginNotification.en-GB.xlf'), 114 => ($this->targetDirs[2].'/Resources/translations/en-GB/Install.en-GB.xlf'), 115 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesEmailsubscriptionAdmin.en-GB.xlf'), 116 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesGAnalyticsAdmin.en-GB.xlf'), 117 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminGlobal.en-GB.xlf'), 118 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminShopparametersNotification.en-GB.xlf'), 119 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesLegalcomplianceAdmin.en-GB.xlf'), 120 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesReminderAdmin.en-GB.xlf'), 121 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesCrosssellingAdmin.en-GB.xlf'), 122 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminPaymentHelp.en-GB.xlf'), 123 => ($this->targetDirs[2].'/Resources/translations/en-GB/ShopFormsHelp.en-GB.xlf'), 124 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesCurrencyselectorAdmin.en-GB.xlf'), 125 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesTrackingfrontShop.en-GB.xlf'), 126 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesStatsstockAdmin.en-GB.xlf'), 127 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminStatsFeature.en-GB.xlf'), 128 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesBannerAdmin.en-GB.xlf'), 129 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesStatsbestmanufacturersAdmin.en-GB.xlf'), 130 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesBrandlistAdmin.en-GB.xlf'), 131 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesContactinfoShop.en-GB.xlf'), 132 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminCatalogHelp.en-GB.xlf'), 133 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesSocialfollowAdmin.en-GB.xlf'), 134 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesAdvertisingAdmin.en-GB.xlf'), 135 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesContactinfoAdmin.en-GB.xlf'), 136 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminShopparametersHelp.en-GB.xlf'), 137 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesNewproductsShop.en-GB.xlf'), 138 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesSearchbarAdmin.en-GB.xlf'), 139 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminStatsHelp.en-GB.xlf'), 140 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesCategoryproductsAdmin.en-GB.xlf'), 141 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesSekeywordsAdmin.en-GB.xlf'), 142 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesDateofdeliveryShop.en-GB.xlf'), 143 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesTrackingfrontAdmin.en-GB.xlf'), 144 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesFeederAdmin.en-GB.xlf'), 145 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminNavigationNotification.en-GB.xlf'), 146 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesStatsbestvouchersAdmin.en-GB.xlf'), 147 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminInternationalHelp.en-GB.xlf'), 148 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminShippingHelp.en-GB.xlf'), 149 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesStatsbestproductsAdmin.en-GB.xlf'), 150 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminNotificationsWarning.en-GB.xlf'), 151 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminNavigationMenu.en-GB.xlf'), 152 => ($this->targetDirs[2].'/Resources/translations/en-GB/ShopThemeCustomeraccount.en-GB.xlf'), 153 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesDataprivacyShop.en-GB.xlf'), 154 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminNotificationsSuccess.en-GB.xlf'), 155 => ($this->targetDirs[2].'/Resources/translations/en-GB/ShopNotificationsInfo.en-GB.xlf'), 156 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminShippingFeature.en-GB.xlf'), 157 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesMainmenuAdmin.en-GB.xlf'), 158 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesCashondeliveryShop.en-GB.xlf'), 159 => ($this->targetDirs[2].'/Resources/translations/en-GB/EmailsSubject.en-GB.xlf'), 160 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesStatsbestcustomersAdmin.en-GB.xlf'), 161 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesStatspersonalinfosAdmin.en-GB.xlf'), 162 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesCategoryproductsShop.en-GB.xlf'), 163 => ($this->targetDirs[2].'/Resources/translations/en-GB/ShopDemoCatalog.en-GB.xlf'), 164 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesSupplierlistAdmin.en-GB.xlf'), 165 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesCarriercomparisonShop.en-GB.xlf'), 166 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesDataprivacyAdmin.en-GB.xlf'), 167 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminDesignNotification.en-GB.xlf'), 168 => ($this->targetDirs[2].'/Resources/translations/en-GB/ShopNotificationsError.en-GB.xlf'), 169 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesMailalertsShop.en-GB.xlf'), 170 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminShopparametersFeature.en-GB.xlf'), 171 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminOrderscustomersHelp.en-GB.xlf'), 172 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminShippingNotification.en-GB.xlf')))), array());
+        $this->services['translator.default'] = $instance = new \PrestaShopBundle\Translation\Translator($this, new \Symfony\Component\Translation\MessageSelector(), array('translation.loader.php' => array(0 => 'php'), 'translation.loader.yml' => array(0 => 'yml'), 'translation.loader.xliff' => array(0 => 'xlf', 1 => 'xliff'), 'translation.loader.po' => array(0 => 'po'), 'translation.loader.mo' => array(0 => 'mo'), 'translation.loader.qt' => array(0 => 'ts'), 'translation.loader.csv' => array(0 => 'csv'), 'translation.loader.res' => array(0 => 'res'), 'translation.loader.dat' => array(0 => 'dat'), 'translation.loader.ini' => array(0 => 'ini'), 'translation.loader.json' => array(0 => 'json'), 'prestashop.translation.database_loader' => array(0 => 'db')), array('cache_dir' => (__DIR__.'/translations'), 'debug' => false, 'resource_files' => array('fr' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.fr.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.fr.xlf'), 2 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.fr.xlf')), 'fi' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.fi.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.fi.xlf')), 'sl' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.sl.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.sl.xlf'), 2 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.sl.xlf')), 'sq' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.sq.xlf')), 'hy' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.hy.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.hy.xlf')), 'es' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.es.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.es.xlf'), 2 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.es.xlf')), 'sr_Latn' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.sr_Latn.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.sr_Latn.xlf'), 2 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.sr_Latn.xlf')), 'hr' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.hr.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.hr.xlf'), 2 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.hr.xlf')), 'vi' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.vi.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.vi.xlf')), 'uk' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.uk.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.uk.xlf')), 'lv' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.lv.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.lv.xlf'), 2 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.lv.xlf')), 'zh_CN' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.zh_CN.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.zh_CN.xlf'), 2 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.zh_CN.xlf')), 'fa' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.fa.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.fa.xlf'), 2 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.fa.xlf')), 'tr' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.tr.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.tr.xlf')), 'af' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.af.xlf')), 'no' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.no.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.no.xlf'), 2 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.no.xlf')), 'bg' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.bg.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.bg.xlf'), 2 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.bg.xlf')), 'nl' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.nl.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.nl.xlf'), 2 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.nl.xlf')), 'cy' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.cy.xlf')), 'lb' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.lb.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.lb.xlf'), 2 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.lb.xlf')), 'da' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.da.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.da.xlf'), 2 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.da.xlf')), 'ru' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.ru.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.ru.xlf'), 2 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.ru.xlf')), 'lt' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.lt.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.lt.xlf'), 2 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.lt.xlf')), 'nn' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.nn.xlf')), 'id' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.id.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.id.xlf'), 2 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.id.xlf')), 'sv' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.sv.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.sv.xlf'), 2 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.sv.xlf')), 'de' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.de.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.de.xlf'), 2 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.de.xlf')), 'pl' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.pl.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.pl.xlf'), 2 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.pl.xlf')), 'pt_BR' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.pt_BR.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.pt_BR.xlf'), 2 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.pt_BR.xlf')), 'az' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.az.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.az.xlf'), 2 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.az.xlf')), 'hu' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.hu.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.hu.xlf'), 2 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.hu.xlf')), 'mn' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.mn.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.mn.xlf')), 'ro' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.ro.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.ro.xlf'), 2 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.ro.xlf')), 'it' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.it.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.it.xlf'), 2 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.it.xlf')), 'sr_Cyrl' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.sr_Cyrl.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.sr_Cyrl.xlf'), 2 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.sr_Cyrl.xlf')), 'et' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.et.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.et.xlf')), 'zh_TW' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.zh_TW.xlf')), 'pt' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.pt.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.pt.xlf')), 'he' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.he.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.he.xlf'), 2 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.he.xlf')), 'ja' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.ja.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.ja.xlf'), 2 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.ja.xlf')), 'cs' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.cs.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.cs.xlf'), 2 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.cs.xlf')), 'ar' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.ar.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.ar.xlf'), 2 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.ar.xlf')), 'eu' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.eu.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.eu.xlf')), 'th' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.th.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.th.xlf')), 'en' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.en.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.en.xlf'), 2 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.en.xlf')), 'el' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.el.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.el.xlf'), 2 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.el.xlf')), 'sk' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.sk.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.sk.xlf'), 2 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.sk.xlf')), 'ca' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.ca.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.ca.xlf'), 2 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.ca.xlf')), 'gl' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.gl.xlf'), 1 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.gl.xlf'), 2 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.gl.xlf')), 'pt_PT' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.pt_PT.xlf')), 'ua' => array(0 => ($this->targetDirs[3].'/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.ua.xlf')), 'pl-PL' => array(0 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesViewedproductShop.pl-PL.xlf'), 1 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesMailalertsAdmin.pl-PL.xlf'), 2 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesCheckpaymentShop.pl-PL.xlf'), 3 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminNotificationsError.pl-PL.xlf'), 4 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesSocialfollowShop.pl-PL.xlf'), 5 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesStatsequipmentAdmin.pl-PL.xlf'), 6 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesLinklistAdmin.pl-PL.xlf'), 7 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ShopNotificationsSuccess.pl-PL.xlf'), 8 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminModulesNotification.pl-PL.xlf'), 9 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesWirepaymentAdmin.pl-PL.xlf'), 10 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesTrackingfrontShop.pl-PL.xlf'), 11 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesStatsbestmanufacturersAdmin.pl-PL.xlf'), 12 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesCarriercomparisonShop.pl-PL.xlf'), 13 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminStatsNotification.pl-PL.xlf'), 14 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesNewproductsShop.pl-PL.xlf'), 15 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesCarriercomparisonAdmin.pl-PL.xlf'), 16 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminDashboardHelp.pl-PL.xlf'), 17 => ($this->targetDirs[2].'/Resources/translations/pl-PL/EmailsSubject.pl-PL.xlf'), 18 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesDashactivityAdmin.pl-PL.xlf'), 19 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesCategorytreeAdmin.pl-PL.xlf'), 20 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminShopparametersHelp.pl-PL.xlf'), 21 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesViewedproductAdmin.pl-PL.xlf'), 22 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminNavigationMenu.pl-PL.xlf'), 23 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ShopThemeCatalog.pl-PL.xlf'), 24 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ShopThemeActions.pl-PL.xlf'), 25 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesPscleanerAdmin.pl-PL.xlf'), 26 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesDashtrendsAdmin.pl-PL.xlf'), 27 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminOrderscustomersHelp.pl-PL.xlf'), 28 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminStatsFeature.pl-PL.xlf'), 29 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesStatscheckupAdmin.pl-PL.xlf'), 30 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminCatalogHelp.pl-PL.xlf'), 31 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesCrosssellingAdmin.pl-PL.xlf'), 32 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesStatsbestcategoriesAdmin.pl-PL.xlf'), 33 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesStatsregistrationsAdmin.pl-PL.xlf'), 34 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesCheckpaymentAdmin.pl-PL.xlf'), 35 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesCurrencyselectorAdmin.pl-PL.xlf'), 36 => ($this->targetDirs[2].'/Resources/translations/pl-PL/Install.pl-PL.xlf'), 37 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesDataprivacyShop.pl-PL.xlf'), 38 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminGlobal.pl-PL.xlf'), 39 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminPaymentFeature.pl-PL.xlf'), 40 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesStatsforecastAdmin.pl-PL.xlf'), 41 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesWirepaymentShop.pl-PL.xlf'), 42 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminPaymentHelp.pl-PL.xlf'), 43 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminNotificationsSuccess.pl-PL.xlf'), 44 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminNavigationHeader.pl-PL.xlf'), 45 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesReminderAdmin.pl-PL.xlf'), 46 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesStatsoriginAdmin.pl-PL.xlf'), 47 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesPagesnotfoundAdmin.pl-PL.xlf'), 48 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesGridhtmlAdmin.pl-PL.xlf'), 49 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesStatsbestvouchersAdmin.pl-PL.xlf'), 50 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesNewsletterAdmin.pl-PL.xlf'), 51 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesBestsellersShop.pl-PL.xlf'), 52 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminNavigationFooter.pl-PL.xlf'), 53 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminCatalogFeature.pl-PL.xlf'), 54 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesLivetranslationAdmin.pl-PL.xlf'), 55 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesLivetranslationShop.pl-PL.xlf'), 56 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminStatsHelp.pl-PL.xlf'), 57 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesGAnalyticsAdmin.pl-PL.xlf'), 58 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesCashondeliveryAdmin.pl-PL.xlf'), 59 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesStatssalesAdmin.pl-PL.xlf'), 60 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminShippingHelp.pl-PL.xlf'), 61 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesDashproductsAdmin.pl-PL.xlf'), 62 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesBestsellersAdmin.pl-PL.xlf'), 63 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesFacetedsearchAdmin.pl-PL.xlf'), 64 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ShopFormsHelp.pl-PL.xlf'), 65 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesCrosssellingShop.pl-PL.xlf'), 66 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ShopThemeCustomeraccount.pl-PL.xlf'), 67 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesStatsdataAdmin.pl-PL.xlf'), 68 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesSupplierlistShop.pl-PL.xlf'), 69 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesBannerAdmin.pl-PL.xlf'), 70 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesSpecialsAdmin.pl-PL.xlf'), 71 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesBrandlistShop.pl-PL.xlf'), 72 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesCategoryproductsAdmin.pl-PL.xlf'), 73 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminAdvparametersFeature.pl-PL.xlf'), 74 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminShippingFeature.pl-PL.xlf'), 75 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesSekeywordsAdmin.pl-PL.xlf'), 76 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesFeederAdmin.pl-PL.xlf'), 77 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ShopNotificationsInfo.pl-PL.xlf'), 78 => ($this->targetDirs[2].'/Resources/translations/pl-PL/messages.pl-PL.xlf'), 79 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminAdvparametersNotification.pl-PL.xlf'), 80 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesStatsstockAdmin.pl-PL.xlf'), 81 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminShopparametersFeature.pl-PL.xlf'), 82 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesStatscarrierAdmin.pl-PL.xlf'), 83 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminInternationalNotification.pl-PL.xlf'), 84 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminAdvparametersHelp.pl-PL.xlf'), 85 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesAdvertisingAdmin.pl-PL.xlf'), 86 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ShopNotificationsWarning.pl-PL.xlf'), 87 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminShippingNotification.pl-PL.xlf'), 88 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesCashondeliveryShop.pl-PL.xlf'), 89 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesFacetedsearchShop.pl-PL.xlf'), 90 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminNotificationsWarning.pl-PL.xlf'), 91 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminNavigationNotification.pl-PL.xlf'), 92 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesStatsbestsuppliersAdmin.pl-PL.xlf'), 93 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesTrackingfrontAdmin.pl-PL.xlf'), 94 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesDateofdeliveryShop.pl-PL.xlf'), 95 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminDashboardFeature.pl-PL.xlf'), 96 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesAutoupgradeAdmin.pl-PL.xlf'), 97 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesCategoryproductsShop.pl-PL.xlf'), 98 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesRssfeedShop.pl-PL.xlf'), 99 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesWelcomeAdmin.pl-PL.xlf'), 100 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesStatsvisitsAdmin.pl-PL.xlf'), 101 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminInternationalFeature.pl-PL.xlf'), 102 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ShopPdf.pl-PL.xlf'), 103 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesLegalcomplianceAdmin.pl-PL.xlf'), 104 => ($this->targetDirs[2].'/Resources/translations/pl-PL/EmailsBody.pl-PL.xlf'), 105 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesContactformAdmin.pl-PL.xlf'), 106 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesProductinfoAdmin.pl-PL.xlf'), 107 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesStatsbestcustomersAdmin.pl-PL.xlf'), 108 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminOrderscustomersFeature.pl-PL.xlf'), 109 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminActions.pl-PL.xlf'), 110 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesBlockreassuranceShop.pl-PL.xlf'), 111 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminModulesFeature.pl-PL.xlf'), 112 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ShopThemeCheckout.pl-PL.xlf'), 113 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesDataprivacyAdmin.pl-PL.xlf'), 114 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminCatalogNotification.pl-PL.xlf'), 115 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminDesignFeature.pl-PL.xlf'), 116 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesContactinfoShop.pl-PL.xlf'), 117 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesBrandlistAdmin.pl-PL.xlf'), 118 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminOrderscustomersNotification.pl-PL.xlf'), 119 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesStatsnewsletterAdmin.pl-PL.xlf'), 120 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminDashboardNotification.pl-PL.xlf'), 121 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesStatsbestproductsAdmin.pl-PL.xlf'), 122 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesEmailsubscriptionAdmin.pl-PL.xlf'), 123 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesCustomeraccountlinksAdmin.pl-PL.xlf'), 124 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesCustomtextAdmin.pl-PL.xlf'), 125 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesDashgoalsAdmin.pl-PL.xlf'), 126 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminNotificationsInfo.pl-PL.xlf'), 127 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesLanguageselectorAdmin.pl-PL.xlf'), 128 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesFeaturedproductsAdmin.pl-PL.xlf'), 129 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesContactformShop.pl-PL.xlf'), 130 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesSharebuttonsAdmin.pl-PL.xlf'), 131 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesStatsliveAdmin.pl-PL.xlf'), 132 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesDateofdeliveryAdmin.pl-PL.xlf'), 133 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesSearchbarAdmin.pl-PL.xlf'), 134 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesSupplierlistAdmin.pl-PL.xlf'), 135 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminLoginNotification.pl-PL.xlf'), 136 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesStatscatalogAdmin.pl-PL.xlf'), 137 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminShopparametersNotification.pl-PL.xlf'), 138 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminInternationalHelp.pl-PL.xlf'), 139 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesBannerShop.pl-PL.xlf'), 140 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesStatssearchAdmin.pl-PL.xlf'), 141 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesSearchbarShop.pl-PL.xlf'), 142 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesStatsproductAdmin.pl-PL.xlf'), 143 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminNavigationSearch.pl-PL.xlf'), 144 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ShopNavigation.pl-PL.xlf'), 145 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesStatspersonalinfosAdmin.pl-PL.xlf'), 146 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesLinklistShop.pl-PL.xlf'), 147 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminPaymentNotification.pl-PL.xlf'), 148 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminDesignNotification.pl-PL.xlf'), 149 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesLegalcomplianceShop.pl-PL.xlf'), 150 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesEmailsubscriptionShop.pl-PL.xlf'), 151 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ShopNotificationsError.pl-PL.xlf'), 152 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesMainmenuAdmin.pl-PL.xlf'), 153 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesShoppingcartAdmin.pl-PL.xlf'), 154 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesCustomersigninAdmin.pl-PL.xlf'), 155 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminLoginFeature.pl-PL.xlf'), 156 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesFeaturedproductsShop.pl-PL.xlf'), 157 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesMailalertsShop.pl-PL.xlf'), 158 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesRssfeedAdmin.pl-PL.xlf'), 159 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesSocialfollowAdmin.pl-PL.xlf'), 160 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ShopThemeGlobal.pl-PL.xlf'), 161 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesNewproductsAdmin.pl-PL.xlf'), 162 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ShopFormsErrors.pl-PL.xlf'), 163 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesGraphnvd3Admin.pl-PL.xlf'), 164 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ShopFormsLabels.pl-PL.xlf'), 165 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesContactinfoAdmin.pl-PL.xlf'), 166 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesSharebuttonsShop.pl-PL.xlf'), 167 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminModulesHelp.pl-PL.xlf'), 168 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ShopDemoCatalog.pl-PL.xlf'), 169 => ($this->targetDirs[2].'/Resources/translations/pl-PL/AdminDesignHelp.pl-PL.xlf'), 170 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesBlockreassuranceAdmin.pl-PL.xlf'), 171 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesSpecialsShop.pl-PL.xlf'), 172 => ($this->targetDirs[2].'/Resources/translations/pl-PL/ModulesImagesliderAdmin.pl-PL.xlf')), 'en-GB' => array(0 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesSupplierlistShop.en-GB.xlf'), 1 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesSocialfollowShop.en-GB.xlf'), 2 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesLinklistAdmin.en-GB.xlf'), 3 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesStatsvisitsAdmin.en-GB.xlf'), 4 => ($this->targetDirs[2].'/Resources/translations/en-GB/ShopThemeGlobal.en-GB.xlf'), 5 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminPaymentNotification.en-GB.xlf'), 6 => ($this->targetDirs[2].'/Resources/translations/en-GB/ShopThemeActions.en-GB.xlf'), 7 => ($this->targetDirs[2].'/Resources/translations/en-GB/ShopPdf.en-GB.xlf'), 8 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesStatscatalogAdmin.en-GB.xlf'), 9 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesSpecialsShop.en-GB.xlf'), 10 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesLanguageselectorAdmin.en-GB.xlf'), 11 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesShoppingcartAdmin.en-GB.xlf'), 12 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminStatsNotification.en-GB.xlf'), 13 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesStatsregistrationsAdmin.en-GB.xlf'), 14 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesCustomeraccountlinksAdmin.en-GB.xlf'), 15 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesStatsoriginAdmin.en-GB.xlf'), 16 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminDesignFeature.en-GB.xlf'), 17 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesCustomtextAdmin.en-GB.xlf'), 18 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesStatscheckupAdmin.en-GB.xlf'), 19 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesImagesliderAdmin.en-GB.xlf'), 20 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesCustomersigninAdmin.en-GB.xlf'), 21 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesStatssearchAdmin.en-GB.xlf'), 22 => ($this->targetDirs[2].'/Resources/translations/en-GB/ShopNotificationsSuccess.en-GB.xlf'), 23 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesMailalertsAdmin.en-GB.xlf'), 24 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesCheckpaymentAdmin.en-GB.xlf'), 25 => ($this->targetDirs[2].'/Resources/translations/en-GB/messages.en-GB.xlf'), 26 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesSharebuttonsAdmin.en-GB.xlf'), 27 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesStatscarrierAdmin.en-GB.xlf'), 28 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesProductinfoAdmin.en-GB.xlf'), 29 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesDashactivityAdmin.en-GB.xlf'), 30 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminAdvparametersHelp.en-GB.xlf'), 31 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminCatalogFeature.en-GB.xlf'), 32 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminNavigationHeader.en-GB.xlf'), 33 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminAdvparametersNotification.en-GB.xlf'), 34 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesBannerShop.en-GB.xlf'), 35 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesStatsequipmentAdmin.en-GB.xlf'), 36 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesSpecialsAdmin.en-GB.xlf'), 37 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminOrderscustomersNotification.en-GB.xlf'), 38 => ($this->targetDirs[2].'/Resources/translations/en-GB/ShopFormsErrors.en-GB.xlf'), 39 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesBrandlistShop.en-GB.xlf'), 40 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminNotificationsError.en-GB.xlf'), 41 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminLoginFeature.en-GB.xlf'), 42 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesRssfeedAdmin.en-GB.xlf'), 43 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesWirepaymentShop.en-GB.xlf'), 44 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesViewedproductAdmin.en-GB.xlf'), 45 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminActions.en-GB.xlf'), 46 => ($this->targetDirs[2].'/Resources/translations/en-GB/ShopNavigation.en-GB.xlf'), 47 => ($this->targetDirs[2].'/Resources/translations/en-GB/ShopThemeCheckout.en-GB.xlf'), 48 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminAdvparametersFeature.en-GB.xlf'), 49 => ($this->targetDirs[2].'/Resources/translations/en-GB/ShopFormsLabels.en-GB.xlf'), 50 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminDashboardNotification.en-GB.xlf'), 51 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminDesignHelp.en-GB.xlf'), 52 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesStatsproductAdmin.en-GB.xlf'), 53 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesLivetranslationAdmin.en-GB.xlf'), 54 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesStatssalesAdmin.en-GB.xlf'), 55 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminInternationalNotification.en-GB.xlf'), 56 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesSharebuttonsShop.en-GB.xlf'), 57 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminDashboardHelp.en-GB.xlf'), 58 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminNavigationFooter.en-GB.xlf'), 59 => ($this->targetDirs[2].'/Resources/translations/en-GB/EmailsBody.en-GB.xlf'), 60 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesContactformShop.en-GB.xlf'), 61 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesPscleanerAdmin.en-GB.xlf'), 62 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesDateofdeliveryAdmin.en-GB.xlf'), 63 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesWelcomeAdmin.en-GB.xlf'), 64 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesGridhtmlAdmin.en-GB.xlf'), 65 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesStatsdataAdmin.en-GB.xlf'), 66 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesStatsnewsletterAdmin.en-GB.xlf'), 67 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesCarriercomparisonAdmin.en-GB.xlf'), 68 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminDashboardFeature.en-GB.xlf'), 69 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesRssfeedShop.en-GB.xlf'), 70 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminModulesHelp.en-GB.xlf'), 71 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesBestsellersAdmin.en-GB.xlf'), 72 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminCatalogNotification.en-GB.xlf'), 73 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesLinklistShop.en-GB.xlf'), 74 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesDashproductsAdmin.en-GB.xlf'), 75 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesLivetranslationShop.en-GB.xlf'), 76 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesNewproductsAdmin.en-GB.xlf'), 77 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesLegalcomplianceShop.en-GB.xlf'), 78 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminPaymentFeature.en-GB.xlf'), 79 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesSearchbarShop.en-GB.xlf'), 80 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesEmailsubscriptionShop.en-GB.xlf'), 81 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesNewsletterAdmin.en-GB.xlf'), 82 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesFeaturedproductsAdmin.en-GB.xlf'), 83 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminInternationalFeature.en-GB.xlf'), 84 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesGraphnvd3Admin.en-GB.xlf'), 85 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesWirepaymentAdmin.en-GB.xlf'), 86 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminModulesFeature.en-GB.xlf'), 87 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesFeaturedproductsShop.en-GB.xlf'), 88 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesPagesnotfoundAdmin.en-GB.xlf'), 89 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesBlockreassuranceAdmin.en-GB.xlf'), 90 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesCashondeliveryAdmin.en-GB.xlf'), 91 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesDashgoalsAdmin.en-GB.xlf'), 92 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesFacetedsearchShop.en-GB.xlf'), 93 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesBlockreassuranceShop.en-GB.xlf'), 94 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminOrderscustomersFeature.en-GB.xlf'), 95 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesCheckpaymentShop.en-GB.xlf'), 96 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesAutoupgradeAdmin.en-GB.xlf'), 97 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesFacetedsearchAdmin.en-GB.xlf'), 98 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesViewedproductShop.en-GB.xlf'), 99 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesStatsbestsuppliersAdmin.en-GB.xlf'), 100 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesContactformAdmin.en-GB.xlf'), 101 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesStatsliveAdmin.en-GB.xlf'), 102 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminNotificationsInfo.en-GB.xlf'), 103 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesCategorytreeAdmin.en-GB.xlf'), 104 => ($this->targetDirs[2].'/Resources/translations/en-GB/ShopNotificationsWarning.en-GB.xlf'), 105 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminNavigationSearch.en-GB.xlf'), 106 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesStatsbestcategoriesAdmin.en-GB.xlf'), 107 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminModulesNotification.en-GB.xlf'), 108 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesDashtrendsAdmin.en-GB.xlf'), 109 => ($this->targetDirs[2].'/Resources/translations/en-GB/ShopThemeCatalog.en-GB.xlf'), 110 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesStatsforecastAdmin.en-GB.xlf'), 111 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesBestsellersShop.en-GB.xlf'), 112 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesCrosssellingShop.en-GB.xlf'), 113 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminLoginNotification.en-GB.xlf'), 114 => ($this->targetDirs[2].'/Resources/translations/en-GB/Install.en-GB.xlf'), 115 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesEmailsubscriptionAdmin.en-GB.xlf'), 116 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesGAnalyticsAdmin.en-GB.xlf'), 117 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminGlobal.en-GB.xlf'), 118 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminShopparametersNotification.en-GB.xlf'), 119 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesLegalcomplianceAdmin.en-GB.xlf'), 120 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesReminderAdmin.en-GB.xlf'), 121 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesCrosssellingAdmin.en-GB.xlf'), 122 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminPaymentHelp.en-GB.xlf'), 123 => ($this->targetDirs[2].'/Resources/translations/en-GB/ShopFormsHelp.en-GB.xlf'), 124 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesCurrencyselectorAdmin.en-GB.xlf'), 125 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesTrackingfrontShop.en-GB.xlf'), 126 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesStatsstockAdmin.en-GB.xlf'), 127 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminStatsFeature.en-GB.xlf'), 128 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesBannerAdmin.en-GB.xlf'), 129 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesStatsbestmanufacturersAdmin.en-GB.xlf'), 130 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesBrandlistAdmin.en-GB.xlf'), 131 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesContactinfoShop.en-GB.xlf'), 132 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminCatalogHelp.en-GB.xlf'), 133 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesSocialfollowAdmin.en-GB.xlf'), 134 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesAdvertisingAdmin.en-GB.xlf'), 135 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesContactinfoAdmin.en-GB.xlf'), 136 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminShopparametersHelp.en-GB.xlf'), 137 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesNewproductsShop.en-GB.xlf'), 138 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesSearchbarAdmin.en-GB.xlf'), 139 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminStatsHelp.en-GB.xlf'), 140 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesCategoryproductsAdmin.en-GB.xlf'), 141 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesSekeywordsAdmin.en-GB.xlf'), 142 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesDateofdeliveryShop.en-GB.xlf'), 143 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesTrackingfrontAdmin.en-GB.xlf'), 144 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesFeederAdmin.en-GB.xlf'), 145 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminNavigationNotification.en-GB.xlf'), 146 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesStatsbestvouchersAdmin.en-GB.xlf'), 147 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminInternationalHelp.en-GB.xlf'), 148 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminShippingHelp.en-GB.xlf'), 149 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesStatsbestproductsAdmin.en-GB.xlf'), 150 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminNotificationsWarning.en-GB.xlf'), 151 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminNavigationMenu.en-GB.xlf'), 152 => ($this->targetDirs[2].'/Resources/translations/en-GB/ShopThemeCustomeraccount.en-GB.xlf'), 153 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesDataprivacyShop.en-GB.xlf'), 154 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminNotificationsSuccess.en-GB.xlf'), 155 => ($this->targetDirs[2].'/Resources/translations/en-GB/ShopNotificationsInfo.en-GB.xlf'), 156 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminShippingFeature.en-GB.xlf'), 157 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesMainmenuAdmin.en-GB.xlf'), 158 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesCashondeliveryShop.en-GB.xlf'), 159 => ($this->targetDirs[2].'/Resources/translations/en-GB/EmailsSubject.en-GB.xlf'), 160 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesStatsbestcustomersAdmin.en-GB.xlf'), 161 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesStatspersonalinfosAdmin.en-GB.xlf'), 162 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesCategoryproductsShop.en-GB.xlf'), 163 => ($this->targetDirs[2].'/Resources/translations/en-GB/ShopDemoCatalog.en-GB.xlf'), 164 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesSupplierlistAdmin.en-GB.xlf'), 165 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesCarriercomparisonShop.en-GB.xlf'), 166 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesDataprivacyAdmin.en-GB.xlf'), 167 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminDesignNotification.en-GB.xlf'), 168 => ($this->targetDirs[2].'/Resources/translations/en-GB/ShopNotificationsError.en-GB.xlf'), 169 => ($this->targetDirs[2].'/Resources/translations/en-GB/ModulesMailalertsShop.en-GB.xlf'), 170 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminShopparametersFeature.en-GB.xlf'), 171 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminOrderscustomersHelp.en-GB.xlf'), 172 => ($this->targetDirs[2].'/Resources/translations/en-GB/AdminShippingNotification.en-GB.xlf')), 'en-US' => array(0 => ($this->targetDirs[2].'/Resources/translations/en-US/AdminShippingFeature.en-US.xlf'), 1 => ($this->targetDirs[2].'/Resources/translations/en-US/AdminInternationalFeature.en-US.xlf'), 2 => ($this->targetDirs[2].'/Resources/translations/en-US/ShopDemoCatalog.en-US.xlf'), 3 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesGridhtmlAdmin.en-US.xlf'), 4 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesGAnalyticsAdmin.en-US.xlf'), 5 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesStatsbestcategoriesAdmin.en-US.xlf'), 6 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesSocialfollowAdmin.en-US.xlf'), 7 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesStatscarrierAdmin.en-US.xlf'), 8 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesViewedproductShop.en-US.xlf'), 9 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesNewproductsShop.en-US.xlf'), 10 => ($this->targetDirs[2].'/Resources/translations/en-US/AdminNavigationMenu.en-US.xlf'), 11 => ($this->targetDirs[2].'/Resources/translations/en-US/AdminNavigationHeader.en-US.xlf'), 12 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesBrandlistAdmin.en-US.xlf'), 13 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesSearchbarShop.en-US.xlf'), 14 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesStatsregistrationsAdmin.en-US.xlf'), 15 => ($this->targetDirs[2].'/Resources/translations/en-US/ShopNotificationsInfo.en-US.xlf'), 16 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesContactformAdmin.en-US.xlf'), 17 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesStatsbestproductsAdmin.en-US.xlf'), 18 => ($this->targetDirs[2].'/Resources/translations/en-US/ShopThemeCustomeraccount.en-US.xlf'), 19 => ($this->targetDirs[2].'/Resources/translations/en-US/ShopNotificationsWarning.en-US.xlf'), 20 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesStatsdataAdmin.en-US.xlf'), 21 => ($this->targetDirs[2].'/Resources/translations/en-US/AdminDashboardHelp.en-US.xlf'), 22 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesTrackingfrontAdmin.en-US.xlf'), 23 => ($this->targetDirs[2].'/Resources/translations/en-US/AdminShopparametersFeature.en-US.xlf'), 24 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesFeaturedproductsAdmin.en-US.xlf'), 25 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesWelcomeAdmin.en-US.xlf'), 26 => ($this->targetDirs[2].'/Resources/translations/en-US/AdminGlobal.en-US.xlf'), 27 => ($this->targetDirs[2].'/Resources/translations/en-US/AdminStatsHelp.en-US.xlf'), 28 => ($this->targetDirs[2].'/Resources/translations/en-US/AdminNavigationSearch.en-US.xlf'), 29 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesCustomtextAdmin.en-US.xlf'), 30 => ($this->targetDirs[2].'/Resources/translations/en-US/AdminShopparametersHelp.en-US.xlf'), 31 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesCarriercomparisonShop.en-US.xlf'), 32 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesCashondeliveryAdmin.en-US.xlf'), 33 => ($this->targetDirs[2].'/Resources/translations/en-US/ShopThemeGlobal.en-US.xlf'), 34 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesNewsletterAdmin.en-US.xlf'), 35 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesCheckpaymentAdmin.en-US.xlf'), 36 => ($this->targetDirs[2].'/Resources/translations/en-US/AdminAdvparametersFeature.en-US.xlf'), 37 => ($this->targetDirs[2].'/Resources/translations/en-US/ShopThemeCheckout.en-US.xlf'), 38 => ($this->targetDirs[2].'/Resources/translations/en-US/AdminInternationalNotification.en-US.xlf'), 39 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesFeederAdmin.en-US.xlf'), 40 => ($this->targetDirs[2].'/Resources/translations/en-US/AdminCatalogHelp.en-US.xlf'), 41 => ($this->targetDirs[2].'/Resources/translations/en-US/AdminAdvparametersHelp.en-US.xlf'), 42 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesContactinfoShop.en-US.xlf'), 43 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesSpecialsShop.en-US.xlf'), 44 => ($this->targetDirs[2].'/Resources/translations/en-US/Install.en-US.xlf'), 45 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesWirepaymentShop.en-US.xlf'), 46 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesNewproductsAdmin.en-US.xlf'), 47 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesStatsbestcustomersAdmin.en-US.xlf'), 48 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesCrosssellingShop.en-US.xlf'), 49 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesDashproductsAdmin.en-US.xlf'), 50 => ($this->targetDirs[2].'/Resources/translations/en-US/AdminShippingHelp.en-US.xlf'), 51 => ($this->targetDirs[2].'/Resources/translations/en-US/AdminAdvparametersNotification.en-US.xlf'), 52 => ($this->targetDirs[2].'/Resources/translations/en-US/AdminModulesNotification.en-US.xlf'), 53 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesDateofdeliveryShop.en-US.xlf'), 54 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesStatsbestsuppliersAdmin.en-US.xlf'), 55 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesStatsvisitsAdmin.en-US.xlf'), 56 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesCategoryproductsShop.en-US.xlf'), 57 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesSekeywordsAdmin.en-US.xlf'), 58 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesStatssearchAdmin.en-US.xlf'), 59 => ($this->targetDirs[2].'/Resources/translations/en-US/EmailsBody.en-US.xlf'), 60 => ($this->targetDirs[2].'/Resources/translations/en-US/AdminNavigationFooter.en-US.xlf'), 61 => ($this->targetDirs[2].'/Resources/translations/en-US/AdminOrderscustomersFeature.en-US.xlf'), 62 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesLivetranslationAdmin.en-US.xlf'), 63 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesBlockreassuranceAdmin.en-US.xlf'), 64 => ($this->targetDirs[2].'/Resources/translations/en-US/ShopThemeActions.en-US.xlf'), 65 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesStatscheckupAdmin.en-US.xlf'), 66 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesSupplierlistAdmin.en-US.xlf'), 67 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesCurrencyselectorAdmin.en-US.xlf'), 68 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesStatspersonalinfosAdmin.en-US.xlf'), 69 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesLanguageselectorAdmin.en-US.xlf'), 70 => ($this->targetDirs[2].'/Resources/translations/en-US/AdminStatsNotification.en-US.xlf'), 71 => ($this->targetDirs[2].'/Resources/translations/en-US/AdminNotificationsError.en-US.xlf'), 72 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesCategoryproductsAdmin.en-US.xlf'), 73 => ($this->targetDirs[2].'/Resources/translations/en-US/messages.en-US.xlf'), 74 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesSearchbarAdmin.en-US.xlf'), 75 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesImagesliderAdmin.en-US.xlf'), 76 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesMainmenuAdmin.en-US.xlf'), 77 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesCustomersigninAdmin.en-US.xlf'), 78 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesDashgoalsAdmin.en-US.xlf'), 79 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesPscleanerAdmin.en-US.xlf'), 80 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesLinklistShop.en-US.xlf'), 81 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesShoppingcartAdmin.en-US.xlf'), 82 => ($this->targetDirs[2].'/Resources/translations/en-US/AdminModulesHelp.en-US.xlf'), 83 => ($this->targetDirs[2].'/Resources/translations/en-US/AdminModulesFeature.en-US.xlf'), 84 => ($this->targetDirs[2].'/Resources/translations/en-US/EmailsSubject.en-US.xlf'), 85 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesGraphnvd3Admin.en-US.xlf'), 86 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesBannerAdmin.en-US.xlf'), 87 => ($this->targetDirs[2].'/Resources/translations/en-US/AdminNotificationsSuccess.en-US.xlf'), 88 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesAdvertisingAdmin.en-US.xlf'), 89 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesEmailsubscriptionAdmin.en-US.xlf'), 90 => ($this->targetDirs[2].'/Resources/translations/en-US/ShopPdf.en-US.xlf'), 91 => ($this->targetDirs[2].'/Resources/translations/en-US/AdminLoginFeature.en-US.xlf'), 92 => ($this->targetDirs[2].'/Resources/translations/en-US/AdminLoginNotification.en-US.xlf'), 93 => ($this->targetDirs[2].'/Resources/translations/en-US/AdminNotificationsInfo.en-US.xlf'), 94 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesEmailsubscriptionShop.en-US.xlf'), 95 => ($this->targetDirs[2].'/Resources/translations/en-US/AdminOrderscustomersNotification.en-US.xlf'), 96 => ($this->targetDirs[2].'/Resources/translations/en-US/AdminPaymentFeature.en-US.xlf'), 97 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesStatsoriginAdmin.en-US.xlf'), 98 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesTrackingfrontShop.en-US.xlf'), 99 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesBestsellersAdmin.en-US.xlf'), 100 => ($this->targetDirs[2].'/Resources/translations/en-US/AdminNotificationsWarning.en-US.xlf'), 101 => ($this->targetDirs[2].'/Resources/translations/en-US/AdminActions.en-US.xlf'), 102 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesSocialfollowShop.en-US.xlf'), 103 => ($this->targetDirs[2].'/Resources/translations/en-US/ShopNotificationsSuccess.en-US.xlf'), 104 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesCrosssellingAdmin.en-US.xlf'), 105 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesSpecialsAdmin.en-US.xlf'), 106 => ($this->targetDirs[2].'/Resources/translations/en-US/AdminDesignHelp.en-US.xlf'), 107 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesSharebuttonsShop.en-US.xlf'), 108 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesCustomeraccountlinksAdmin.en-US.xlf'), 109 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesSupplierlistShop.en-US.xlf'), 110 => ($this->targetDirs[2].'/Resources/translations/en-US/ShopFormsErrors.en-US.xlf'), 111 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesViewedproductAdmin.en-US.xlf'), 112 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesRssfeedShop.en-US.xlf'), 113 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesMailalertsShop.en-US.xlf'), 114 => ($this->targetDirs[2].'/Resources/translations/en-US/AdminCatalogFeature.en-US.xlf'), 115 => ($this->targetDirs[2].'/Resources/translations/en-US/ShopNavigation.en-US.xlf'), 116 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesBannerShop.en-US.xlf'), 117 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesBlockreassuranceShop.en-US.xlf'), 118 => ($this->targetDirs[2].'/Resources/translations/en-US/AdminCatalogNotification.en-US.xlf'), 119 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesAutoupgradeAdmin.en-US.xlf'), 120 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesMailalertsAdmin.en-US.xlf'), 121 => ($this->targetDirs[2].'/Resources/translations/en-US/AdminDashboardFeature.en-US.xlf'), 122 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesStatscatalogAdmin.en-US.xlf'), 123 => ($this->targetDirs[2].'/Resources/translations/en-US/AdminPaymentNotification.en-US.xlf'), 124 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesCashondeliveryShop.en-US.xlf'), 125 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesContactformShop.en-US.xlf'), 126 => ($this->targetDirs[2].'/Resources/translations/en-US/ShopNotificationsError.en-US.xlf'), 127 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesStatsnewsletterAdmin.en-US.xlf'), 128 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesCategorytreeAdmin.en-US.xlf'), 129 => ($this->targetDirs[2].'/Resources/translations/en-US/AdminOrderscustomersHelp.en-US.xlf'), 130 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesLinklistAdmin.en-US.xlf'), 131 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesDataprivacyShop.en-US.xlf'), 132 => ($this->targetDirs[2].'/Resources/translations/en-US/AdminDesignFeature.en-US.xlf'), 133 => ($this->targetDirs[2].'/Resources/translations/en-US/ShopThemeCatalog.en-US.xlf'), 134 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesRssfeedAdmin.en-US.xlf'), 135 => ($this->targetDirs[2].'/Resources/translations/en-US/AdminShopparametersNotification.en-US.xlf'), 136 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesPagesnotfoundAdmin.en-US.xlf'), 137 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesLegalcomplianceAdmin.en-US.xlf'), 138 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesStatsequipmentAdmin.en-US.xlf'), 139 => ($this->targetDirs[2].'/Resources/translations/en-US/AdminShippingNotification.en-US.xlf'), 140 => ($this->targetDirs[2].'/Resources/translations/en-US/AdminStatsFeature.en-US.xlf'), 141 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesStatsproductAdmin.en-US.xlf'), 142 => ($this->targetDirs[2].'/Resources/translations/en-US/ShopFormsHelp.en-US.xlf'), 143 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesLivetranslationShop.en-US.xlf'), 144 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesDashactivityAdmin.en-US.xlf'), 145 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesStatssalesAdmin.en-US.xlf'), 146 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesDataprivacyAdmin.en-US.xlf'), 147 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesStatsstockAdmin.en-US.xlf'), 148 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesSharebuttonsAdmin.en-US.xlf'), 149 => ($this->targetDirs[2].'/Resources/translations/en-US/AdminDashboardNotification.en-US.xlf'), 150 => ($this->targetDirs[2].'/Resources/translations/en-US/AdminDesignNotification.en-US.xlf'), 151 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesDateofdeliveryAdmin.en-US.xlf'), 152 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesStatsbestmanufacturersAdmin.en-US.xlf'), 153 => ($this->targetDirs[2].'/Resources/translations/en-US/ShopFormsLabels.en-US.xlf'), 154 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesWirepaymentAdmin.en-US.xlf'), 155 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesCheckpaymentShop.en-US.xlf'), 156 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesFacetedsearchAdmin.en-US.xlf'), 157 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesDashtrendsAdmin.en-US.xlf'), 158 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesCarriercomparisonAdmin.en-US.xlf'), 159 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesProductinfoAdmin.en-US.xlf'), 160 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesContactinfoAdmin.en-US.xlf'), 161 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesStatsforecastAdmin.en-US.xlf'), 162 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesStatsbestvouchersAdmin.en-US.xlf'), 163 => ($this->targetDirs[2].'/Resources/translations/en-US/AdminNavigationNotification.en-US.xlf'), 164 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesReminderAdmin.en-US.xlf'), 165 => ($this->targetDirs[2].'/Resources/translations/en-US/AdminInternationalHelp.en-US.xlf'), 166 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesFacetedsearchShop.en-US.xlf'), 167 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesFeaturedproductsShop.en-US.xlf'), 168 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesBestsellersShop.en-US.xlf'), 169 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesLegalcomplianceShop.en-US.xlf'), 170 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesBrandlistShop.en-US.xlf'), 171 => ($this->targetDirs[2].'/Resources/translations/en-US/AdminPaymentHelp.en-US.xlf'), 172 => ($this->targetDirs[2].'/Resources/translations/en-US/ModulesStatsliveAdmin.en-US.xlf')))), array());
 
         $instance->setConfigCacheFactory($this->get('config_cache_factory'));
         $instance->setFallbackLocales(array(0 => 'default'));
@@ -5017,12 +4048,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'translator_listener' service.
+     * Gets the public 'translator_listener' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\HttpKernel\EventListener\TranslatorListener A Symfony\Component\HttpKernel\EventListener\TranslatorListener instance
+     * @return \Symfony\Component\HttpKernel\EventListener\TranslatorListener
      */
     protected function getTranslatorListenerService()
     {
@@ -5030,12 +4058,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'twig' service.
+     * Gets the public 'twig' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Twig\Environment A Twig\Environment instance
+     * @return \Twig\Environment
      */
     protected function getTwigService()
     {
@@ -5086,12 +4111,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'twig.controller.exception' service.
+     * Gets the public 'twig.controller.exception' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Bundle\TwigBundle\Controller\ExceptionController A Symfony\Bundle\TwigBundle\Controller\ExceptionController instance
+     * @return \Symfony\Bundle\TwigBundle\Controller\ExceptionController
      */
     protected function getTwig_Controller_ExceptionService()
     {
@@ -5099,12 +4121,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'twig.controller.preview_error' service.
+     * Gets the public 'twig.controller.preview_error' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Bundle\TwigBundle\Controller\PreviewErrorController A Symfony\Bundle\TwigBundle\Controller\PreviewErrorController instance
+     * @return \Symfony\Bundle\TwigBundle\Controller\PreviewErrorController
      */
     protected function getTwig_Controller_PreviewErrorService()
     {
@@ -5112,12 +4131,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'twig.exception_listener' service.
+     * Gets the public 'twig.exception_listener' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\HttpKernel\EventListener\ExceptionListener A Symfony\Component\HttpKernel\EventListener\ExceptionListener instance
+     * @return \Symfony\Component\HttpKernel\EventListener\ExceptionListener
      */
     protected function getTwig_ExceptionListenerService()
     {
@@ -5125,12 +4141,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'twig.loader' service.
+     * Gets the public 'twig.loader' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Bundle\TwigBundle\Loader\FilesystemLoader A Symfony\Bundle\TwigBundle\Loader\FilesystemLoader instance
+     * @return \Symfony\Bundle\TwigBundle\Loader\FilesystemLoader
      */
     protected function getTwig_LoaderService()
     {
@@ -5150,12 +4163,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'twig.profile' service.
+     * Gets the public 'twig.profile' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Twig\Profiler\Profile A Twig\Profiler\Profile instance
+     * @return \Twig\Profiler\Profile
      */
     protected function getTwig_ProfileService()
     {
@@ -5163,12 +4173,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'twig.translation.extractor' service.
+     * Gets the public 'twig.translation.extractor' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Bridge\Twig\Translation\TwigExtractor A Symfony\Bridge\Twig\Translation\TwigExtractor instance
+     * @return \Symfony\Bridge\Twig\Translation\TwigExtractor
      */
     protected function getTwig_Translation_ExtractorService()
     {
@@ -5176,12 +4183,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'uri_signer' service.
+     * Gets the public 'uri_signer' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\HttpKernel\UriSigner A Symfony\Component\HttpKernel\UriSigner instance
+     * @return \Symfony\Component\HttpKernel\UriSigner
      */
     protected function getUriSignerService()
     {
@@ -5189,12 +4193,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'validate_request_listener' service.
+     * Gets the public 'validate_request_listener' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\HttpKernel\EventListener\ValidateRequestListener A Symfony\Component\HttpKernel\EventListener\ValidateRequestListener instance
+     * @return \Symfony\Component\HttpKernel\EventListener\ValidateRequestListener
      */
     protected function getValidateRequestListenerService()
     {
@@ -5202,12 +4203,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'validator' service.
+     * Gets the public 'validator' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Validator\Validator\ValidatorInterface A Symfony\Component\Validator\Validator\ValidatorInterface instance
+     * @return \Symfony\Component\Validator\Validator\ValidatorInterface
      */
     protected function getValidatorService()
     {
@@ -5215,12 +4213,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'validator.builder' service.
+     * Gets the public 'validator.builder' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Validator\ValidatorBuilderInterface A Symfony\Component\Validator\ValidatorBuilderInterface instance
+     * @return \Symfony\Component\Validator\ValidatorBuilderInterface
      */
     protected function getValidator_BuilderService()
     {
@@ -5238,12 +4233,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'validator.email' service.
+     * Gets the public 'validator.email' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Validator\Constraints\EmailValidator A Symfony\Component\Validator\Constraints\EmailValidator instance
+     * @return \Symfony\Component\Validator\Constraints\EmailValidator
      */
     protected function getValidator_EmailService()
     {
@@ -5251,12 +4243,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'validator.expression' service.
+     * Gets the public 'validator.expression' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * @return \Symfony\Component\Validator\Constraints\ExpressionValidator A Symfony\Component\Validator\Constraints\ExpressionValidator instance
+     * @return \Symfony\Component\Validator\Constraints\ExpressionValidator
      */
     protected function getValidator_ExpressionService()
     {
@@ -5264,16 +4253,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'controller_name_converter' service.
+     * Gets the private 'controller_name_converter' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * This service is private.
-     * If you want to be able to request this service from the container directly,
-     * make it public, otherwise you might end up with broken code.
-     *
-     * @return \Symfony\Bundle\FrameworkBundle\Controller\ControllerNameParser A Symfony\Bundle\FrameworkBundle\Controller\ControllerNameParser instance
+     * @return \Symfony\Bundle\FrameworkBundle\Controller\ControllerNameParser
      */
     protected function getControllerNameConverterService()
     {
@@ -5281,16 +4263,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'form.server_params' service.
+     * Gets the private 'form.server_params' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * This service is private.
-     * If you want to be able to request this service from the container directly,
-     * make it public, otherwise you might end up with broken code.
-     *
-     * @return \Symfony\Component\Form\Util\ServerParams A Symfony\Component\Form\Util\ServerParams instance
+     * @return \Symfony\Component\Form\Util\ServerParams
      */
     protected function getForm_ServerParamsService()
     {
@@ -5298,16 +4273,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'router.request_context' service.
+     * Gets the private 'router.request_context' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * This service is private.
-     * If you want to be able to request this service from the container directly,
-     * make it public, otherwise you might end up with broken code.
-     *
-     * @return \Symfony\Component\Routing\RequestContext A Symfony\Component\Routing\RequestContext instance
+     * @return \Symfony\Component\Routing\RequestContext
      */
     protected function getRouter_RequestContextService()
     {
@@ -5315,16 +4283,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'security.access.decision_manager' service.
+     * Gets the private 'security.access.decision_manager' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * This service is private.
-     * If you want to be able to request this service from the container directly,
-     * make it public, otherwise you might end up with broken code.
-     *
-     * @return \Symfony\Component\Security\Core\Authorization\AccessDecisionManager A Symfony\Component\Security\Core\Authorization\AccessDecisionManager instance
+     * @return \Symfony\Component\Security\Core\Authorization\AccessDecisionManager
      */
     protected function getSecurity_Access_DecisionManagerService()
     {
@@ -5338,20 +4299,13 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'security.authentication.manager' service.
+     * Gets the private 'security.authentication.manager' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * This service is private.
-     * If you want to be able to request this service from the container directly,
-     * make it public, otherwise you might end up with broken code.
-     *
-     * @return \Symfony\Component\Security\Core\Authentication\AuthenticationProviderManager A Symfony\Component\Security\Core\Authentication\AuthenticationProviderManager instance
+     * @return \Symfony\Component\Security\Core\Authentication\AuthenticationProviderManager
      */
     protected function getSecurity_Authentication_ManagerService()
     {
-        $this->services['security.authentication.manager'] = $instance = new \Symfony\Component\Security\Core\Authentication\AuthenticationProviderManager(array(0 => new \Symfony\Component\Security\Core\Authentication\Provider\AnonymousAuthenticationProvider('5a22426cec4957.63579232')), true);
+        $this->services['security.authentication.manager'] = $instance = new \Symfony\Component\Security\Core\Authentication\AuthenticationProviderManager(array(0 => new \Symfony\Component\Security\Core\Authentication\Provider\AnonymousAuthenticationProvider('5a54fe8eac3958.59979401')), true);
 
         $instance->setEventDispatcher($this->get('event_dispatcher'));
 
@@ -5359,16 +4313,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'security.authentication.trust_resolver' service.
+     * Gets the private 'security.authentication.trust_resolver' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * This service is private.
-     * If you want to be able to request this service from the container directly,
-     * make it public, otherwise you might end up with broken code.
-     *
-     * @return \Symfony\Component\Security\Core\Authentication\AuthenticationTrustResolver A Symfony\Component\Security\Core\Authentication\AuthenticationTrustResolver instance
+     * @return \Symfony\Component\Security\Core\Authentication\AuthenticationTrustResolver
      */
     protected function getSecurity_Authentication_TrustResolverService()
     {
@@ -5376,33 +4323,19 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'security.logout_url_generator' service.
+     * Gets the private 'security.logout_url_generator' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * This service is private.
-     * If you want to be able to request this service from the container directly,
-     * make it public, otherwise you might end up with broken code.
-     *
-     * @return \Symfony\Component\Security\Http\Logout\LogoutUrlGenerator A Symfony\Component\Security\Http\Logout\LogoutUrlGenerator instance
+     * @return \Symfony\Component\Security\Http\Logout\LogoutUrlGenerator
      */
     protected function getSecurity_LogoutUrlGeneratorService()
     {
-        return $this->services['security.logout_url_generator'] = new \Symfony\Component\Security\Http\Logout\LogoutUrlGenerator($this->get('request_stack', ContainerInterface::NULL_ON_INVALID_REFERENCE), $this->get('router', ContainerInterface::NULL_ON_INVALID_REFERENCE), $this->get('security.token_storage', ContainerInterface::NULL_ON_INVALID_REFERENCE));
+        return $this->services['security.logout_url_generator'] = new \Symfony\Component\Security\Http\Logout\LogoutUrlGenerator($this->get('request_stack', ContainerInterface::NULL_ON_INVALID_REFERENCE), $this->get('prestashop.router', ContainerInterface::NULL_ON_INVALID_REFERENCE), $this->get('security.token_storage', ContainerInterface::NULL_ON_INVALID_REFERENCE));
     }
 
     /*
-     * Gets the 'security.role_hierarchy' service.
+     * Gets the private 'security.role_hierarchy' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * This service is private.
-     * If you want to be able to request this service from the container directly,
-     * make it public, otherwise you might end up with broken code.
-     *
-     * @return \Symfony\Component\Security\Core\Role\RoleHierarchy A Symfony\Component\Security\Core\Role\RoleHierarchy instance
+     * @return \Symfony\Component\Security\Core\Role\RoleHierarchy
      */
     protected function getSecurity_RoleHierarchyService()
     {
@@ -5410,16 +4343,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'session.storage.metadata_bag' service.
+     * Gets the private 'session.storage.metadata_bag' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * This service is private.
-     * If you want to be able to request this service from the container directly,
-     * make it public, otherwise you might end up with broken code.
-     *
-     * @return \Symfony\Component\HttpFoundation\Session\Storage\MetadataBag A Symfony\Component\HttpFoundation\Session\Storage\MetadataBag instance
+     * @return \Symfony\Component\HttpFoundation\Session\Storage\MetadataBag
      */
     protected function getSession_Storage_MetadataBagService()
     {
@@ -5427,16 +4353,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'swiftmailer.mailer.default.transport.eventdispatcher' service.
+     * Gets the private 'swiftmailer.mailer.default.transport.eventdispatcher' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * This service is private.
-     * If you want to be able to request this service from the container directly,
-     * make it public, otherwise you might end up with broken code.
-     *
-     * @return \Swift_Events_SimpleEventDispatcher A Swift_Events_SimpleEventDispatcher instance
+     * @return \Swift_Events_SimpleEventDispatcher
      */
     protected function getSwiftmailer_Mailer_Default_Transport_EventdispatcherService()
     {
@@ -5444,16 +4363,9 @@ class appProdProjectContainer extends Container
     }
 
     /*
-     * Gets the 'templating.locator' service.
+     * Gets the private 'templating.locator' shared service.
      *
-     * This service is shared.
-     * This method always returns the same instance of the service.
-     *
-     * This service is private.
-     * If you want to be able to request this service from the container directly,
-     * make it public, otherwise you might end up with broken code.
-     *
-     * @return \Symfony\Bundle\FrameworkBundle\Templating\Loader\TemplateLocator A Symfony\Bundle\FrameworkBundle\Templating\Loader\TemplateLocator instance
+     * @return \Symfony\Bundle\FrameworkBundle\Templating\Loader\TemplateLocator
      */
     protected function getTemplating_LocatorService()
     {

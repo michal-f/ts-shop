@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <module>
     <name>ps_shoppingcart</name>
-    <displayName><![CDATA[Shopping cart]]></displayName>
+    <displayName><![CDATA[Koszyk]]></displayName>
     <version><![CDATA[2.0.1]]></version>
-    <description><![CDATA[Adds a block containing the customer&#039;s shopping cart.]]></description>
+    <description><![CDATA[Dodaje blok zawierający koszyk klienta.]]></description>
     <author><![CDATA[PrestaShop]]></author>
     <tab><![CDATA[front_office_features]]></tab>
     <is_configurable>1</is_configurable>

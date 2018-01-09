@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitd438d95c4ca0e2440289f4d890e23f4b
+class ComposerStaticInit78804b281eac8f8c1147d81e6d0ed574
 {
     public static $files = array (
         'ad155f8f1cf0d418fe49e248db8c661b' => __DIR__ . '/..' . '/react/promise/src/functions_include.php',
@@ -58,6 +58,7 @@ class ComposerStaticInitd438d95c4ca0e2440289f4d890e23f4b
             'Psr\\Log\\' => 8,
             'PrestaShop\\TranslationToolsBundle\\' => 34,
             'PrestaShop\\PrestaShop\\' => 22,
+            'PrestaShop\\Decimal\\' => 19,
             'PrestaShopBundle\\' => 17,
             'PhpParser\\' => 10,
         ),
@@ -194,6 +195,10 @@ class ComposerStaticInitd438d95c4ca0e2440289f4d890e23f4b
         'PrestaShop\\PrestaShop\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
+        ),
+        'PrestaShop\\Decimal\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/prestashop/decimal/src',
         ),
         'PrestaShopBundle\\' => 
         array (
@@ -2417,6 +2422,15 @@ class ComposerStaticInitd438d95c4ca0e2440289f4d890e23f4b
         'PrestaShopBundle\\Twig\\TranslationsExtension' => __DIR__ . '/../..' . '/src/PrestaShopBundle/Twig/TranslationsExtension.php',
         'PrestaShopBundle\\Utils\\FloatParser' => __DIR__ . '/../..' . '/src/PrestaShopBundle/Utils/FloatParser.php',
         'PrestaShopBundle\\Utils\\ZipManager' => __DIR__ . '/../..' . '/src/PrestaShopBundle/Utils/ZipManager.php',
+        'PrestaShop\\Decimal\\Exception\\DivisionByZeroException' => __DIR__ . '/..' . '/prestashop/decimal/src/Exception/DivisionByZeroException.php',
+        'PrestaShop\\Decimal\\Number' => __DIR__ . '/..' . '/prestashop/decimal/src/Number.php',
+        'PrestaShop\\Decimal\\Operation\\Addition' => __DIR__ . '/..' . '/prestashop/decimal/src/Operation/Addition.php',
+        'PrestaShop\\Decimal\\Operation\\Comparison' => __DIR__ . '/..' . '/prestashop/decimal/src/Operation/Comparison.php',
+        'PrestaShop\\Decimal\\Operation\\Division' => __DIR__ . '/..' . '/prestashop/decimal/src/Operation/Division.php',
+        'PrestaShop\\Decimal\\Operation\\MagnitudeChange' => __DIR__ . '/..' . '/prestashop/decimal/src/Operation/MagnitudeChange.php',
+        'PrestaShop\\Decimal\\Operation\\Multiplication' => __DIR__ . '/..' . '/prestashop/decimal/src/Operation/Multiplication.php',
+        'PrestaShop\\Decimal\\Operation\\Rounding' => __DIR__ . '/..' . '/prestashop/decimal/src/Operation/Rounding.php',
+        'PrestaShop\\Decimal\\Operation\\Subtraction' => __DIR__ . '/..' . '/prestashop/decimal/src/Operation/Subtraction.php',
         'PrestaShop\\PrestaShop\\Adapter\\Addons\\AddonsDataProvider' => __DIR__ . '/../..' . '/src/Adapter/Addons/AddonsDataProvider.php',
         'PrestaShop\\PrestaShop\\Adapter\\AddressFactory' => __DIR__ . '/../..' . '/src/Adapter/AddressFactory.php',
         'PrestaShop\\PrestaShop\\Adapter\\Admin\\AbstractAdminQueryBuilder' => __DIR__ . '/../..' . '/src/Adapter/Admin/AbstractAdminQueryBuilder.php',
@@ -2793,7 +2807,10 @@ class ComposerStaticInitd438d95c4ca0e2440289f4d890e23f4b
         'Symfony\\Bridge\\Monolog\\Handler\\SwiftMailerHandler' => __DIR__ . '/..' . '/symfony/symfony/src/Symfony/Bridge/Monolog/Handler/SwiftMailerHandler.php',
         'Symfony\\Bridge\\Monolog\\Logger' => __DIR__ . '/..' . '/symfony/symfony/src/Symfony/Bridge/Monolog/Logger.php',
         'Symfony\\Bridge\\Monolog\\Processor\\WebProcessor' => __DIR__ . '/..' . '/symfony/symfony/src/Symfony/Bridge/Monolog/Processor/WebProcessor.php',
+        'Symfony\\Bridge\\ProxyManager\\LazyProxy\\Instantiator\\LazyLoadingValueHolderFactoryV1' => __DIR__ . '/..' . '/symfony/symfony/src/Symfony/Bridge/ProxyManager/LazyProxy/Instantiator/LazyLoadingValueHolderFactoryV1.php',
+        'Symfony\\Bridge\\ProxyManager\\LazyProxy\\Instantiator\\LazyLoadingValueHolderFactoryV2' => __DIR__ . '/..' . '/symfony/symfony/src/Symfony/Bridge/ProxyManager/LazyProxy/Instantiator/LazyLoadingValueHolderFactoryV2.php',
         'Symfony\\Bridge\\ProxyManager\\LazyProxy\\Instantiator\\RuntimeInstantiator' => __DIR__ . '/..' . '/symfony/symfony/src/Symfony/Bridge/ProxyManager/LazyProxy/Instantiator/RuntimeInstantiator.php',
+        'Symfony\\Bridge\\ProxyManager\\LazyProxy\\PhpDumper\\LazyLoadingValueHolderGenerator' => __DIR__ . '/..' . '/symfony/symfony/src/Symfony/Bridge/ProxyManager/LazyProxy/PhpDumper/LazyLoadingValueHolderGenerator.php',
         'Symfony\\Bridge\\ProxyManager\\LazyProxy\\PhpDumper\\ProxyDumper' => __DIR__ . '/..' . '/symfony/symfony/src/Symfony/Bridge/ProxyManager/LazyProxy/PhpDumper/ProxyDumper.php',
         'Symfony\\Bridge\\Swiftmailer\\DataCollector\\MessageDataCollector' => __DIR__ . '/..' . '/symfony/symfony/src/Symfony/Bridge/Swiftmailer/DataCollector/MessageDataCollector.php',
         'Symfony\\Bridge\\Twig\\AppVariable' => __DIR__ . '/..' . '/symfony/symfony/src/Symfony/Bridge/Twig/AppVariable.php',
@@ -5038,11 +5055,11 @@ class ComposerStaticInitd438d95c4ca0e2440289f4d890e23f4b
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitd438d95c4ca0e2440289f4d890e23f4b::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitd438d95c4ca0e2440289f4d890e23f4b::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInitd438d95c4ca0e2440289f4d890e23f4b::$prefixesPsr0;
-            $loader->fallbackDirsPsr0 = ComposerStaticInitd438d95c4ca0e2440289f4d890e23f4b::$fallbackDirsPsr0;
-            $loader->classMap = ComposerStaticInitd438d95c4ca0e2440289f4d890e23f4b::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit78804b281eac8f8c1147d81e6d0ed574::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit78804b281eac8f8c1147d81e6d0ed574::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit78804b281eac8f8c1147d81e6d0ed574::$prefixesPsr0;
+            $loader->fallbackDirsPsr0 = ComposerStaticInit78804b281eac8f8c1147d81e6d0ed574::$fallbackDirsPsr0;
+            $loader->classMap = ComposerStaticInit78804b281eac8f8c1147d81e6d0ed574::$classMap;
 
         }, null, ClassLoader::class);
     }

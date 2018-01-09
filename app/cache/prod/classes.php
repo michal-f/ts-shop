@@ -2700,8 +2700,8 @@ if (null !== $result) {
 break;
 }
 } catch (AccountStatusException $e) {
-$e->setToken($token);
-throw $e;
+$lastException = $e;
+break;
 } catch (AuthenticationException $e) {
 $lastException = $e;
 }

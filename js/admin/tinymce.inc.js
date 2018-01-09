@@ -4,10 +4,6 @@
 function changeToMaterial() {
   var materialIconAssoc = {
     'mce-i-code': '<i class="material-icons">code</i>',
-    'mce-i-visualblocks': '<i class="material-icons">dashboard</i>',
-    'mce-i-charmap': '<i class="material-icons">grade</i>',
-    'mce-i-hr': '<i class="material-icons">remove</i>',
-    'mce-i-searchreplace': '<i class="material-icons">find_replace</i>',
     'mce-i-none': '<i class="material-icons">format_color_text</i>',
     'mce-i-bold': '<i class="material-icons">format_bold</i>',
     'mce-i-italic': '<i class="material-icons">format_italic</i>',
@@ -34,13 +30,13 @@ function changeToMaterial() {
 }
 
 function tinySetup(config) {
-
   if (typeof tinyMCE === 'undefined') {
-    setTimeout(function () {
+    setTimeout(function() {
       tinySetup(config);
     }, 100);
     return;
   }
+
   if (!config) {
     config = {};
   }
@@ -51,12 +47,10 @@ function tinySetup(config) {
 
   var default_config = {
     selector: ".rte",
+    plugins: "align colorpicker link image filemanager table media placeholder advlist code table autoresize",
     browser_spellcheck: true,
-    plugins : "visualblocks, preview searchreplace print insertdatetime, hr charmap colorpicker anchor code link image paste pagebreak table contextmenu filemanager table code media autoresize textcolor emoticons",
-    toolbar2 : "newdocument,print,|,bold,italic,underline,|,strikethrough,superscript,subscript,|,forecolor,colorpicker,backcolor,|,bullist,numlist,outdent,indent",
-    toolbar1 : "styleselect,|,formatselect,|,fontselect,|,fontsizeselect,",
-    toolbar3 : "code,|,table,|,cut,copy,paste,searchreplace,|,blockquote,|,undo,redo,|,link,unlink,anchor,|,image,emoticons,media,|,inserttime,|,preview ",
-    toolbar4 : "visualblocks,|,charmap,|,hr,",
+    toolbar1: "code,colorpicker,bold,italic,underline,strikethrough,blockquote,link,align,bullist,numlist,table,image,media,formatselect",
+    toolbar2: "",
     external_filemanager_path: baseAdminDir + "filemanager/",
     filemanager_title: "File manager",
     external_plugins: {"filemanager": baseAdminDir + "filemanager/plugin.min.js"},
@@ -67,16 +61,13 @@ function tinySetup(config) {
     relative_urls: false,
     convert_urls: false,
     entity_encoding: "raw",
-    valid_children: "+body[style|script|iframe|section],pre[iframe|section|script|div|p|br|span|img|style|h1|h2|h3|h4|h5],*[*]",
-    valid_elements : '*[*]',
-    force_p_newlines : false,
-    cleanup: false,
-    forced_root_block : false,
-    force_br_newlines : true,
-    convert_urls:true,
-    relative_urls:false,
-    remove_script_host:false,
-    init_instance_callback: "changeToMaterial"
+    extended_valid_elements: "em[class|name|id],@[role|data-*|aria-*]",
+    valid_children: "+*[*]",
+    valid_elements: "*[*]",
+    init_instance_callback: "changeToMaterial",
+    rel_list:[
+      { title: 'nofollow', value: 'nofollow' }
+    ]
   };
 
   $.each(default_config, function (index, el) {

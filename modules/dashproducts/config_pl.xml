@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <module>
     <name>dashproducts</name>
-    <displayName><![CDATA[Dashboard Products]]></displayName>
+    <displayName><![CDATA[Pulpit Produkt&oacute;w]]></displayName>
     <version><![CDATA[2.0.2]]></version>
-    <description><![CDATA[Adds a block with a table of your latest orders and a ranking of your products]]></description>
+    <description><![CDATA[Dodaje blok z tabelą najnowszych zam&oacute;wień i ranking Twoich produkt&oacute;w]]></description>
     <author><![CDATA[PrestaShop]]></author>
     <tab><![CDATA[dashboard]]></tab>
     <is_configurable>0</is_configurable>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <module>
     <name>ps_customersignin</name>
-    <displayName><![CDATA[Customer &quot;Sign in&quot; link]]></displayName>
+    <displayName><![CDATA[Łącze klienta &bdquo;Zaloguj się&quot;]]></displayName>
     <version><![CDATA[2.0.1]]></version>
-    <description><![CDATA[Adds a block that displays information about the customer.]]></description>
+    <description><![CDATA[Dodaje blok kt&oacute;ry wyświetla informację o kliencie.]]></description>
     <author><![CDATA[PrestaShop]]></author>
     <tab><![CDATA[]]></tab>
     <is_configurable>0</is_configurable>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <module>
     <name>ps_linklist</name>
-    <displayName><![CDATA[Link List]]></displayName>
-    <version><![CDATA[2.1.2]]></version>
-    <description><![CDATA[Adds a block with several links.]]></description>
+    <displayName><![CDATA[Lista link&oacute;w]]></displayName>
+    <version><![CDATA[2.1.4]]></version>
+    <description><![CDATA[Dodaje blok z kilkoma linkami.]]></description>
     <author><![CDATA[PrestaShop]]></author>
     <tab><![CDATA[]]></tab>
     <is_configurable>1</is_configurable>

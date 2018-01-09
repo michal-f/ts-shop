@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-12-12 09:14:46
+<?php /* Smarty version Smarty-3.1.19, created on 2018-01-09 18:40:46
          compiled from "/var/www/html/pages/prestashop/modules/dashactivity/views/templates/hook/dashboard_zone_one.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:7839911545a2f8ff63459d2-89506881%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:5451453855a54fe9e6b6574-64949634%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '12181f54c8aaad07e7391c7282101c5536ebf9b2' => 
     array (
       0 => '/var/www/html/pages/prestashop/modules/dashactivity/views/templates/hook/dashboard_zone_one.tpl',
-      1 => 1502724674,
+      1 => 1515519575,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '7839911545a2f8ff63459d2-89506881',
+  'nocache_hash' => '5451453855a54fe9e6b6574-64949634',
   'function' => 
   array (
   ),
@@ -29,9 +29,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a2f8ff66f47e1_82218630',
+  'unifunc' => 'content_5a54fe9e79fc83_51610871',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a2f8ff66f47e1_82218630')) {function content_5a2f8ff66f47e1_82218630($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5a54fe9e79fc83_51610871')) {function content_5a54fe9e79fc83_51610871($_smarty_tpl) {?>
 <section id="dashactivity" class="panel widget<?php if ($_smarty_tpl->tpl_vars['allow_push']->value) {?> allow_push<?php }?>">
 	<div class="panel-heading">
 		<i class="icon-time"></i> <?php echo smartyTranslate(array('s'=>'Activity overview','d'=>'Modules.Dashactivity.Admin'),$_smarty_tpl);?>
@@ -171,7 +171,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 			</li>
 			<li>
 				<span class="data_label"><a href="<?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_MODIFIER]['escape'][0][0]->smartyEscape($_smarty_tpl->tpl_vars['link']->value->getAdminLink('AdminModules'),'html','UTF-8');?>
-&amp;configure=blocknewsletter&amp;module_name=blocknewsletter"><?php echo smartyTranslate(array('s'=>'Total Subscribers','d'=>'Modules.Dashactivity.Admin'),$_smarty_tpl);?>
+&amp;configure=ps_emailsubscription&amp;module_name=ps_emailsubscription"><?php echo smartyTranslate(array('s'=>'Total Subscribers','d'=>'Modules.Dashactivity.Admin'),$_smarty_tpl);?>
 </a></span>
 				<span class="data_value size_md">
 					<span id="total_suscribers"></span>

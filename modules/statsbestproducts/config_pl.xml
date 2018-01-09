@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <module>
     <name>statsbestproducts</name>
-    <displayName><![CDATA[Best-selling products]]></displayName>
+    <displayName><![CDATA[Najlepsze produkty]]></displayName>
     <version><![CDATA[2.0.0]]></version>
-    <description><![CDATA[Adds a list of the best-selling products to the Stats dashboard.]]></description>
+    <description><![CDATA[Dodaje listę najlepiej sprzedających się produkt&oacute;w w panelu statystyk.]]></description>
     <author><![CDATA[PrestaShop]]></author>
     <tab><![CDATA[analytics_stats]]></tab>
     <is_configurable>0</is_configurable>

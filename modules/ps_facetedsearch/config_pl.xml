@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <module>
     <name>ps_facetedsearch</name>
-    <displayName><![CDATA[Faceted search]]></displayName>
+    <displayName><![CDATA[Nawigacja fasetowa]]></displayName>
     <version><![CDATA[2.0.0]]></version>
-    <description><![CDATA[Displays a block allowing multiple filters.]]></description>
+    <description><![CDATA[Wyświetla blok umożliwiający wielokrotne filtrowanie.]]></description>
     <author><![CDATA[PrestaShop]]></author>
     <tab><![CDATA[front_office_features]]></tab>
     <is_configurable>1</is_configurable>

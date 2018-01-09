@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <module>
     <name>ps_imageslider</name>
-    <displayName><![CDATA[Image slider]]></displayName>
+    <displayName><![CDATA[Slider zdjęć]]></displayName>
     <version><![CDATA[2.0.1]]></version>
-    <description><![CDATA[Adds an image slider to your site.]]></description>
+    <description><![CDATA[Dodaj slider zdjęć na swoją stronę.]]></description>
     <author><![CDATA[PrestaShop]]></author>
     <tab><![CDATA[front_office_features]]></tab>
     <is_configurable>1</is_configurable>

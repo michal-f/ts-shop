@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <module>
     <name>statscarrier</name>
-    <displayName><![CDATA[Carrier distribution]]></displayName>
+    <displayName><![CDATA[Rozkład sposobu dostawy]]></displayName>
     <version><![CDATA[2.0.0]]></version>
-    <description><![CDATA[Adds a graph displaying each carriers&#039; distribution to the Stats dashboard.]]></description>
+    <description><![CDATA[Dodaje wykres rozkładu dystrybucji poszczeg&oacute;lnych przewoźnik&oacute;w w panelu statystyk.]]></description>
     <author><![CDATA[PrestaShop]]></author>
     <tab><![CDATA[analytics_stats]]></tab>
     <is_configurable>0</is_configurable>
