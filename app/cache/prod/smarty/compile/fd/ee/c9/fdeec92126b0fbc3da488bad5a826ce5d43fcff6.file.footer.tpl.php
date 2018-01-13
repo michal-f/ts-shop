@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-01-09 18:40:38
+<?php /* Smarty version Smarty-3.1.19, created on 2018-01-13 10:52:08
          compiled from "/var/www/html/pages/prestashop/admin872bpy797/themes/default/template/footer.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:9575027785a54fe96ef37a3-43558569%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:2306462925a59d6c875a730-16350072%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'fdeec92126b0fbc3da488bad5a826ce5d43fcff6' => 
     array (
       0 => '/var/www/html/pages/prestashop/admin872bpy797/themes/default/template/footer.tpl',
-      1 => 1515519454,
+      1 => 1515832412,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '9575027785a54fe96ef37a3-43558569',
+  'nocache_hash' => '2306462925a59d6c875a730-16350072',
   'function' => 
   array (
   ),
@@ -27,9 +27,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a54fe9706fe96_33342139',
+  'unifunc' => 'content_5a59d6c87d1589_17702843',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a54fe9706fe96_33342139')) {function content_5a54fe9706fe96_33342139($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5a59d6c87d1589_17702843')) {function content_5a59d6c87d1589_17702843($_smarty_tpl) {?>
 
 	</div>
 </div>
@@ -37,7 +37,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <div id="footer" class="bootstrap hide">
 
 	<div class="col-sm-2 hidden-xs">
-		<a href="http://www.prestashop.com/" class="_blank">PrestaShop&trade;</a>
+		<a href="http://www.mfx.ovh/" class="_blank">PrestaShop&trade;</a>
 		-
 		<span id="footer-load-time"><i class="icon-time" title="<?php echo smartyTranslate(array('s'=>'Load time: '),$_smarty_tpl);?>
 "></i> <?php echo number_format(microtime(true)-$_smarty_tpl->tpl_vars['timer_start']->value,3,'.','');?>

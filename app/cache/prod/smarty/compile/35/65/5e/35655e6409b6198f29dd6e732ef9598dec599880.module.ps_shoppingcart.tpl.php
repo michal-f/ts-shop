@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-01-09 18:41:29
+<?php /* Smarty version Smarty-3.1.19, created on 2018-01-13 10:52:29
          compiled from "module:ps_shoppingcart/ps_shoppingcart.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:12982724795a54fec9801aa4-77372958%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:10028143895a59d6dd76a874-51949094%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '35655e6409b6198f29dd6e732ef9598dec599880' => 
     array (
       0 => 'module:ps_shoppingcart/ps_shoppingcart.tpl',
-      1 => 1515519485,
+      1 => 1515837107,
       2 => 'module',
     ),
   ),
-  'nocache_hash' => '12982724795a54fec9801aa4-77372958',
+  'nocache_hash' => '10028143895a59d6dd76a874-51949094',
   'function' => 
   array (
   ),
@@ -23,9 +23,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a54fec9831d10_61983760',
+  'unifunc' => 'content_5a59d6dd79e685_70714253',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a54fec9831d10_61983760')) {function content_5a54fec9831d10_61983760($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5a59d6dd79e685_70714253')) {function content_5a59d6dd79e685_70714253($_smarty_tpl) {?>
 <div id="_desktop_cart">
   <div class="blockcart cart-preview <?php if ($_smarty_tpl->tpl_vars['cart']->value['products_count']>0) {?>active<?php } else { ?>inactive<?php }?>" data-refresh-url="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['refresh_url']->value, ENT_QUOTES, 'UTF-8');?>
 ">

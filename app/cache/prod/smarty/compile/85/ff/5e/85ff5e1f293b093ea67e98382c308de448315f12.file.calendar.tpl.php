@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-01-09 18:40:46
+<?php /* Smarty version Smarty-3.1.19, created on 2018-01-13 11:30:45
          compiled from "/var/www/html/pages/prestashop/admin872bpy797/themes/default/template/helpers/calendar/calendar.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:8228980605a54fe9e9497b4-36155273%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:15338690725a59dfd58a08f0-31086043%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '8228980605a54fe9e9497b4-36155273',
+  'nocache_hash' => '15338690725a59dfd58a08f0-31086043',
   'function' => 
   array (
   ),
@@ -29,9 +29,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a54fe9eaa4193_42161153',
+  'unifunc' => 'content_5a59dfd5b03911_28542227',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a54fe9eaa4193_42161153')) {function content_5a54fe9eaa4193_42161153($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5a59dfd5b03911_28542227')) {function content_5a59dfd5b03911_28542227($_smarty_tpl) {?>
 <div id="datepicker" class="row row-padding-top hide">
 	<div class="col-lg-12">
 		<div class="daterangepicker-days">
