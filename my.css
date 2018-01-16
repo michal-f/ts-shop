@@ -28,6 +28,10 @@
     transform: translate(-50%, 0%);
 }
 
+
+#wrapper{
+    background-color: white!important;
+}
 /*TOP MENU*/
 /*#_desktop_top_menu {*/
     /*zoom: 500%!important;*/
