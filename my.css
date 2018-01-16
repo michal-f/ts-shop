@@ -1,25 +1,32 @@
 
-#search_widget {
-    float: right;
+
+#wrapper{
+    background-color: white!important;
 }
 
-.search-widget form input[type=text] {
-    border: 0 !important;
-    margin-top: 6px !important;
-}
 
-.search-widget form button[type=submit] {
-    right: -10px !important;
-}
 
-.search-widget form {
-    margin-left: -30px !important;
-}
+/*#search_widget {*/
+    /*float: right;*/
+/*}*/
 
-#header > div.header-top > div > div:nth-child(1) {
-    height: 10em;
-    position: relative
-}
+/*.search-widget form input[type=text] {*/
+    /*border: 0 !important;*/
+    /*margin-top: 6px !important;*/
+/*}*/
+
+/*.search-widget form button[type=submit] {*/
+    /*right: -10px !important;*/
+/*}*/
+
+/*.search-widget form {*/
+    /*margin-left: -30px !important;*/
+/*}*/
+
+/*#header > div.header-top > div > div:nth-child(1) {*/
+    /*height: 10em;*/
+    /*position: relative*/
+/*}*/
 
 #_desktop_logo {
     width: 70%;
@@ -29,9 +36,6 @@
 }
 
 
-#wrapper{
-    background-color: white!important;
-}
 /*TOP MENU*/
 /*#_desktop_top_menu {*/
     /*zoom: 500%!important;*/
