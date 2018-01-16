@@ -64,7 +64,7 @@
           </a>
         </div>
        </div>
-       <div class="row">
+       <div class="row" id="menu_top_row">
         <div class="col-md-12 col-sm-12 position-static">
           <div class="row">
             {hook h='displayTop'}

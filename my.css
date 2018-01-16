@@ -7,6 +7,10 @@
     margin-bottom: 0;
     zoom: 90%;
 }
+#logo_top_row{
+    margin-top: 15px;
+    margin-bottom: 0;
+}
 
 /*#search_widget {*/
     /*float: right;*/
