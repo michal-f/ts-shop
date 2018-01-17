@@ -1,16 +1,38 @@
+/*MAIN CONTAINER*/
 #wrapper{
     background-color: white!important;
 }
 
+
+/*TOP BAR MENU*/
+.header-nav {
+    margin-bottom:0!important;
+    padding-bottom:0!important;
+}
+
+/*HEAD TOP CONTAINER*/
+.header-top {
+    margin-bottom:0!important;
+    padding-bottom:0!important;
+}
+
+/*LOGO TOP*/
 #logo_top_row{
     margin-top: 15px;
     margin-bottom: 0;
     zoom: 90%;
 }
+/*MENU*/
 #menu_top_row{
-    margin-top: 15px;
+    margin-top: 0;
     margin-bottom: 0;
+    padding-bottom: 0;
 }
+
+#top-menu{
+    margin-top: 5px;
+}
+
 
 /*#search_widget {*/
     /*float: right;*/
