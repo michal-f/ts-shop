@@ -30,9 +30,12 @@
 }
 
 #top-menu{
-    margin-top: 5px;
+    margin-top: 20px;
 }
+#search_widget > form{
+    margin-top: 5px;
 
+}
 /*MOTTO*/
 #custom-text{
     zoom: 120%;
