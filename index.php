@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="http://vps261021.ovh.net/pages/prestashop/my.css" type="text/css" media="all">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="http://vps261021.ovh.net/pages/prestashop/my.css"></script>
+<script src="http://vps261021.ovh.net/pages/prestashop/my.js"></script>
 
 <?php
 /**
