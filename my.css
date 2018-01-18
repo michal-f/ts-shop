@@ -41,6 +41,11 @@
     zoom: 120%;
 }
 
+/*BOTTOM COPYRIGHT*/
+#footer > div.footer-container > div > div:nth-child(3) > div > p > a{
+    color: lightgray;
+}
+
 /*#search_widget {*/
     /*float: right;*/
 /*}*/
