@@ -1,1 +1,3 @@
-$(document).ready(function() { alert("AAA"); });
+// $(document).ready(function() {
+//     // alert("BB");
+// });
