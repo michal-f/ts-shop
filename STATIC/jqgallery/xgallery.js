@@ -3082,10 +3082,6 @@ var JGallery = ( function( outerHtml, historyPushState, isInternetExplorer, isIn
 
 
 
-$(document).ready(function() {
-    alert("BB");
-
-
 $( function() {
     $( '#gallery' ).jGallery({
         mode: 'full-screen',
@@ -3188,5 +3184,4 @@ $( function() {
         ]
     });
 } );
-});
 
