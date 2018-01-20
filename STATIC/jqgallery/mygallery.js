@@ -1,3 +1,7 @@
+
+$(document).ready(function() {
+
+
 $( function() {
     $( '#gallery' ).jGallery({
         mode: 'full-screen',
@@ -100,3 +104,5 @@ $( function() {
         ]
     });
 } );
+});
+
