@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="http://vps261021.ovh.net/pages/prestashop/my.css" type="text/css" media="all">
+<link rel="stylesheet" href="/my.css" type="text/css" media="all">
 <?php
 /**
  * 2007-2017 PrestaShop
