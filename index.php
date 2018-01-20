@@ -1,9 +1,7 @@
 <link rel="stylesheet" href="/my.css" type="text/css" media="all">
 <link rel="stylesheet" type="text/css" media="all" href="/STATIC/jqgallery/css/font-awesome.min.css" />
 <link rel="stylesheet" type="text/css" media="all" href="/STATIC/jqgallery/css/jgallery.min.css?v=1.6.0" />
-<script type="text/javascript" src="/STATIC/jqgallery/js/jquery-2.0.3.min.js"></script>
-<script type="text/javascript" src="/STATIC/jqgallery/js/jgallery.min.js?v=1.6.0"></script>
-<script type="text/javascript" src="/STATIC/jqgallery/js/touchswipe.min.js"></script>
+
 
 
 <?php
