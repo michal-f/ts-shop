@@ -20,7 +20,7 @@ config/settings.*.php
 admin-dev/backups/
 admin-dev/export/
 admin-dev/import/
-download/
-img/
-upload/
+#  download/
+#  img/
+# upload/
 app/cache/
