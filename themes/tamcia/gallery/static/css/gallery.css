@@ -1,0 +1,15 @@
+
+/*GALLERY PAGE STYLE  for gallery.html only */
+#external-gallery-iframe,
+#gallery-body {
+    width: 100%;
+    height: 100%;
+}
+#gallery-body > div {
+    width: 90%;
+    height: 90%;
+}
+.jgallery[data-jgallery-id="1"] .zoom-container:not([data-size="fill"]) .jgallery-container{
+    background-color: #ffffff !important;
+    height: 75vw;
+}

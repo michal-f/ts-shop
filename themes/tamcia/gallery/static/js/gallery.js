@@ -1,7 +1,5 @@
 
 $(document).ready(function() {
-    alert("BB");
-
 
 $( function() {
     $( '#gallery' ).jGallery({
@@ -106,4 +104,8 @@ $( function() {
     });
 } );
 });
+
+
+
+
 

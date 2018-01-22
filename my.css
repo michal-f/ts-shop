@@ -46,6 +46,34 @@
     color: lightgray;
 }
 
+
+
+
+
+.jgallery-container {
+    background: rgb(255, 255, 255) !important;
+}
+
+
+#frame {
+    overflow: hidden;
+    width: 100%;
+    height: 75vw;
+}
+#content {
+    margin: 0 !important;
+    padding: 0 !important;;
+}
+
+
+
+
+
+
+
+
+/*OLD SEARCH STYLE*/
+
 /*#search_widget {*/
     /*float: right;*/
 /*}*/
