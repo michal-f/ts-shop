@@ -4,10 +4,10 @@
   array (
     'database_host' => 'localhost',
     'database_port' => '',
-    'database_name' => 'prestashop1',
+    'database_name' => 'subbotkoeu',
     'database_user' => 'root',
     'database_password' => 'Michal123',
-    'database_prefix' => '',
+    'database_prefix' => 'ps_',
     'database_engine' => 'InnoDB',
     'mailer_transport' => 'smtp',
     'mailer_host' => '127.0.0.1',
